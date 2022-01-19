@@ -1,5 +1,20 @@
-## Game > GameStarter > 개요
+## Game > GameStarter > Overwiew
 
-GameStarter는 PC게임을 실행하기 위해 필요한 사전 파일의 다운로드, 업데이트 및 오류를 수정한 패치 등 게임 패키지를 설정하고, 게임에 쉽게 접근할 수 있도록 도와주는 런처 서비스입니다.
+GameStarter is a launcher service that helps you to set up game packages, such as downloading, updating, and error-correcting patches for pre-files required to run PC games, and helping you easily access games.
 
-PC 게임에 앞서 실행되어 게임을 설치/패치하여 최신의 상태로 유지시켜 주고, 게임 프로세스까지 실행시켜주는 등 PC 게임 실행에 있어 다양하고 편리한 역할을 수행합니다.
+## Main Features
+
+* GameStarter distributes PC game execution information and enables convenient management of distribution history.
+* GameStarter runs prior to running PC games to install and patch games to keep them up to date.
+
+## Service Targets
+
+* Customers who are preparing a PC game service and need a game launcher
+
+* Customers who want to conveniently distribute and manage game information
+
+* Customers who want to use the launcher service that can manage the distribution history of game information 
+
+  
+
+   
