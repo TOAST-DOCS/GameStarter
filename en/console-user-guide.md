@@ -1,96 +1,106 @@
-## Game > GameStarter > 콘솔 사용 가이드
+## Game > GameStarter > Console User Guide
 
-GameStarter 서비스를 이용하면 아래 목록의 기능을 사용할 수 있습니다.
+GameStarter allows you to use the features listed below.
 
-* PC게임의 정보 등록 (Game Setting) : 게임 이름, 게임 실행파일 이름, 게임 설치 경로 등
+* PC game information registration (Game Setting) : game name, game executable file name, game installation path, etc.
 
-* PC게임 정보의 배포 (Game Deploy) : 즉시 배포, 예약 배포의 설정, Game Contents의 CDN 경로 등
+* Distribution of PC game information (Game Deploy) : immediate distribution, scheduled distribution setting, CDN path of Game Contents, etc.
 
-  
+## Domain
 
-## 도메인 
-
-
-
-* GameStarter 사용을 위해서 서비스 활성화 후 도메인 이름을 등록해야 합니다.
-* 도메인 이름은 영문 소문자 및 숫자만 가능하며 최대 20자까지 가능합니다.
-* 도메인 이름은 런처의 이름, 실행파일의 이름, 설치 경로, URL Scheme, 인스톨러의 이름에 사용됩니다.
+* To use GameStarter, you must register a domain name after service activation.
+* Domain name can contain only lowercase letters and numbers and can be up to 20 characters long.
+* Domain name is used for the name of the launcher, the name of the executable file, the installation path, the URL scheme, and the name of the installer.
 
 
 
-## Game Setting > 게임 정보
+## Game Setting > Game Information
+
+#### Version
+
+* Enter the version text for management.
+
+* It cannot be duplicated with previously registered information.
+* You can enter numbers and lowercase letters.
+
+#### Game name 
+
+* Enter the name of the game.
+
+#### Executable file name
+
+* The domain name is used and automatically entered as an exe file name.
+
+#### Game Executable Options 
+
+* As an Argument, enter the game launch options.
+
+####  Installation path
+
+* Enter the default path to install the executable file.
+
+#### Exit the launcher after running the game
+
+* Select whether to close the launcher after running the game.
+
+#### Whether to use the login authentication function
+
+* Select whether to use the login function when launching the launcher.
+
+#### Acquire Admin Privileges
+
+* Select whether to acquire permission from the OS.
+
+#### Whether or not to use
+
+* Choose whether to use the information.
+* If you no longer use the game information, you can use this function to change the status to inactive.
+
+#### Memo
+
+* This is a memo for simple management.
+* You can write up to 30 Korean characters including spaces.
 
 
 
-* 버전 
-  * 관리용 버전 텍스트 입력합니다.
-  * 기존에 등록된 정보와 중복으로 지정할 수 없습니다.
-  * 숫자, 영문 소문자 입력이 가능합니다. 
-* 게임 이름 
-  * 게임의 이름을 기입합니다.
-* 실행파일 이름 
-  * 도메인 이름이 활용되어 exe형태의 파일명으로 자동 입력됩니다.
-* 게임 실행파일 옵션 
-  * Argument로, 게임 실행 옵션을 입력합니다.  
-* 설치 경로 
-  * 실행파일 설치 기본 경로를 입력합니다.
-* 게임실행 후 런처 종료 
-  * 게임실행 후에 런처 종료 여부를 선택합니다.
-* 로그인 인증 여부 
-  * 런처 실행 시 로그인 기능의 사용 여부를 선택합니다.
-* Admin 권한 획득 
-  * OS에서의 권한 획득 여부를 선택합니다.
-* 사용 여부 
-  * 해당 정보 사용 여부를 선택합니다.
-  * 만약 더 이상 해당 게임 정보를 사용하지 않는다면 이 기능을 이용하여 비활성화로 상태를 변경할 수 있습니다.
-* 메모 
-  * 단순 관리용 메모입니다.
-  * 띄어쓰기 포함 한글기준 최대 30자까지 작성 가능합니다.
+## Game Setting > Game Service Information
+
+* Game Services
+
+  * Game service ID
+
+  * Game service name: Enter the game service name that exists under the game.
 
 
+  #### Shortcut Icon
 
-## Game Setting > 게임 서비스 정보
+  * Game icon creation location : Enter the game icon creation location.
+  * Game working path: Enter the game's working Path.
+  * Game executable file path: Enter the game executable file (exe type) path.
 
+  #### Web UI
 
+  * Background image: Register the background image to be output on the launcher background.
 
-* 게임 서비스 
+  * AD URL: Enter the ad URL. A URL that can be clicked to go to the details.
 
-  * 게임 서비스 ID
+  * Notice URL: Enter the notice URL. A URL that can be clicked to go to the details.
 
-  * 게임 서비스 이름 : 게임 하위에 존재하는 게임 서비스 이름을 입력합니다. 
+  * Preview: You can check the contents of the Web UI you have entered through the preview.
 
-     
-
-* 바로가기 아이콘
-  * 게임 아이콘 생성 위치 : 게임 아이콘의 생성 위치를 
-  * 게임 작업 경로 : 게임의 workingPath를 입력합니다.
-  * 게임 실행파일 경로 : 게임 실행파일(exe형태) 경로를 입력합니다.
-
-* Web UI
-  * 배경 이미지 : 런처 배경에 출력될 배경 이미지를 등록합니다.
-  
-  * 광고 URL : 광고 URL을 입력합니다. 클릭하면 상세 내용으로 이동할 수 있는 URL입니다.
-  
-  * 공지 URL : 공지 URL을 출력합니다. 클릭하면 상세 내용으로 이동할 수 있는 URL입니다.
-  
-  * 미리보기 : 입력한 Web UI의 내용을 미리보기를 통해 어떻게 출력될 지 확인할 수 있습니다.
-  
     
 
-## Game Deploy
+  ## Game Deploy
 
+  #### Name of distribution zone
 
-* 배포존 이름 
-  * 배포존의 이름을 설정합니다. 
-  * 중복이름은 허용하지 않습니다.
+  * When creating a project, it is created as Test and Service.
 
-* 상태 
-  * 테스트 : 해당 존을 테스트 존으로 설정합니다. 
-  * 서비스 : 해당 존을 서비스(리얼)존으로 설정합니다.
-  * 사용 안함 : 해당 배포 정보가 비활성화 됩니다.
-    * 배포존의 상태를 "사용 안함"으로 설정하면 배포존에 예약한 배포 작업이 모두 취소됩니다.
-* CDN Update Skip 
-  * 해당 배포 존의 상태가 "서비스"인 경우 출력되지 않습니다.
-  * CDN Update를 하지 않고 건너뛰기를 할 수 있습니다.
-* Game Contents CDN 경로 
-  * Game Contents의 CDN 주소를 입력합니다.
+  #### CDN Update Skip
+
+  * If the status of the distribution zone is "Service", it is not output.
+    * You can skip without CDN update.
+
+  #### Game Contents CDN path
+
+  * Enter the CDN address of Game Contents.
