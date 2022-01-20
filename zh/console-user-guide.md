@@ -31,7 +31,7 @@ GameStarter allows you to use the features listed below.
 
 * The domain name is used and automatically entered as an exe file name.
 
-#### Game Executable Options 
+#### Game Executable Options
 
 * As an Argument, enter the game launch options.
 
@@ -65,20 +65,20 @@ GameStarter allows you to use the features listed below.
 
 ## Game Setting > Game Service Information
 
-* Game Services
+#### Game Services
 
-  * Game service ID
+* Game service ID
 
-  * Game service name: Enter the game service name that exists under the game.
+* Game service name: Enter the game service name that exists under the game.
 
 
-  #### Shortcut Icon
+#### Shortcut Icon
 
   * Game icon creation location : Enter the game icon creation location.
   * Game working path: Enter the game's working Path.
   * Game executable file path: Enter the game executable file (exe type) path.
 
-  #### Web UI
+#### Web UI
 
   * Background image: Register the background image to be output on the launcher background.
 
@@ -88,19 +88,18 @@ GameStarter allows you to use the features listed below.
 
   * Preview: You can check the contents of the Web UI you have entered through the preview.
 
-    
 
-  ## Game Deploy
+## Game Deploy
 
-  #### Name of distribution zone
+#### Name of distribution zone
 
   * When creating a project, it is created as Test and Service.
 
-  #### CDN Update Skip
+#### CDN Update Skip
 
   * If the status of the distribution zone is "Service", it is not output.
     * You can skip without CDN update.
 
-  #### Game Contents CDN path
+#### Game Contents CDN path
 
   * Enter the CDN address of Game Contents.
