@@ -65,11 +65,11 @@ GameStarter allows you to use the features listed below.
 
 ## Game Setting > Game Service Information
 
-* Game Services
+#### Game Services
 
-  * Game service ID
+* Game service ID
 
-  * Game service name: Enter the game service name that exists under the game.
+* Game service name: Enter the game service name that exists under the game.
 
 
   #### Shortcut Icon
