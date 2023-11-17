@@ -9,29 +9,29 @@
 
 #### 1) URL scheme
 
-URL 스키마는 사용자가 정의한 프로토콜로 앱과 통신을 할 수 있도록 해줍니다.
-GameStarter는 사용자가 등록한 URL 스키마로 런처를 실행할 수 있도록 해줍니다.
+URL Scheme은 사용자가 정의한 프로토콜로 앱과 통신을 할 수 있도록 해줍니다.
+GameStarter는 사용자가 등록한 URL Scheme으로 런처를 실행할 수 있도록 해줍니다.
 
 > <font color="red">[주의]</font><br/>
 >
-> URL 스키마는 한 번 설정한 이후에는 변경하기 어렵습니다.
-> 다른 프로그램에서 사용하는 URL 스키마로 설정하면 GameStarter가 정상적으로 실행되지 않을 수 있습니다.
+> URL Scheme는 한 번 설정한 이후에는 변경하기 어렵습니다.
+> 다른 프로그램에서 사용하는 URL Scheme로 설정하면 GameStarter가 정상적으로 실행되지 않을 수 있습니다.
 
 
-> [참고] URL 스키마 이름 규칙
+> [참고] URL Scheme 이름 규칙
 > 
 > - 첫 글자는 영문 소문자로 시작해야 합니다.
 > - 영문 소문자 및 숫자만 가능하며, 최대 20자까지 가능합니다.
 
 > [참고] 배포존
-> URL 스키마는 한 번만 입력받지만 배포존은 여러 개가 존재합니다.
+> URL Scheme는 한 번만 입력받지만 배포존은 여러 개가 존재합니다.
 > GameStarter에서는 이를 구분하기 위해서 SERVICE 배포존을 제외한 존에서는 `-<zone>` 형태로 마지막 부분에 자동으로 추가합니다.
 > 
 > 예) SERVICE
-> - URL scheme: example
+> - URL Scheme: example
 > 
 > 예) DEVELOP
-> - URL scheme: example-develop
+> - URL Scheme: example-develop
 
 ### 2. 공통 이름 설정
 ![installer_names](https://static.toastoven.net/prod_gamestarter/console/gamestarter_installer_names_202311.png)
