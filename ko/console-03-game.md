@@ -292,7 +292,7 @@ CDN 연동의 진행 상태를 표시합니다.
 업로드한 게임 바이너리 파일 중 게임 실행 파일의 이름을 나타냅니다.
 
 
-##### 2) 게임 바이너리 업로드
+#### 5-6. 게임 바이너리 업로드
 
 CDN 연동이 완료된 이후에 게임 바이너리 파일들을 업로드할 수 있습니다.
 게임 바이너리 파일을 업로드를 완료하였다고 해서 실제 런처로 즉시 반영되지 않습니다.
@@ -339,7 +339,7 @@ TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해�
 다음 섹션에서 게임 설정과 게임 바이너리의 배포에 대해서 설명하도록 하겠습니다.
 
 
-#### 5-5. 게임 배포
+#### 5-7. 게임 배포
 ![game_deploy_list](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_list_202311.png)
 
 게임 배포는 배포존별로 게임 설정과 게임 바이너리를 배포할 수 있습니다.
@@ -351,7 +351,7 @@ TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해�
 
 그러면 TEST 배포존에서 등록했던 게임 설정과 게임 바이너리를 배포해보겠습니다.
 
-##### 5-5-1. 게임 설정 배포
+##### 5-7-1. 게임 설정 배포
 ![game_deploy_config_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_config_01_202311.png)
 
 TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설정 배포 팝업창이 등장합니다.
@@ -384,7 +384,7 @@ TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설
 ![game_deploy_config_complete](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_config_complete_202311.png)
 
 
-##### 5-5-2. 게임 바이너리 배포
+##### 5-7-2. 게임 바이너리 배포
 게임 바이너리 배포는 게임 바이너리 업로드가 완료된 게임 바이너리를 적용하는 단계입니다.
 
 ![game_deploy_binary_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_binary_01_202311.png)
@@ -406,9 +406,9 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 ![game_deploy_binary_complete](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_binary_complete_202311.png)
 배포가 완료된 경우 위의 그림처럼 배포 완료가 표시됩니다.
 
-#### 5.6 배포 이력
+#### 5-8 배포 이력
 
-##### 5.6.1 게임 설정 배포 이력
+##### 5-8-1. 게임 설정 배포 이력
 ![game_history_config_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_history_config_01_202311.png)
 
 게임 설정 배포 이력은 배포한 게임 설정들에 대한 이력을 조회할 수 있습니다.
@@ -453,7 +453,7 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 배포된 게임 설정의 메모를 나타냅니다.
 
 
-##### 5.6.2 게임 바이너리 배포 이력
+##### 5-8-2. 게임 바이너리 배포 이력
 ![game_history_binary_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_history_binary_01_202311.png)
 
 게임 바이너리 배포 이력은 배포한 게임 바이너리의 배포 이력을 조회할 수 있습니다.
