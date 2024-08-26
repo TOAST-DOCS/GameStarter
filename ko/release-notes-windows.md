@@ -1,6 +1,4 @@
-# Release Note
-
-## Windows
+## Game > GameStarter > 릴리스 노트 > Windows
 
 ### 1.0.15.0 (2024. 08. 26)
 
