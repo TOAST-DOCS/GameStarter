@@ -1,102 +1,105 @@
-## Game > GameStarter > コンソール使用ガイド
+## Game > GameStarter > Console User Guide
 
-GameStarterを使用すると、以下の機能を使用できます。
+GameStarter allows you to use the features listed below.
 
-* PCゲーム情報登録（Game Setting）：ゲーム名、ゲーム実行可能ファイル名、ゲームインストールパス等。
+* PC game information registration (Game Setting) : game name, game executable file name, game installation path, etc.
 
-* PCゲーム情報の配布（Game Deploy）：即時配布、スケジュールされた配布設定、ゲームコンテンツのCDNパスなど。
+* Distribution of PC game information (Game Deploy) : immediate distribution, scheduled distribution setting, CDN path of Game Contents, etc.
 
-## ドメイン
+## Domain
 
-* GameStarterを使用するには、サービスのアクティブ化後にドメイン名を登録する必要があります。
-* ドメイン名には小文字と数字のみを含めることができ、最大20文字の長さにすることができます。
-* ドメイン名は、ランチャーの名前、実行可能ファイルの名前、インストールパス、URLスキーム、およびインストーラーの名前に使用されます。
+* To use GameStarter, you must register a domain name after service activation.
+* Domain name can contain only lowercase letters and numbers and can be up to 20 characters long.
+* Domain name is used for the name of the launcher, the name of the executable file, the installation path, the URL scheme, and the name of the installer.
+
+
 
 ## Game Setting > Game Information
 
-#### バージョン
+#### Version
 
-*  管理用のバージョンテキストを入力します。
+* Enter the version text for management.
 
-* 以前に登録した情報との複製はできません。
-* 数字や小文字を入力できます。
+* It cannot be duplicated with previously registered information.
+* You can enter numbers and lowercase letters.
 
-#### ゲーム名
+#### Game name 
 
-* ゲームの名前を入力します。
+* Enter the name of the game.
 
-#### 実行可能ファイル名
+#### Executable file name
 
-* ドメイン名が使用され、exeファイル名として自動的に入力されます。
+* The domain name is used and automatically entered as an exe file name.
 
-#### ゲームの実行可能オプション
+#### Game Executable Options
 
-* ゲームの起動オプションを入力します。
+* As an Argument, enter the game launch options.
 
-####  インストールパス
+####  Installation path
 
-* 実行可能ファイルをインストールするためのデフォルトパスを入力します。
+* Enter the default path to install the executable file.
 
-#### ゲームを実行した後、ランチャーを終了します
+#### Exit the launcher after running the game
 
-* ゲームの実行後にランチャーを閉じるかどうかを選択します。
+* Select whether to close the launcher after running the game.
 
-#### ログイン認証機能を使用するかどうか
+#### Whether to use the login authentication function
 
-* ランチャー起動時にログイン機能を使用するかどうかを選択します。
+* Select whether to use the login function when launching the launcher.
 
-#### 管理者権限を取得する
+#### Acquire Admin Privileges
 
-* OSから許可を取得するかどうかを選択します。
+* Select whether to acquire permission from the OS.
 
-#### 使用するかどうか
+#### Whether or not to use
 
-* 管理用途の簡単なメモです。
-* ゲーム情報を使用しなくなった場合は、この機能を使用してステータスを非アクティブに変更できます。
+* Choose whether to use the information.
+* If you no longer use the game information, you can use this function to change the status to inactive.
 
-#### メモ
+#### Memo
 
-* 管理用途の簡単なメモです。
-* スペースを含む最大30の文字を作成できます。
+* This is a memo for simple management.
+* You can write up to 30 Korean characters including spaces.
 
 
 
 ## Game Setting > Game Service Information
 
-#### ゲームサービス
+#### Game Services
 
-* ゲームサービスID
+* Game service ID
 
-* ゲームサービス名：ゲームの下にあるゲームサービス名を入力します。
+* Game service name: Enter the game service name that exists under the game.
 
 
-#### ショートカットアイコン
+#### Shortcut Icon
 
-  * ゲームアイコンの作成場所：ゲームアイコンの作成場所を入力します。
-  * ゲームの作業パス：ゲームの作業パスを入力します。
-  * ゲーム実行可能ファイルのパス：ゲーム実行可能ファイル（exeタイプ）のパスを入力します。
+  * Game icon creation location : Enter the game icon creation location.
+  * Game working path: Enter the game's working Path.
+  * Game executable file path: Enter the game executable file (exe type) path.
 
 #### Web UI
 
-  * 背景画像：ランチャー背景に出力する背景画像を登録します。
+  * Background image: Register the background image to be output on the launcher background.
 
-  * 広告URL：広告URLを入力します。クリックして詳細に移動できるURL。
+  * AD URL: Enter the ad URL. A URL that can be clicked to go to the details.
 
-  * 通知URL：通知URLを入力します。クリックして詳細に移動できるURL。
+  * Notice URL: Enter the notice URL. A URL that can be clicked to go to the details.
 
-  * プレビュー：プレビューで入力したWebUIの内容を確認できます。
+  * Preview: You can check the contents of the Web UI you have entered through the preview.
 
 
 ## Game Deploy
-#### 配布ゾーンの名前
 
-  * プロジェクトを作成する場合、テストおよびサービスとして作成されます。
+#### Name of distribution zone
 
-#### CDN更新スキップ
+  * When creating a project, it is created as Test and Service.
 
-  * 配布ゾーンの状態が「サービス」の場合は出力されません。
-    * CDNの更新なしでスキップできます。
+#### CDN Update Skip
 
-#### ゲームコンテンツCDNパス
+  * If the status of the distribution zone is "Service", it is not output.
+    * You can skip without CDN update.
 
-  * ゲームコンテンツのCDNアドレスを入力します。
+#### Game Contents CDN path
+
+  * Enter the CDN address of Game Contents.
