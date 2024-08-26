@@ -1,6 +1,4 @@
-# Release Note
-
-## macOS
+## Game > GameStarter > 릴리스 노트 > macOS
 
 ### 2.0.20.0 (2024. 07. 23)
 
