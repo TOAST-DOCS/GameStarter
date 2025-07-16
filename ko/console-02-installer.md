@@ -1,7 +1,7 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 인스톨러
+## Game > GameStarter > 콘솔 사용 가이드 > 런처 인스톨러
 
-## Installer
-인스톨러를 생성하려면 필요한 설정이 있습니다.
+## Launcher Installer
+런처 인스톨러를 생성하려면 필요한 설정이 있습니다.
 이 설정들에 대해서 설명합니다.
 
 ### 1. URL scheme 설정
@@ -105,4 +105,4 @@ GameStarter 런처가 설치되고 난 이후 바탕화면에 자동으로 런�
 
 ![installer_deploy](https://static.toastoven.net/prod_gamestarter/console/gamestarter_installer_deploy_202311.png)
 
-인스톨러 생성 작업이 완료되면 배포 상태가 `생성 완료`로 변경됩니다.
+런처 인스톨러 생성 작업이 완료되면 배포 상태가 `생성 완료`로 변경됩니다.
