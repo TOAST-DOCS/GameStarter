@@ -71,18 +71,18 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ![realtime_game_filter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_filter_250717.png)
 
-1) 조회 대상
-조회 대상은 User ID 기준 과 전체 실행 기준 항목이 있습니다.
+> 1) 조회 대상
+> 조회 대상은 User ID 기준 과 전체 실행 기준 항목이 있습니다.
 > 조회 대상 종류 
 >
 > - `UserID`: 사용자가 여러번 동일한 동작을 진행하여 발생되는 중복된 데이터를 포함하지 않습니다.
 > - `전체 실행`: 사용자의 모든 동작을 기준으로 조회하여, 동일한 동작을 하는 중복된 데이터를 포함한 데이터를 조회합니다.
-
-2) OS
-사용자가 사용한 OS 정보 리스트를 필터링 하여 조회 할 수 있습니다.
-
-3) 게임 이름
-게임 이름 (게임 버전) 정보 리스트를 필터링 하여 조회 할 수 있습니다.
+>
+> 2) OS
+> 사용자가 사용한 OS 정보 리스트를 필터링 하여 조회 할 수 있습니다.
+>
+> 3) 게임 이름
+> 게임 이름 (게임 버전) 정보 리스트를 필터링 하여 조회 할 수 있습니다.
 
 
 #### 1-2. 실시간 모니터링 > 런처
