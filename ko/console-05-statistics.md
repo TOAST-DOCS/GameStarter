@@ -17,7 +17,7 @@
 게임 항목에서는 게임 실행과 게임 설치 지표를 제공합니다.
 각각 게임 실행과 설치 지표를 데쉬보드와 차트 데이터를 통해 쉽게 지표 데이터를 얻을 수 있습니다.
 
-##### >- 게임 실행
+##### * 게임 실행
 
 게임 실행과 관련된 지표 정보를 표시합니다.
 
@@ -30,16 +30,18 @@
 저장되는 데이터는 저장시점 요청 시점의 데이터를 기준으로 제공됩니다.
 
 게임 실행과 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
-게임 실행 지표 데이터는 Execute(Game) 텝과 Execute (OS) 탭으로 데이터가 제공됩니다.
+게임 실행 지표 데이터는 Execute(Game) 탭과 Execute (OS) 탭으로 데이터가 제공됩니다.
 
 ![realtime_execute_game_excel](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_excel_01_250717.png)
-Execute(Game) 텝에서는 시간대별로 게임 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
+
+Execute(Game) 탭에서는 시간대별로 게임 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
 
 ![realtime_execute_game_os_excel](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_excel_02_250717.png)
-Execute(OS) 텝에서는 시간대 별로 OS 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
+
+Execute(OS) 탭에서는 시간대 별로 OS 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
 
 
-##### >- 게임 설치
+##### * 게임 설치
 
 게임 설치와 관련된 지표 정보를 표시합니다.
 
@@ -79,10 +81,6 @@ Execute(OS) 텝에서는 시간대 별로 OS 별 게임 실행 수, 게임 성�
 
 //TODO: 이미지 설명 추가.
 
- 
-
-
-
 
 
 
@@ -92,7 +90,7 @@ Execute(OS) 텝에서는 시간대 별로 OS 별 게임 실행 수, 게임 성�
 
 ##### 런처 실행
 
-![realtime_execute_launcher]()
+![realtime_execute_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_launcher_none_250717.png)
 대시보드 에서 런처 실행 수, 런처 실행 성공 수, 런처 실행 실패수를 제공하며, 전일대비 증감치를 확인 할 수 있습니다.
 차트 데이터를 통해 시간대별 런처 실행수 와 런처 실행 실패이유, OS 점유율, 런처 버전 점유율을 확인 할 수 있습니다.
 
@@ -100,7 +98,7 @@ Execute(OS) 텝에서는 시간대 별로 OS 별 게임 실행 수, 게임 성�
 // TODO : 엑셀 지표 데이터 설명
 
 
-![realtime_install_launcher]()
+![realtime_install_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_install_launcher_none_250717.png)
 
 대시보드 에서 런처 설치 수, 런처 설치 성공 수, 런처 설치 실패 수 를 제공하며, 전일대비 증감치를 확인 할 수 있습니다.
 차트 데이터를 통해 시간대별 런처 설치수 와 런처 설치 실패이유를 확인 할 수 있습니다.
@@ -112,29 +110,28 @@ Execute(OS) 텝에서는 시간대 별로 OS 별 게임 실행 수, 게임 성�
 
 ### 2. 모니터링 지표
 
-![monitoring_filter]()
+![monitoring_filter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
 모니터링 지표는 일간, 주간, 월간 별로 정산된 지표를 제공 합니다.
 설정한 기간의 정산 지표데이터를 조회하며, 조건 버튼을 통해 필터링된 데이터의 조회가 가능합니다.
 
 #### 게임 실행
-![monitoring_execute_game]()
+![monitoring_execute_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
 조회된 기간의 게임 실행 수 와 게임 실행 실패 이유의 차트데이터를 제공 합니다.
 
-
 #### 게임 설치
-![monitoring_install_game]()
+![monitoring_install_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
 조회된 기간의 게임 설치 수 와 게임 설치 실패 이유의 차트데이터를 제공 합니다.
 
 #### 런처 실행
-![monitoring_execute_launcher]()
+![monitoring_execute_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
 조회된 기간의 런처 실행 수 와 런처 실행 실패 이유의 차트데이터를 제공 합니다.
 
 #### 게임 이탈
-![monitoring_game_bounce]()
+![monitoring_game_bounce](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_game_bounce_none_250717.png)
 조회된 기간의 게임의 설치나 업데이트 중 사용자가 직접 취소하고 게임에서 이탈한 수의 데이터를 제공 합니다. 
 
 #### 모니터링 지표
-![monitoring_grid]()
+![monitoring_grid1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
 조회된 기간의 전체 모니터링 지표를 표 형식으로 제공합니다.
 기간(일자) 별 데이터를 제공하며 아래의 데이터 항목들을 확인 할 수 있습니다.
 
