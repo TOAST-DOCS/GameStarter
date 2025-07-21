@@ -1,9 +1,13 @@
 ## Game > GameStarter > 콘솔 사용 가이드 > 지표
 
-## Statistics
+GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데이터를 제공하고 있습니다.
+게임의 설치, 실행, 런처의 설치, 실행 및 게임 이탈율 등을 제공하여 게임의 실행과 진입에 관한 데이터를 쉽게 얻을 수 있습니다.
 
-제공하는 지표 항목에 대해 설명 합니다.
-제공되는 지표 항목에는 실시간 모니터링 항목과 모니터링 지표 항목이 있습니다.
+지표 데이터는 실시간으로 제공되는 실시간 모니터링 항목과 기간별로 정산되어 제공되는 모니터링 지표로 제공됩니다.
+
+## 지표
+
+실시간 모니터링 항목과 모니터링 지표 항목에 대한 자세한 설명은 아래와 같습니다.
 
 ![statistics_main](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
 
