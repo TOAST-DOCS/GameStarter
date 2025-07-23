@@ -112,6 +112,6 @@ GameStarter 런처가 설치되고 난 이후 바탕화면에 자동으로 런�
 > 빌드 상태가 `배포 실패`면 고객센터로 문의를 하시기 바랍니다.
 
 #### 4) 배포 이력 조회
-배포 이력 템에서 배포된 인스톨러의 정보와 배포 이력을 조회 할 수 있습니다.
+배포 이력 텝에서 배포된 인스톨러의 정보와 배포 이력을 조회 할 수 있습니다.
 ![installer_deploy_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_deploy_list_250717.png)
 
