@@ -93,6 +93,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 ##### * 런처 실행
 
 ![realtime_execute_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_launcher_none_250717.png)
+
 대시보드 에서 런처 실행 수, 런처 실행 성공 수, 런처 실행 실패수를 제공하며, 전일대비 증감치를 확인 할 수 있습니다.
 차트 데이터를 통해 시간대별 런처 실행수 와 런처 실행 실패이유, OS 점유율, 런처 버전 점유율을 확인 할 수 있습니다.
 
