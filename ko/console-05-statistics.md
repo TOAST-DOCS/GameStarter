@@ -3,7 +3,7 @@
 GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데이터를 제공하고 있습니다.
 게임의 설치, 실행, 런처의 설치, 실행 및 게임 이탈율 등을 제공하여 게임의 실행과 진입에 관한 데이터를 쉽게 얻을 수 있습니다.
 
-지표 데이터는 실시간으로 제공되는 실시간 모니터링 항목과 기간별로 정산되어 제공되는 모니터링 지표로 제공됩니다.
+지표 데이터는 조회 시점시 제공되는 실시간 모니터링 항목과 기간별로 정산되어 제공되는 모니터링 지표로 제공됩니다.
 
 ## 지표
 
@@ -13,7 +13,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ### 1. 실시간 모니터링
 
-실시간 모니터링 은 당일 자정 부터 조회 시점 시간까지의 지표 데이터를 실시간 조회 기능을 제공합니다.
+실시간 모니터링 은 당일 자정 부터 조회 시점 시간까지의 지표 데이터의 조회 기능을 제공합니다.
 00:00 부터 조회 시점까지의 데이터를 조회하며, 조건 버튼을 통해 필터링된 데이터의 조회가 가능합니다.
 
 #### 1-1. 실시간 모니터링 > 게임
@@ -31,18 +31,18 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 
 지표 데이터를 효율적으로 활용 할 수 있도록, 엑셀 저장 버튼을 통해 지표 데이터를 저장 할 수 있습니다.
-저장되는 데이터는 저장시점 요청 시점의 데이터를 기준으로 제공됩니다.
+저장되는 데이터는 저장요청 시점의 데이터를 기준으로 제공됩니다.
 
 게임 실행과 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
 게임 실행 지표 데이터는 Execute(Game) 탭과 Execute (OS) 탭으로 데이터가 제공됩니다.
 
 ![realtime_execute_game_excel](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_excel_01_250717.png)
 
-1) Execute(Game) 탭에서는 시간대별로 게임 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
+1) Execute(Game) 탭에서는 시간대별 게임 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
 
 ![realtime_execute_game_os_excel](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_excel_02_250717.png)
 
-2) Execute(OS) 탭에서는 시간대 별로 OS 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
+2) Execute(OS) 탭에서는 시간대 별 OS 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
 
 
 ##### * 게임 설치
@@ -66,8 +66,9 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 // TODO : 엑셀 지표 데이터 설명
 
 
-지표 데이터는 필터데이터를 적용하여 조회 와 엑셀 파일 저장 가능합니다.
 ##### 게임 필터 정보
+
+지표 데이터는 필터데이터를 적용하여 조회와 엑셀 파일로 저장 할 수 있습니다.
 
 ![realtime_game_filter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_filter_250717.png)
 
@@ -75,8 +76,8 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 > 조회 대상은 User ID 기준 과 전체 실행 기준 항목이 있습니다.
 > 조회 대상 종류 
 >
-> - `UserID`: 사용자가 여러번 동일한 동작을 진행하여 발생되는 중복된 데이터를 포함하지 않습니다.
-> - `전체 실행`: 사용자의 모든 동작을 기준으로 조회하여, 동일한 동작을 하는 중복된 데이터를 포함한 데이터를 조회합니다.
+>> - `UserID`: 사용자가 여러번 동일한 동작을 진행하여 발생되는 중복된 데이터를 포함하지 않습니다.
+>> - `전체 실행`: 사용자의 모든 동작을 기준으로 조회하여, 동일한 동작을 하는 중복된 데이터를 포함한 데이터를 조회합니다.
 >
 > 2) OS
 > 사용자가 사용한 OS 정보 리스트를 필터링 하여 조회 할 수 있습니다.
