@@ -120,16 +120,27 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 모든 설정을 완료하였으면 하단의 [다음] 버튼으로 다음 페이지로 이동합니다.
 
 ##### 5-2-2. 게임 바로 가기 아이콘
-![game_config_register_02](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_02_202311.png)
+
 
 게임 설치를 하면서 바탕화면에 바로 가기 아이콘을 설치할 수 있습니다.
-이때에 필요한 게임 아이콘 이미지와 이름이 필요합니다.
+바로가기 아이콘은 생성 방법을 선택 할 수 있습니다.
+![game_select_shortcut](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_select_shortcut_250717.png)
 
-###### 1) 바로 가기 아이콘 이미지
+
+바로가기 아이콘을 생성 한다면, 게임 아이콘 이미지와 이름이 필요합니다.
+
+![game_config_regist_shortcut](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_regist_shortcut_250717.png)
+
+###### 1) 바로 가기 생성 방법
+바로가기 자동 생성 : 게임 사용자의 선택 없이 바로가기를 항상 생성 합니다.
+게임 사용자가 생성 여부 선택 :  런처에서 게임 사용자가 바로가기 생성 여부를 선택합니다.
+바로가기 생성 안함 : 바로가기를 생성하지 않습니다.
+
+###### 2) 바로 가기 아이콘 이미지
 바탕화면에 설치될 때 사용할 게임의 바로 가기 아이콘 이미지를 등록합니다.
 아이콘 이미지의 권장 크기는 256x256입니다.
 
-###### 2) 바로 가기 아이콘 이름
+###### 3) 바로 가기 아이콘 이름
 바탕화면에 설치될 게임 바로 가기 아이콘의 이름을 입력합니다.
 게임 바로 가기 아이콘의 이름은 2 ~ 50자까지 입력 가능합니다.
 또한 첫 번째와 마지막 문자에 `공백`, `/`, `/`는 입력할 수 없습니다.
