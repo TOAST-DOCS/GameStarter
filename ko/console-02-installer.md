@@ -1,8 +1,11 @@
 ## Game > GameStarter > 콘솔 사용 가이드 > 런처 인스톨러
 
 ## Launcher Installer
-런처 인스톨러를 생성하려면 필요한 설정이 있습니다.
-이 설정들에 대해서 설명합니다.
+
+GameStarter 런처를 실행하려면 가장 먼저 런처가 사용자 PC에 설치되어 있어야 합니다.
+런처 인스톨러는 런처를 사용자 PC에 설치해주는 프로그램입니다.
+
+런처 인스톨러를 생성할때 필요한 설정들에 대해서 설명합니다.
 
 ![installer_basic](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_basic_250717.png)
 

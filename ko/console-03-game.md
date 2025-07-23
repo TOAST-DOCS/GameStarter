@@ -5,7 +5,7 @@
 게임을 등록하고 게임의 설정과 바이너리를 배포하는 방법에 대해서 설명합니다.
 
 ### 1. 게임 목록
-![game_list](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_list_202311.png)
+![game_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_list_250717.png)
 
 게임 목록에서는 새로운 게임을 등록하거나 등록된 게임들을 조회할 수 있습니다.
 또한 게임 이름이나 게임 사용 여부를 통해서 필터링할 수 있습니다.
@@ -15,7 +15,10 @@
 #### 1) 게임 이름
 등록된 게임의 고유한 이름을 나타냅니다.
 
-#### 2) 등록 일시
+#### 2) 게임 OS
+게임이 실행가능한 OS를 나타냅니다.
+
+#### 3) 등록 일시
 게임을 등록한 날짜를 나타냅니다.
 
 #### 3) 등록자
@@ -30,13 +33,16 @@
 
 ### 2. 게임 등록
 
-게임 목록의 왼쪽 위의 [+등록]을 통하여 새로운 게임을 등록할 수 있습니다.
+게임 목록의 왼쪽 위의 OS 별 [+등록] 버튼을 통하여 새로운 게임을 등록할 수 있습니다.
 
-![game_register](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_register_202311.png)
+![game_register](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_regist_win_250717.png)
 
 #### 1) 게임 이름
 게임 이름은 다른 게임과 구분할 수 있도록 중복되지 않는 고유한 명칭을 가져야 합니다.
 게임 이름은 한글, 영문 대소문자, 숫자로 2~15자까지 입력할 수 있습니다.
+
+#### 2) OS
+게임이 실행 가능한 OS 정보를 보여 줍니다.
 
 게임 이름 입력을 완료하였으면 [등록] 버튼을 통해서 게임을 등록할 수 있습니다.
 
@@ -44,13 +50,13 @@
 
 게임 목록에서 [상세] 버튼을 눌러서 게임의 상세보기 페이지로 이동하게 됩니다.
 
-![game_detail](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_detail_202311.png)
+![game_detail](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_detail_250717.png)
 
 ### 4. 게임 수정
 
 게임 상세보기 페이지의 상단의 [수정] 버튼으로 수정 상태로 진입할 수 있습니다.
 
-![game_modify](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_modify_202311.png)
+![game_modify](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_modify_250717.png)
 
 #### 1) 게임 사용 여부
 게임을 사용하지 않는 경우 사용 안 함으로 변경할 수 있습니다.
@@ -58,7 +64,7 @@
 
 ### 5. 게임 진입
 
-![game_enter](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_enter_202311.png)
+![game_enter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_enter_250717.png)
 
 게임을 등록 완료하면 게임 목록에 게임들이 조회됩니다.
 상단의 빨간색 영역을 클릭하면 게임으로 진입할 수 있습니다.
@@ -69,13 +75,13 @@
 
 게임을 진입하면 다음과 같이 상단에 게임 이름이 표시되고 하단에 선택한 게임의 메뉴들이 표시됩니다.
 
-![game_config_list](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_list_202311.png)
+![game_config_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_list_250717.png)
 
 게임 설정은 게임을 설치할 때 필요한 여러 설정을 등록할 수 있습니다.
 
 게임 설정 조회 결과 페이지에는 다음과 같은 필드가 있습니다.
 1. `게임 설정 이름`: 등록된 게임 설정의 이름을 나타냅니다.
-2. `수정 일시`: 등록된 게임 설정이 마지막으로 수정된 날짜를 나타냅니다.
+2. `등록 일시`: 등록된 게임 설정이 마지막으로 등록된 날짜를 나타냅니다.
 3. `등록자`: 등록된 게임 설정을 마지막 수정한 등록자의 마스킹 된 이메일 주소를 나타냅니다.
 4. `메모`: 등록된 게임의 메모를 나타냅니다.
 5. `삭제`: 등록된 게임을 삭제합니다.
@@ -83,11 +89,11 @@
 
 #### 5-2. 게임 설정 등록
 
-새로운 게임 설정 등록은 게임 설정 목록의 우측의 [+등록] 버튼을 통해서 등록할 수 있습니다.
+새로운 게임 설정 등록은 게임 설정 목록 좌측의 [+등록] 버튼을 통해서 등록할 수 있습니다.
 
 
 ##### 5-2-1. 기본 설정
-![game_config_register_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_01_202311.png)
+![game_config_register_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_register_01_250717.png)
 
 ###### 1) 게임 설정 이름
 게임 설정의 이름은 다른 게임 설정과 구분하기 위해서 입력합니다.
