@@ -305,7 +305,7 @@ TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해�
 입력창에는 업로드한 바이너리의 파일들이 리스트로 표시됩니다.
 이 중에 게임을 실행하는 파일을 선택해주시면 됩니다.
 
-![game_binary_upload_05](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload5_250717.png)
+![game_binary_upload_05](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload6_250717.png)
 
 게임 실행 파일을 선택하고 나면 업로드 된 정보가 표시됩니다.
 여기에는 업로드한 파일 개수와 파일 크기가 표시됩니다.
@@ -323,7 +323,7 @@ TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해�
 
 
 #### 5-7. 게임 배포
-![game_deploy_list](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_list_202311.png)
+![game_deploy_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_deploy1_250717.png)
 
 게임 배포는 배포존별로 게임 설정과 게임 바이너리를 배포할 수 있습니다.
 빨간색 영역이 하나의 배포존을 의미합니다.
@@ -332,10 +332,10 @@ TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해�
 
 만약에 등록된 게임 설정이 없거나 게임 바이너리가 업로드 완료가 되지 않았다면 [배포] 버튼은 비활성화됩니다.
 
-그러면 TEST 배포존에서 등록했던 게임 설정과 게임 바이너리를 배포해보겠습니다.
+그러면 배포존에서 등록했던 게임 설정과 게임 바이너리를 배포해보겠습니다.
 
 ##### 5-7-1. 게임 설정 배포
-![game_deploy_config_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_config_01_202311.png)
+![game_deploy_config_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_deploy1_reserve_250717.png)
 
 TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설정 배포 팝업창이 등장합니다.
 
@@ -346,7 +346,7 @@ TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설
 이 중에 배포하고자 하는 게임 설정을 선택합니다.
 
 ###### 2) 예약 배포
-![game_deploy_config_01-reserve](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_config_01-reserve_202311.png)
+![game_deploy_config_01-reserve](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_deploy1_reserve2_250717.png)
 
 예약하려는 기준 시간과 배포 시간을 설정한 후에 [확인] 버튼을 클릭하면 마지막 단계인 [배포 비교] 단계로 이동합니다.
 
@@ -356,7 +356,7 @@ TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설
 바로 마지막 단계인 [배포 비교] 단계로 이동합니다.
 
 ###### 4) 배포 비교
-![game_deploy_config_02](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_config_02_202311.png)
+![game_deploy_config_deploy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_deploy_250717.png)
 
 최근에 배포한 게임 설정과 비교하는 팝업창이 등장합니다.
 
@@ -364,20 +364,18 @@ TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설
 틀리지 않게 설정한 부분이 확인 한 후 [배포] 버튼을 클릭하면 배포가 됩니다.
 
 [배포] 버튼을 클릭하면 배포 팝업창이 닫히면서 해당 배포존에 게임 설정 배포 상태에 변경된 것을 확인할 수 있습니다.
-![game_deploy_config_complete](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_config_complete_202311.png)
+![game_deploy_config_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_deploy_complete_250717.png)
 
 
 ##### 5-7-2. 게임 바이너리 배포
 게임 바이너리 배포는 게임 바이너리 업로드가 완료된 게임 바이너리를 적용하는 단계입니다.
 
-![game_deploy_binary_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_binary_01_202311.png)
+![game_deploy_binary_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_250717.png)
 TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배포창이 등장합니다.
-
-![game_binary_deploy_02](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_binary_deploy_02_202311.png)
 게임 바이너리 배포도 [예약 배포]와 [즉시 배포] 2가지 방법으로 진행할 수 있습니다.
 
 ###### 1) 예약 배포
-![game_deploy_binary_02-reserve](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_binary_02-reserve_202311.png)
+![game_deploy_binary_02-reserve](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_reserve_250717.png)
 
 예약하려는 기준 시간과 배포 시간을 설정한 후에 [확인] 버튼을 클릭하면 게임 바이너리 배포가 예약됩니다.
 
