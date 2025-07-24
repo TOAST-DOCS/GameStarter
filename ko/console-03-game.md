@@ -132,9 +132,9 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 ![game_config_regist_shortcut](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_regist_shortcut_250717.png)
 
 ###### 1) 바로 가기 생성 방법
-바로가기 자동 생성 : 게임 사용자의 선택 없이 바로가기를 항상 생성 합니다.
-게임 사용자가 생성 여부 선택 :  런처에서 게임 사용자가 바로가기 생성 여부를 선택합니다.
-바로가기 생성 안함 : 바로가기를 생성하지 않습니다.
+> 바로가기 자동 생성 : 게임 사용자의 선택 없이 바로가기를 항상 생성 합니다.
+> 게임 사용자가 생성 여부 선택 :  런처에서 게임 사용자가 바로가기 생성 여부를 선택합니다.
+> 바로가기 생성 안함 : 바로가기를 생성하지 않습니다.
 
 ###### 2) 바로 가기 아이콘 이미지
 바탕화면에 설치될 때 사용할 게임의 바로 가기 아이콘 이미지를 등록합니다.
@@ -149,7 +149,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 모든 설정을 완료하였으면 하단의 [다음] 버튼으로 다음 페이지로 이동합니다.
 
 ##### 5-2-3. 게임 UI
-![game_config_register_03](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_03_202311.png)
+![game_config_game_ui_basic](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_basic_250717.png)
 
 게임 UI는 런처에서 게임별로 보이는 게임 UI를 구성할 수 있습니다.
 게임의 아이콘, 배경 이미지, 하단 부분에 이용 약관이나 고객센터 URL 등을 추가하거나 삭제할 수 있습니다.
@@ -160,19 +160,19 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 > ![game_config_register_03_usage](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_03_usage.gif)
 
 ###### 1) 게임 아이콘
-![game_config_register_03-1](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_03-1_202311.png)
+![game_config_game_ui_icon](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_icon_250717.png)
 
 게임 아이콘 영역의 [편집] 아이콘으로 새로운 게임 아이콘을 등록하거나 삭제할 수 있습니다.
 게임 아이콘 이미지의 권장 크기는 256x256입니다.
 
 ###### 2) 배경 이미지
-![game_config_register_03-2](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_03-2_202311.png)
+![game_config_game_background](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_background_250717.png)
 
 배경 이미지 영역의 [편집] 아이콘으로 새로운 배경 이미지를 등록할 수 있습니다.
 배경 이미지의 최소 크기는 992x584입니다.
 
 ###### 3) 이용약관
-![game_config_register_03-3](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_03-3_202311.png)
+![game_config_game_terms](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_terms_250717.png)
 
 게임 UI의 Footer 영역의 이용약관이나 고객센터를 추가하거나 제거할 수 있습니다.
 
@@ -185,16 +185,16 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 ###### 1) UI 미리 보기
 우측의 [UI 미리 보기] 버튼을 통해서 실제 런처에서 보이는 게임 UI를 확인할 수 있습니다.
 
-![game_config_register_04](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_04_202311.png)
+![game_config_game_preview](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_preview_250717.png)
 
-모든 게임 설정을 완료하였으면 하단의 [저장] 버튼으로 게임 설정을 등록할 수 있습니다.
+모든 게임 설정을 완료하였으면 하단의 [등록] 버튼으로 게임 설정을 등록할 수 있습니다.
 
 #### 5-3. 게임 설정 상세보기
-![game_config_register_complete](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_complete_202311.png)
+![game_config_register_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_complete_250717.png)
 
 게임 설정 목록에서 빨간색 영역을 클릭하면 게임 설정 상세보기 페이지로 이동하게 됩니다. 
 
-![game_config_detail](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_detail_202311.png)
+![game_config_detail](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_modify_250717.png)
 
 게임 설정 상세보기 페이지는 게임 설정 등록 페이지와 같지만 입력헐 수 없다는 차이점이 있습니다.
 왼쪽 위의 [수정]과 [복사] 버튼을 통해서 수정하거나 복사를 할 수 있습니다.
@@ -203,7 +203,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 게임 설정 목록의 왼쪽 위의 [수정] 버튼을 통해서 게임 설정 수정을 할 수 있습니다.
 
-![game_config_modify](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_modify_202311.png)
+![game_config_modify](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_modify2_250717.png)
 
 수정하고자 하는 설정을 수정하고 게임 설정 마지막 페이지의 [저장] 버튼을 통해서 수정할 수 있습니다.
 
@@ -211,7 +211,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 게임 설정 목록의 왼쪽 위의 [복사] 버튼을 통해서 게임 설정 복사를 할 수 있습니다.
 
-![game_config_copy](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_copy_202311.png)
+![game_config_copy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_copy_250717.png)
 
 게임 설정 복사 팝업창이 등장하며 게임 설정 이름과 메모를 입력한 후에 복사할 수 있습니다.
 
@@ -222,7 +222,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 
 #### 5-4. 게임 바이너리
-![game_binary_list](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_binary_list_202311.png)
+![game_binary_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_list_250717.png)
 
 게임 바이너리는 게임 실행에 필요한 바이너리 파일들의 집합을 의미합니다.
 게임 바이너리 업로드를 하려면 우선 CDN 연동을 진행해야 합니다.
@@ -233,18 +233,10 @@ CDN 연동을 하려면 [연동] 버튼을 통해서 진행할 수 있습니다.
 
 예시에서는 TEST 배포존에 CDN 연동을 진행합니다.
 
-CDN 연동 방식은 2가지가 제공됩니다.
-###### 1-1) GameStarter CDN
-![game_binary_cdn_default](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_binary_cdn_default_202311.png)
+###### 1) 고객사 CDN 등록
+![game_binary_cdn_customer](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_250717.png)
 
-GameStarter에서 제공하는 CDN을 사용합니다.
-GameStarter CDN은 자동으로 CDN 생성 작업을 진행하기 때문에 특별하게 설정해야 할 정보가 없습니다.
-이 과정에서는 CDN을 새롭게 생성하기 때문에 작업 완료까지 다소 시간이 많이 소요됩니다.
-
-###### 1-2) 고객사 CDN
-![game_binary_cdn_customer](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_binary_cdn_customer_202311.png)
-
-GameStarter에서 제공하는 CDN을 사용하지 않고 고객사 자체 CDN 주소로 연동합니다.
+고객사 자체 CDN 주소로 연동합니다.
 이 과정에서는 2단계의 설정 작업이 필요합니다.
 
 1. GameStarter 파일 스토리지 주소를 고객사 자체 CDN의 원본 서버 URL로 등록합니다.
