@@ -33,7 +33,7 @@
 
 ### 2. 게임 등록
 
-게임 목록의 왼쪽 위의 OS 별 [+등록] 버튼을 통하여 새로운 게임을 등록할 수 있습니다.
+게임 목록의 왼쪽 상단의 OS 별 [+등록] 버튼을 통하여 새로운 게임을 등록할 수 있습니다.
 
 ![game_register](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_regist_win_250717.png)
 
@@ -234,20 +234,15 @@ CDN 연동을 하려면 [연동] 버튼을 통해서 진행할 수 있습니다.
 예시에서는 TEST 배포존에 CDN 연동을 진행합니다.
 
 ###### 1) 고객사 CDN 등록
-![game_binary_cdn_customer](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_250717.png)
+![game_binary_cdn_customer](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn1_250717.png)
 
 고객사 자체 CDN 주소로 연동합니다.
 이 과정에서는 2단계의 설정 작업이 필요합니다.
 
 1. GameStarter 파일 스토리지 주소를 고객사 자체 CDN의 원본 서버 URL로 등록합니다.
 2. 고객사 자체 CDN의 주소를 입력합니다.
-3. 
+
 CDN 연동을 진행하면 다소 시간이 소요됩니다.
-
-![game_binary_cdn_complete](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_binary_cdn_complete_202311.png)
-
-CDN 상태가 [정상]이 되면 게임 바이너리를 업로드를 진행할 수 있습니다.
-CDN 상태가 [정상]이 아니라면 작업이 완료될 때까지 대기해주시기 바랍니다.
 
 #### 5-5. 게임 바이너리 상세보기
 
