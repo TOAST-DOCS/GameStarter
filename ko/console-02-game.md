@@ -154,11 +154,6 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 게임 UI는 런처에서 게임별로 보이는 게임 UI를 구성할 수 있습니다.
 게임의 아이콘, 배경 이미지, 하단 부분에 이용 약관이나 고객센터 URL 등을 추가하거나 삭제할 수 있습니다.
 
-> [참고] 게임 UI 편집기 사용방법
-> 
-> 각각의 영역에 이동, 크기조절, 편집, 삭제 아이콘을 통해서 위치 이동이나 속성을 수정할 수 있습니다.
-> ![game_config_register_03_usage](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_config_register_03_usage.gif)
-
 ###### 1) 게임 아이콘
 ![game_config_game_ui_icon](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_icon_250717.png)
 
