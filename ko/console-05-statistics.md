@@ -65,7 +65,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 파일명은 RealTime_GameDownload_날자_시간.xlsx 형식으로 제공 됩니다.
 
 게임 실행 지표 데이터는 Download, Download (Game), Download (OS), Update, Update (Game), Update (OS) 탭으로 데이터가 제공됩니다.
-1) Download 텝에서는 시간대별 전체 설치 항목들의 정보를 보여주며 조회 가능한 항목은 아래와 같습니다.
+1) Download 탭에서는 시간대별 전체 설치 항목들의 정보를 보여주며 조회 가능한 항목은 아래와 같습니다.
 > 1-1) Download : 전체 설치 수
 > 1-2) Download Success	 : 전체 설치 성공 수
 > 1-3) Download Fail :  전체 설치 실패 수	
@@ -73,19 +73,19 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 > 1-5) Download File Size (MB)	: 다운로드 파일 사이즈 (MB)
 > 1-6) Download Files :  다운로드 파일 카운트
 >
-2) Download (Game)  텝에서는 시간대에 따른 게임별 지표 정보를 제공 합니다.
+2) Download (Game)  탭에서는 시간대에 따른 게임별 지표 정보를 제공 합니다.
 > 각 Game 명 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 2-1) Total : 전체 설치 수
 > 2-2) Success : 전체 설치 성공 수
 > 2-3) Failure : 전체 설치 실패 수
 > 
-3) Download (OS) 텝에서는 시간대에 따른 OS 별 지표 정보를 제공 합니다. 
+3) Download (OS) 탭에서는 시간대에 따른 OS 별 지표 정보를 제공 합니다. 
 > 각 OS 별 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 3-1) Total : 전체 설치 수
 > 3-2) Success : 전체 설치 성공 수
 > 3-3) Failure : 전체 설치 실패 수
 > 
-4) Update 텝에서는 시간대에 따른 업데이트 설치의 지표 정보를 제공 합니다.
+4) Update 탭에서는 시간대에 따른 업데이트 설치의 지표 정보를 제공 합니다.
 > 4-1) Update : 업데이트 설치 수
 > 4-2) Update Success : 업데이트 설치 성공 수
 > 4-3) Update Fail : 업데이트 실패 수
@@ -93,12 +93,12 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 > 4-5) Update File Size (MB) :  업데이트 파일 사이즈 (MB)
 > 4-6) Update Files : 업데이트 파일 수
 > 
-5) Update (Game) 텝에서는 시간대에 따른 업데이트 설치의 게임별 지표 정보를 제공 합니다.
+5) Update (Game) 탭에서는 시간대에 따른 업데이트 설치의 게임별 지표 정보를 제공 합니다.
 > 각 Game 명 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 5-1) Total : 전체 설치 수
 > 5-2) Success : 전체 설치 성공 수
 > 5-3) Failure : 전체 설치 실패 수
-6) Update (OS) 텝에서는 시간대에 따른 업데이트 설치의 OS별 지표 정보를 제공 합니다.
+6) Update (OS) 탭에서는 시간대에 따른 업데이트 설치의 OS별 지표 정보를 제공 합니다.
 > 각 OS 별 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 6-1) Total : 전체 설치 수
 > 6-2) Success : 전체 설치 성공 수
@@ -140,18 +140,18 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 파일명은 Realtime_Launcher_날자_시간.xlsx 형식으로 제공 됩니다.
 
 런처 실행 지표 데이터는 Dashboard, Execution (OS), Execution (Launcher Version)  탭으로 데이터가 제공됩니다.
-1) Dashboard 텝에서는 시간대별 런처 실행 지표 정보를 제공 합니다.
+1) Dashboard 탭에서는 시간대별 런처 실행 지표 정보를 제공 합니다.
 > 1-1) Launcher Execution : 런처 실행 수
 > 1-2) Launcher Execution Success : 런처 실행 성공 수
 > 1-3) Launcher Execution Fail : 런처 실행 실패 수
 >
-2) Execution (OS)  텝에서는 시간대에 따른 OS별 지표 정보를 제공 합니다.
+2) Execution (OS)  탭에서는 시간대에 따른 OS별 지표 정보를 제공 합니다.
 > 각 OS 명 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 2-1) Total : 전체 설치 수
 > 2-2) Success : 전체 설치 성공 수
 > 2-3) Failure : 전체 설치 실패 수
 >
-3) Execution (Launcher Version)  텝에서는 시간대에 따른 런처 버전별 지표 정보를 제공 합니다.
+3) Execution (Launcher Version)  탭에서는 시간대에 따른 런처 버전별 지표 정보를 제공 합니다.
 > 각 런처 버전별 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 3-1) Total : 전체 설치 수
 > 3-2) Success : 전체 설치 성공 수
@@ -167,18 +167,18 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 파일명은 Realtime_LauncherInstall_날자_시간.xlsx 형식으로 제공 됩니다.
 
 런처 설치 지표 데이터는 Dashboard, Install (OS), Install (Launcher Version)  탭으로 데이터가 제공됩니다.
-1) Dashboard 텝에서는 시간대별 런처 실행 지표 정보를 제공 합니다.
+1) Dashboard 탭에서는 시간대별 런처 실행 지표 정보를 제공 합니다.
 > 1-1) Launcher Install : 런처 설치 수
 > 1-2) Launcher Install Success : 런처 설치 성공 수
 > 1-3) Launcher Install Fail : 런처 설치 실패 수
 >
-2) Install (OS)  텝에서는 시간대에 따른 OS별 지표 정보를 제공 합니다.
+2) Install (OS)  탭에서는 시간대에 따른 OS별 지표 정보를 제공 합니다.
 > 각 OS 명 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 2-1) Total : 전체 설치 수
 > 2-2) Success : 전체 설치 성공 수
 > 2-3) Failure : 전체 설치 실패 수
 >
-3) Install (Launcher Version)  텝에서는 시간대에 따른 런처 버전별 지표 정보를 제공 합니다.
+3) Install (Launcher Version)  탭에서는 시간대에 따른 런처 버전별 지표 정보를 제공 합니다.
 > 각 런처 버전별 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 3-1) Total : 전체 설치 수
 > 3-2) Success : 전체 설치 성공 수
@@ -217,23 +217,23 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 파일명은 Monitoring_날자_시간.xlsx 형식으로 제공 됩니다.
 
 런처 설치 지표 데이터는 GameExecution (Game), GameExecution (OS), GameDownload (Game), GameDownload (OS), GameUpdate (Game), GameUpdate (OS), LauncherExecution (OS), LauncherExecution (Version), Bounce 탭으로 데이터가 제공됩니다.
-1) GameExecution 관련 텝에서는 조회 기간의 게임 실행 정보를 제공 합니다.
+1) GameExecution 관련 탭에서는 조회 기간의 게임 실행 정보를 제공 합니다.
 > 1-1) GameExecution (Game) : 게임별 게임 실행 지표 (총 숫자, 성공수, 실패수)
 > 1-2) GameExecution (OS) : OS별 게임 실행 지표 (총 숫자, 성공수, 실패수)
 >
-2) GameDownload 관련 텝에서는 조회 기간의 게임 다운로드 정보를 제공 합니다.
+2) GameDownload 관련 탭에서는 조회 기간의 게임 다운로드 정보를 제공 합니다.
 > 2-1) GameDownload (Game) : 게임별 게임 다운로드 지표 (총 숫자, 성공수, 실패수)
 > 2-2) GameDownload (OS) : OS별 게임 다운로드 지표 (총 숫자, 성공수, 실패수)
 >
-3) GameUpdate 관련텝에서는 조회 기간의 게임 업데이트 정보를 제공 합니다.
+3) GameUpdate 관련탭에서는 조회 기간의 게임 업데이트 정보를 제공 합니다.
 > 3-1) GameUpdate (Game) : 게임별 게임 업데이트 지표 (총 숫자, 성공수, 실패수)
 > 3-2) GameUpdate (OS) : OS별 게임 업데이트 지표 (총 숫자, 성공수, 실패수)
 >
-4) LauncherExecution 관련텝에서는 조회 기간의 런처 실행 정보를 제공 합니다.
+4) LauncherExecution 관련탭에서는 조회 기간의 런처 실행 정보를 제공 합니다.
 > 4-1) LauncherExecution (Game) : 게임별 런처 실행 지표 (총 숫자, 성공수, 실패수)
 > 4-2) LauncherExecution (OS) : OS별 런처 실행 지표 (총 숫자, 성공수, 실패수)
 >
-5) Bounce 텝에서는 조회 기간의 게임별 이탈률 지표 정보를 제공 합니다.
+5) Bounce 탭에서는 조회 기간의 게임별 이탈률 지표 정보를 제공 합니다.
 > 각 게임명 하위에 아래와 항목 지표를 확인 할 수 있습니다.
 > 4-1) Game Install : 게임 설치가 시도된 수
 > 4-1) Game Install Bounce : 게임 설치 중 이탈한 수
