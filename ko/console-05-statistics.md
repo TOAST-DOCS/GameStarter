@@ -11,17 +11,17 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ![statistics_main](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
 
-### 1. 실시간 모니터링
+### 실시간 모니터링
 
 실시간 모니터링 은 당일 자정 부터 조회 시점 시간까지의 지표 데이터의 조회 기능을 제공합니다.
 00:00 부터 조회 시점까지의 데이터를 조회하며, 조건 버튼을 통해 필터링된 데이터의 조회가 가능합니다.
 
-#### 1-1. 실시간 모니터링 > 게임
+#### 1. 실시간 모니터링 > 게임
 
 게임 항목에서는 게임 실행과 게임 설치 지표를 제공합니다.
 각각 게임 실행과 설치 지표를 데쉬보드와 차트 데이터를 통해 쉽게 지표 데이터를 얻을 수 있습니다.
 
-##### * 게임 실행
+##### 1-1) 게임 실행
 
 게임 실행과 관련된 지표 정보를 표시합니다.
 
@@ -43,7 +43,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 2) Execute(OS) 탭에서는 시간대 별 OS 별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
 
 
-##### * 게임 설치
+##### 1-2) 게임 설치
 
 게임 설치와 관련된 지표 정보를 표시합니다.
 
@@ -60,7 +60,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 차트 데이터를 통해 시간대별 게임 설치수, 게임 설치 실패 이유, 시간대별 게임 전체 업데이트 설치 수, 시간대 별 게임 전체 업데이트 설치 평균시간
 시간대별 다운도르 속도 및 용량, 시간대별 게임 다운로드 파일 수 의 정보를 확인 할 수 있습니다.
 
-
+##### 1-3) 엑셀 저장
 게임 설치와 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
 파일명은 RealTime_GameDownload_날자_시간.xlsx 형식으로 제공 됩니다.
 
@@ -105,7 +105,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 > 6-3) Failure : 전체 설치 실패 수
 
 
-##### 게임 필터 정보
+##### 1-3) 게임 필터 정보
 
 지표 데이터는 필터데이터를 적용하여 조회와 엑셀 파일로 저장 할 수 있습니다.
 
@@ -125,17 +125,18 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 > 게임 이름 (게임 버전) 정보 리스트를 필터링 하여 조회 할 수 있습니다.
 
 
-#### 1-2. 실시간 모니터링 > 런처
+#### 2. 실시간 모니터링 > 런처
 
 런처 항목에서는 런처의 실행과 설치 정보를 표시 합니다.
 
-##### * 런처 실행
+##### 2-1) 런처 실행
 
 ![realtime_execute_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_launcher_none_250717.png)
 
 대시보드 에서 런처 실행 수, 런처 실행 성공 수, 런처 실행 실패수를 제공하며, 전일대비 증감치를 확인 할 수 있습니다.
 차트 데이터를 통해 시간대별 런처 실행수 와 런처 실행 실패이유, OS 점유율, 런처 버전 점유율을 확인 할 수 있습니다.
 
+##### 2-2) 엑셀 저장
 런처 실행과 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
 파일명은 Realtime_Launcher_날자_시간.xlsx 형식으로 제공 됩니다.
 
@@ -184,23 +185,23 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 > 3-2) Success : 전체 설치 성공 수
 > 3-3) Failure : 전체 설치 실패 수
 
-### 2. 모니터링 지표
+### 모니터링 지표
 
 ![monitoring_filter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
 모니터링 지표는 일간, 주간, 월간 별로 정산된 지표를 제공 합니다.
 설정한 기간의 정산 지표데이터를 조회하며, 조건 버튼을 통해 필터링된 데이터의 조회가 가능합니다.
 
-#### 2-1. 게임 실행
+#### 1. 게임 실행
 ![monitoring_execute_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
 조회된 기간의 게임 실행 수 와 게임 실행 실패 이유의 차트데이터를 제공 합니다.
 
-#### 2-2. 게임 설치
+#### 2. 게임 설치
 ![monitoring_install_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
 조회된 기간의 게임 설치 수 와 게임 설치 실패 이유의 차트데이터를 제공 합니다.
 
-#### 2-3. 런처 실행수이탈한 수의 데이터를 제공 합니다. 
+#### 3. 런처 실행수이탈한 수의 데이터를 제공 합니다. 
 
-#### 2-5. 모니터링 지표
+#### 4. 모니터링 지표
 ![monitoring_grid1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
 조회된 기간의 전체 모니터링 지표를 표 형식으로 제공합니다.
 기간(일자) 별 데이터를 제공하며 아래의 데이터 항목들을 확인 할 수 있습니다.
@@ -210,7 +211,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 >- 게임 업데이트 설치/ 설치 성공/ 설치 실패 /설치 이탈
 >- 런처 실행 / 실행 성공/ 실행 실패
 
-#### 엑셀 저장
+#### 5. 엑셀 저장
 모니터링 지표 데이터를 엑셀로 저장 할 수 있습니다.
 
 모니터링 지표의 엑셀 데이터 저장 항목은 아래와 같습니다.
