@@ -191,7 +191,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 ![game_config_detail](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_modify_250717.png)
 
-게임 설정 상세보기 페이지는 게임 설정 등록 페이지와 같지만 입력헐 수 없다는 차이점이 있습니다.
+게임 설정 상세보기 페이지는 게임 설정 등록 페이지와 같지만 입력할 수 없다는 차이점이 있습니다.
 왼쪽 위의 [수정]과 [복사] 버튼을 통해서 수정하거나 복사를 할 수 있습니다.
 
 ##### 1) 게임 설정 수정
@@ -290,18 +290,17 @@ TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해�
 
 ![game_binary_upload_03](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload3_250717.png)
 
-파일 업로드가 진행됩니다.
-
-![game_binary_upload_04](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload4_250717.png)
-
-파일 업로드가 완료되면 게임 실행 파일 정보를 선택해야 합니다.
+게임 실행 파일 정보를 선택해야 합니다.
 입력창에는 업로드한 바이너리의 파일들이 리스트로 표시됩니다.
 이 중에 게임을 실행하는 파일을 선택해주시면 됩니다.
 
+![game_binary_upload_04](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload4_250717.png)
+
+여기에는 업로드한 파일 개수와 파일 크기가 표시됩니다.
+확인 버튼을 누르면 파일 업로드가 진행됩니다.  
+
 ![game_binary_upload_05](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload6_250717.png)
 
-게임 실행 파일을 선택하고 나면 업로드 된 정보가 표시됩니다.
-여기에는 업로드한 파일 개수와 파일 크기가 표시됩니다.
 
 파일 업로드 전송이 완료되었지만, 실제 CDN까지의 반영까지 다소 시간이 소요됩니다.
 빨간색 영역의 업로드 상태가 [업로드 완료]가 될 때까지 대기해주세요.
