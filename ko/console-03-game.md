@@ -384,13 +384,19 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 
 
 [예약 배포]나 [즉시 배포] 버튼을 클릭하면 팝업창이 닫히면서 해당 배포존에 게임 바이너리 배포 상태가 변경된 것을 확인할 수 있습니다.
-![game_deploy_binary_complete](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_deploy_binary_complete_202311.png)
-배포가 완료된 경우 위의 그림처럼 배포 완료가 표시됩니다.
+![game_deploy_binary_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_comp_250717.png)
+배포가 완료된 경우 위의 그림처럼 영역이 초록색으로 변경되며, 배포 버튼이 비활성화 됩니다.
+게임 바이너리텝의 파란색 박스 영역 에서 배포정보에 대해 확인 할 수 있습니다.
+
+![game_deploy_binary_failed](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_failed_250717.png)
+배포 상태에 따라 영역의 색이 변경되며, 바이너리 배포 영역에서 배포 상태에 대한 내용을 확인 할 수 있습니다.
+
+
 
 #### 5-8 배포 이력
 
 ##### 5-8-1. 게임 설정 배포 이력
-![game_history_config_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_history_config_01_202311.png)
+![game_history_config_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_config_1_250717.png)
 
 게임 설정 배포 이력은 배포한 게임 설정들에 대한 이력을 조회할 수 있습니다.
 우측의 검색 조건을 통해서 조회 결과를 필터링할 수 있습니다.
@@ -405,7 +411,7 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 특정 배포 상태로 배포 이력을 필터링할 수 있습니다.
 
 배포 이력 조회 결과에는 다음과 같은 필드가 있습니다.
-![game_history_config_02](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_history_config_02_202311.png)
+![game_history_config_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_config_2_250717.png)
 
 ###### 1) 게임 설정 이름
 배포된 게임 설정의 이름을 나타냅니다.
@@ -435,7 +441,7 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 
 
 ##### 5-8-2. 게임 바이너리 배포 이력
-![game_history_binary_01](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_history_binary_01_202311.png)
+![game_history_binary_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_binary1_250717.png)
 
 게임 바이너리 배포 이력은 배포한 게임 바이너리의 배포 이력을 조회할 수 있습니다.
 우측의 검색 조건을 통해서 조회 결과를 필터링할 수 있습니다.
@@ -447,7 +453,7 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 특정 배포 상태로 배포 이력을 필터링할 수 있습니다.
 
 배포 이력 조회 결과에는 다음과 같은 필드가 있습니다.
-![game_history_binary_02](https://static.toastoven.net/prod_gamestarter/console/gamestarter_game_history_binary_02_202311.png)
+![game_history_binary_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_binary2_250717.png)
 
 ###### 1) 배포존
 게임 바이너리가 배포된 배포존을 나타냅니다.
