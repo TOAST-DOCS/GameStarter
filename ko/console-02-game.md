@@ -241,7 +241,10 @@ CDN 연동을 진행하면 다소 시간이 소요됩니다.
 
 #### 5-5. 게임 바이너리 상세보기
 
-게임 바이너리의 상세보기는 빨간색 영역을 클릭하면 상세보기 페이지로 이동합니다.
+![game_binary_cdn_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_list_enter_250717.png)
+
+게임 바이너리의 상세보기는 빨간색 영역을 클릭하여 이동합니다.
+
 ![game_binary_cdn_enter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_enter_250717.png)
 
 게임 바이너리 상세보기에는 다음과 같은 필드가 있습니다.
