@@ -196,11 +196,13 @@ DEVELOP 배포존의 [배포] 버튼을 누르면 아래와 같은 배포 팝업
 
 ##### 8-1) 런처를 이미 설치한 경우
 ![launcher_execute_urlscheme](https://static.toastoven.net/prod_gamestarter/console/gamestarter_launcher_execute_urlscheme_202311.png)
+
 런처를 설치한 경우 브라우저에서 실행 팝업창이 등장합니다.
 여기서 [GameStarter 열기] 버튼을 통해서 런처를 실행할 수 있습니다.
 
 ##### 8-2) 런처를 설치하지 않은 경우
 ![launcher_execute_download](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_download_250717.png)
+
 런처를 설치하지 않은 경우 브라우저에서 인스톨러 다운로드 팝업창이 등장합니다.
 [확인] 버튼을 통해서 인스톨러를 다운로드 받을 수 있습니다.
 
