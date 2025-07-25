@@ -166,7 +166,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 배경 이미지 영역의 [편집] 아이콘으로 새로운 배경 이미지를 등록할 수 있습니다.
 배경 이미지의 최소 크기는 992x584입니다.
 
-###### 3) 이용약관
+###### 3) Footer
 ![game_config_game_terms](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_terms_250717.png)
 
 게임 UI의 Footer 영역의 이용약관이나 고객센터를 추가하거나 제거할 수 있습니다.
