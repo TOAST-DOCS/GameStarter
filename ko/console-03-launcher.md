@@ -34,7 +34,7 @@
 
 
 ### 2. 런처 설정 등록
-새로운 런처 설정 등록은 왼쪽 상단의  [+각 OS별 등록 버튼]으로 등록할 수 있습니다.
+새로운 런처 설정 등록은 왼쪽 상단의  `[+각 OS별 등록 버튼]으로 등록`할 수 있습니다.
 
 #### 2-1. 기본 정보
 ![launcher_register_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_register1_250717.png)
@@ -47,11 +47,13 @@
 ##### 2) 메모
 메모는 런처 설정의 내용을 참고하기 위해서 입력하는 정보입니다.
 
-모든 설정을 완료하였으면 하단의 [다음] 버튼으로 다음 페이지로 이동합니다.
+모든 설정을 완료하였으면 하단의 `[다음]` 버튼으로 다음 페이지로 이동합니다.
 
-#### 2-2. 런처 모드 설정
+#### 2-2. 런처 레이아웃 구성
+
 런처가 실행되는 모드를 설정 합니다.
 ![launcher_register_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config1_250717.png)
+// todo : 스크린샷에 4번 버튼 추가.
 
 ##### 1) 실행 모드
 런처의 실행 모드를 설정 합니다.
@@ -69,8 +71,8 @@
 ##### 3) 브랜드 아이콘
 게임 이외에 브랜드 아이콘을 설정 할 수 있으며,사용할 이미지를 업로드합니다.
 
-브랜드 아이콘 이미지 파일은 JPG, JPEG, PNG 확장자만 업로드할 수 있습니다.
-브랜드 아이콘 이미지의 권장 크기는 256x256입니다.
+브랜드 아이콘 이미지 파일은 `JPG, JPEG, PNG 확장자만 업로드`할 수 있습니다.
+브랜드 아이콘 이미지의 권장 크기는 `256x256`입니다.
 
 #### 4) 런처 게임 선택
 런처 하나에 게임을 여러개 실행 할 수 있도록 지원하고 있으며, 해당 런처에 노출할 게임 리스트를 설정 할 수 있습니다.
@@ -84,7 +86,7 @@
 
 ![launcher_config_preview](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_preview_250717.png)
 
-모든 설정을 완료하였으면 [등록] 버튼으로 런처 설정을 등록할 수 있습니다.
+모든 설정을 완료하였으면 `[등록]` 버튼으로 런처 설정을 등록할 수 있습니다.
 
 ### 3. 런처 설정 상세보기
 ![launcher_config_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_list_250717.png)
@@ -94,19 +96,19 @@
 ![launcher_modify_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify_250717.png)
 
 런처 설정 상세보기에서 런처 설정을 수정하거나 복사할 수 있습니다.
-왼쪽 위의 [수정] 버튼으로 수정할 수 있습니다.
-왼쪽 위의 [복사] 버튼으로 복사할 수 있습니다.
+왼쪽 위의 `[수정] 버튼으로 수정`할 수 있습니다.
+왼쪽 위의 `[복사] 버튼으로 복사`할 수 있습니다.
 
 #### 1) 런처 설정 수정
 ![launcher_modify_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify2_250717.png)
 
-[수정] 버튼을 누르면 런처 설정 수정 페이지로 변경됩니다.
-런처 설정 수정이 완료되었으면 마지막 단계에서 [저장]을 통해서 수정사항을 반영할 수 있습니다.
+`[수정]` 버튼을 누르면 런처 설정 수정 페이지로 변경됩니다.
+런처 설정 수정이 완료되었으면 마지막 단계에서 `[저장]`을 통해서 수정사항을 반영할 수 있습니다.
 
 ##### 2) 런처 설정 복사
 ![launcher_copy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_copy_250717.png)
 
-[복사] 버튼을 누르면 복사 팝업창이 등장합니다.
+`[복사]` 버튼을 누르면 복사 팝업창이 등장합니다.
 런처 설정 복사는 런처 설정 이름과 메모를 제외한 다른 설정을 복사합니다.
 
 ###### 2-1) 런처 설정 이름
@@ -122,7 +124,7 @@
 기본적으로 제공되는 배포존은 SERVICE, DEVELOP, TEST 배포존이 있습니다.
 배포존별로 각각 런처 설정을 배포할 수 있습니다.
 
-초기에는 런처 설정이 등록되어 있지 않아서 배포 실행의 [배포] 버튼이 비활성화되어 있습니다.
+초기에는 런처 설정이 등록되어 있지 않아서 배포 실행의 `[배포] 버튼이 비활성화`되어 있습니다.
 
 런처 실행의 필드는 아래와 같이 구성되어 있습니다.
 #### 1) 런처 설정 이름
@@ -145,7 +147,7 @@
 
 
 예시로 DEVELOP 배포존에 등록된 런처 설정을 배포해보도록 하겠습니다.
-DEVELOP 배포존의 [배포] 버튼을 누르면 아래와 같은 배포 팝업창이 등장합니다.
+DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝업창이 등장합니다.
 
 ![launcher_deploy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_250717.png)
 
@@ -158,10 +160,10 @@ DEVELOP 배포존의 [배포] 버튼을 누르면 아래와 같은 배포 팝업
 런처 설정을 선택하면 아래의 화면에 등록했던 게임들이 초록색 영역에 순서대로 표시됩니다.
 
 ##### 6-2) 예약 배포
-런처 설정을 특정 시간에 배포하려면 [예약 배포] 버튼으로 예약할 수 있습니다.
+런처 설정을 특정 시간에 배포하려면 `[예약 배포]` 버튼으로 예약할 수 있습니다.
 
-배포 예약을 하려는 기준 시간과 배포 시간을 선택하고 [확인]을 클릭하면 배포 예약 시간을 등록할 수 있습니다.
-마지막 단계인 [6-4] 단계에서 모든 확인을 한 후에 [배포] 버튼을 누르면 배포 예약이 등록됩니다.
+배포 예약을 하려는 기준 시간과 배포 시간을 선택하고 `[확인]`을 클릭하면 배포 예약 시간을 등록할 수 있습니다.
+마지막 단계인 `[6-4] 단계에서 모든 확인`을 한 후에 `[배포]` 버튼을 누르면 배포 예약이 등록됩니다.
 
 ##### 6-3) 즉시 배포
 런처를 즉시 배포를 진행합니다.
@@ -174,9 +176,9 @@ DEVELOP 배포존의 [배포] 버튼을 누르면 아래와 같은 배포 팝업
 
 기본정보와, 레이아웃 구성, 노출될 게임 정보를 확인 할 수 있습니다.
 
-새롭게 배포하려는 런처 설정이 맞는지 모두 확인되면 [배포] 버튼을 통해서 즉시 배포나 예약 배포를 실행할 수 있습니다.
+새롭게 배포하려는 런처 설정이 맞는지 모두 확인되면 `[배포]` 버튼을 통해서 즉시 배포나 예약 배포를 실행할 수 있습니다.
 
-[배포] 버튼으로 배포 팝업창이 닫히면서 배포존에 배포 상태에 변경된 것을 확인할 수 있습니다.
+`[배포]` 버튼으로 배포 팝업창이 닫히면서 배포존에 배포 상태에 변경된 것을 확인할 수 있습니다.
 ![launcher_deploy_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_comp_250717.png)
 
 배포가 완료된 이후 최근 배포 완료된 런처 설정 영역에서 실행 템플릿과, 런처 실행을 할 수 있습니다.
@@ -184,27 +186,27 @@ DEVELOP 배포존의 [배포] 버튼을 누르면 아래와 같은 배포 팝업
 #### 1) 실행 템플릿
 실행 템플릿은 웹 브라우저에서 런처를 실행하거나 인스톨러를 다운로드할 수 있는 자바스크립트를 제공합니다. 해당 배포존에 런처가 이미 설치되어 있으면 런처를 실행하게 됩니다.
 만약 런처가 설치가 되어 있지 않으면 인스톨러 다운로드를 실행하게 됩니다.
-[복사] 버튼을 통해서 자바스크립트 코드를 복사할 수 있습니다.
+`[복사]` 버튼을 통해서 자바스크립트 코드를 복사할 수 있습니다.
 
 #### 2) 런처 실행
 배포존에 런처가 배포가 완료되면 런처를 실행할 수 있게 됩니다.
 
 ![launcher_execute](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_execute_250717.png)
 
-[런처 실행] 버튼을 통해서 배포존의 런처를 실행할 수 있습니다.
+`[런처 실행]` 버튼을 통해서 배포존의 런처를 실행할 수 있습니다.
 실행할 대상 게임을 선택한 후 확인 버튼을 누르면, 사용자 PC에 런처 설치 여부에 따라서 2가지로 수행됩니다.
 
 ##### 8-1) 런처를 이미 설치한 경우
 ![launcher_execute_urlscheme](https://static.toastoven.net/prod_gamestarter/console/gamestarter_launcher_execute_urlscheme_202311.png)
 
 런처를 설치한 경우 브라우저에서 실행 팝업창이 등장합니다.
-여기서 [GameStarter 열기] 버튼을 통해서 런처를 실행할 수 있습니다.
+여기서 `[GameStarter 열기]` 버튼을 통해서 런처를 실행할 수 있습니다.
 
 ##### 8-2) 런처를 설치하지 않은 경우
 ![launcher_execute_download](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_download_250717.png)
 
 런처를 설치하지 않은 경우 브라우저에서 인스톨러 다운로드 팝업창이 등장합니다.
-[확인] 버튼을 통해서 인스톨러를 다운로드 받을 수 있습니다.
+`[확인]` 버튼을 통해서 인스톨러를 다운로드 받을 수 있습니다.
 
 ##### 8-3) 런처가 실행된 화면
 인스톨러를 통해 런처를 설치한 이후에 런처를 실행하면 아래와 같이 런처가 실행된 모습을 확인할 수 있습니다.

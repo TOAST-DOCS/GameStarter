@@ -11,6 +11,9 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ![statistics_main](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
 
+
+
+
 ### 실시간 모니터링
 
 실시간 모니터링 은 당일 자정 부터 조회 시점 시간까지의 지표 데이터의 조회 기능을 제공합니다.
@@ -26,12 +29,12 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 게임 실행과 관련된 지표 정보를 표시합니다.
 
 ![statistics_real_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_none_250717.png)
-대시 보드에서 게임 실행 수, 게임 실행 성공 수, 게임 실행 실패 수를 제공하며, 전일대비 증감치를 확인 할 수 있습니다.
-차트 데이터를 통해 시간대별 증감 수치와, 게임 실행 실패 이유 정보를 확인 할 수 있습니다.
+대시 보드에서 `게임 실행 수`, `게임 실행 성공 수`, `게임 실행 실패 수`를 제공하며, `전일대비 증감치`를 확인 할 수 있습니다.
+차트 데이터를 통해 `시간대별 증감 수치`와, `게임 실행 실패 이유 정보`를 확인 할 수 있습니다.
 
 
 지표 데이터를 효율적으로 활용 할 수 있도록, 엑셀 저장 버튼을 통해 지표 데이터를 저장 할 수 있습니다.
-저장되는 데이터는 저장요청 시점의 데이터를 기준으로 제공됩니다.
+`저장되는 데이터는 저장요청 시점의 데이터를 기준`으로 제공됩니다.
 
 ##### 1-2) 엑셀 저장
 게임 실행과 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
@@ -50,7 +53,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ![realtime_install_game1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_none_250717.png)<br>
 
-대시보드 에서 게임 설치수, 게임 설치 성공 수, 게임 설치 실패 수, 게임 다운로드 평균 속도, 파일 다운로드 용량, 파일 다운로드 수 에 대한 정보를 확인 할 수 있습니다.
+대시보드 에서 `게임 설치수`, `게임 설치 성공 수`, `게임 설치 실패 수`, `게임 다운로드 평균 속도`, `파일 다운로드 용량`, `파일 다운로드 수` 에 대한 정보를 확인 할 수 있습니다.
 대시보드의 FULL, UPDATE 의 설명은 아래와 같습니다.
 >- `FULL` : 전체 설치
 >- `UPDATE` : 업데이트 설치
@@ -58,8 +61,8 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ![realtime_install_game2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_install_game2_none_250717.png)
 
-차트 데이터를 통해 시간대별 게임 설치수, 게임 설치 실패 이유, 시간대별 게임 전체 업데이트 설치 수, 시간대 별 게임 전체 업데이트 설치 평균시간
-시간대별 다운도르 속도 및 용량, 시간대별 게임 다운로드 파일 수 의 정보를 확인 할 수 있습니다.
+차트 데이터를 통해 시간대별 `게임 설치수`, `게임 설치 실패 이유`, `시간대별 게임 전체 업데이트 설치 수`, `시간대 별 게임 전체 업데이트 설치 평균시간`,
+`시간대별 다운도르 속도 및 용량`, `시간대별 게임 다운로드 파일 수` 의 정보를 확인 할 수 있습니다.
 
 ##### 1-4) 게임 필터 정보
 
@@ -162,8 +165,8 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ![realtime_install_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_install_launcher_none_250717.png)
 
-대시보드 에서 런처 설치 수, 런처 설치 성공 수, 런처 설치 실패 수 를 제공하며, 전일대비 증감치를 확인 할 수 있습니다.
-차트 데이터를 통해 시간대별 런처 설치수 와 런처 설치 실패이유를 확인 할 수 있습니다.
+대시보드 에서 `런처 설치 수`, `런처 설치 성공 수`, `런처 설치 실패 수` 를 제공하며, `전일대비 증감치`를 확인 할 수 있습니다.
+차트 데이터를 통해 `시간대별 런처 설치수` 와 `런처 설치 실패이유`를 확인 할 수 있습니다.
 
 런처 설치와 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
 파일명은 `Realtime_LauncherInstall_날자_시간.xlsx` 형식으로 제공 됩니다.
@@ -184,7 +187,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 각 런처 버전별 하위에 아래와 항목 지표를 확인 할 수 있습니다.
     3-1) `Total` : 전체 설치 수
     3-2) `Success` : 전체 설치 성공 수
-    3-3) `Failure` : 전체 설치 실패 수
+    3-3) `Failure` : 전체 설치 실패 수x
 
 ### 모니터링 지표
 

@@ -33,7 +33,7 @@
 
 ### 2. 게임 등록
 
-게임 목록의 왼쪽 상단의 OS 별 [+등록] 버튼을 통하여 새로운 게임을 등록할 수 있습니다.
+게임 목록의 왼쪽 상단의 `OS 별 [+등록]` 버튼을 통하여 새로운 게임을 등록할 수 있습니다.
 
 ![game_register](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_regist_win_250717.png)
 
@@ -44,17 +44,17 @@
 #### 2) OS
 게임이 실행 가능한 OS 정보를 보여 줍니다.
 
-게임 이름 입력을 완료하였으면 [등록] 버튼을 통해서 게임을 등록할 수 있습니다.
+게임 이름 입력을 완료하였으면 `[등록]` 버튼을 통해서 게임을 등록할 수 있습니다.
 
 ### 3. 게임 상세보기
 
-게임 목록에서 [상세] 버튼을 눌러서 게임의 상세보기 페이지로 이동하게 됩니다.
+게임 목록에서 `[상세]` 버튼을 눌러서 게임의 상세보기 페이지로 이동하게 됩니다.
 
 ![game_detail](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_detail_250717.png)
 
 ### 4. 게임 수정
 
-게임 상세보기 페이지의 상단의 [수정] 버튼으로 수정 상태로 진입할 수 있습니다.
+게임 상세보기 페이지의 상단의 `[수정]` 버튼으로 수정 상태로 진입할 수 있습니다.
 
 ![game_modify](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_modify_250717.png)
 
@@ -89,7 +89,7 @@
 
 #### 5-2. 게임 설정 등록
 
-새로운 게임 설정 등록은 게임 설정 목록 좌측의 [+등록] 버튼을 통해서 등록할 수 있습니다.
+새로운 게임 설정 등록은 게임 설정 목록 좌측의 `[+등록]` 버튼을 통해서 등록할 수 있습니다.
 
 
 ##### 5-2-1. 기본 설정
@@ -110,14 +110,14 @@
 ###### 4) 기본 설치 경로
 게임을 설치할 때 기본으로 설치할 경로를 지정합니다.
 기본 경로는 Windows는 `<SystemDrive>/ProgramData/<GameName>`입니다.
-다른 경로로 설정하려면 [사용자 지정 경로]를 선택하고 원하는 경로를 입력해주시면 됩니다.
+다른 경로로 설정하려면 `[사용자 지정 경로]`를 선택하고 원하는 경로를 입력해주시면 됩니다.
 
 ###### 5) 설정된 기본 설치 경로
 기본 설치 경로에 따라서 기본 설치 경로를 예시로 보여줍니다.
 Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로를 표시합니다.
 
 
-모든 설정을 완료하였으면 하단의 [다음] 버튼으로 다음 페이지로 이동합니다.
+모든 설정을 완료하였으면 하단의 `[다음]` 버튼으로 다음 페이지로 이동합니다.
 
 ##### 5-2-2. 게임 바로 가기 아이콘
 
@@ -146,7 +146,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 또한 첫 번째와 마지막 문자에 `공백`, `/`, `/`는 입력할 수 없습니다.
 
 
-모든 설정을 완료하였으면 하단의 [다음] 버튼으로 다음 페이지로 이동합니다.
+모든 설정을 완료하였으면 하단의 `[다음]` 버튼으로 다음 페이지로 이동합니다.
 
 ##### 5-2-3. 게임 UI
 ![game_config_game_ui_basic](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_basic_250717.png)
@@ -157,32 +157,33 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 ###### 1) 게임 아이콘
 ![game_config_game_ui_icon](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_icon_250717.png)
 
-게임 아이콘 영역의 [편집] 아이콘으로 새로운 게임 아이콘을 등록하거나 삭제할 수 있습니다.
+게임 아이콘 영역의 `[편집]` 아이콘으로 새로운 게임 아이콘을 등록하거나 삭제할 수 있습니다.
 게임 아이콘 이미지의 권장 크기는 256x256입니다.
 
 ###### 2) 배경 이미지
 ![game_config_game_background](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_background_250717.png)
 
-배경 이미지 영역의 [편집] 아이콘으로 새로운 배경 이미지를 등록할 수 있습니다.
-배경 이미지의 최소 크기는 992x584입니다.
+배경 이미지 영역의 `[편집]` 아이콘으로 새로운 배경 이미지를 등록할 수 있습니다.
+배경 이미지의 권장 크기는 992x584입니다.
+`해당 비율에 맞지 않는 이미지인 경우 런처 이미지에 스크롤이 생길 수 있습니다.`
 
 ###### 3) Footer
 ![game_config_game_terms](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_terms_250717.png)
 
 게임 UI의 Footer 영역의 이용약관이나 고객센터를 추가하거나 제거할 수 있습니다.
 
-위의 예시 이미지에는 이용약관의 [편집] 아이콘을 통해서 이용약관을 클릭했을 때 연결되는 URL을 입력하는 화면입니다.
+위의 예시 이미지에는 이용약관의 `[편집]` 아이콘을 통해서 이용약관을 클릭했을 때 연결되는 URL을 입력하는 화면입니다.
 또한 이용약관의 이름을 다른 이름으로도 변경할 수 있습니다.
 
  
 ##### 5-2-4. 미리 보기
 
 ###### 1) UI 미리 보기
-우측의 [UI 미리 보기] 버튼을 통해서 실제 런처에서 보이는 게임 UI를 확인할 수 있습니다.
+우측의 `[UI 미리 보기]` 버튼을 통해서 실제 런처에서 보이는 게임 UI를 확인할 수 있습니다.
 
 ![game_config_game_preview](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_preview_250717.png)
 
-모든 게임 설정을 완료하였으면 하단의 [등록] 버튼으로 게임 설정을 등록할 수 있습니다.
+모든 게임 설정을 완료하였으면 하단의 `[등록]` 버튼으로 게임 설정을 등록할 수 있습니다.
 
 #### 5-3. 게임 설정 상세보기
 ![game_config_register_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_ui_complete_250717.png)
@@ -192,19 +193,19 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 ![game_config_detail](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_modify_250717.png)
 
 게임 설정 상세보기 페이지는 게임 설정 등록 페이지와 같지만 입력할 수 없다는 차이점이 있습니다.
-왼쪽 위의 [수정]과 [복사] 버튼을 통해서 수정하거나 복사를 할 수 있습니다.
+왼쪽 위의 `[수정]`과 `[복사]` 버튼을 통해서 수정하거나 복사를 할 수 있습니다.
 
 ##### 1) 게임 설정 수정
 
-게임 설정 목록의 왼쪽 위의 [수정] 버튼을 통해서 게임 설정 수정을 할 수 있습니다.
+게임 설정 목록의 왼쪽 위의 `[수정]` 버튼을 통해서 게임 설정 수정을 할 수 있습니다.
 
 ![game_config_modify](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_modify2_250717.png)
 
-수정하고자 하는 설정을 수정하고 게임 설정 마지막 페이지의 [저장] 버튼을 통해서 수정할 수 있습니다.
+수정하고자 하는 설정을 수정하고 게임 설정 마지막 페이지의 `[저장]` 버튼을 통해서 수정할 수 있습니다.
 
 ##### 2) 게임 설정 복사
 
-게임 설정 목록의 왼쪽 위의 [복사] 버튼을 통해서 게임 설정 복사를 할 수 있습니다.
+게임 설정 목록의 왼쪽 위의 `[복사]` 버튼을 통해서 게임 설정 복사를 할 수 있습니다.
 
 ![game_config_copy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_copy_250717.png)
 
@@ -223,7 +224,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 게임 바이너리 업로드를 하려면 우선 CDN 연동을 진행해야 합니다.
 
 ##### 1) CDN 연동
-CDN 연동을 하려면 [연동] 버튼을 통해서 진행할 수 있습니다.
+CDN 연동을 하려면 `[연동]` 버튼을 통해서 진행할 수 있습니다.
 먼저 연동하고자 하는 배포존에 CDN 연동을 선택합니다.
 
 예시에서는 TEST 배포존에 CDN 연동을 진행합니다.
@@ -237,7 +238,13 @@ CDN 연동을 하려면 [연동] 버튼을 통해서 진행할 수 있습니다.
 1. GameStarter 파일 스토리지 주소를 고객사 자체 CDN의 원본 서버 URL로 등록합니다.
 2. 고객사 자체 CDN의 주소를 입력합니다.
 
+//Todo: 연동이 정상적으로 되었을경우, 스크린샷 설명추가
 CDN 연동을 진행하면 다소 시간이 소요됩니다.
+
+CDN 엣지서버에 배포가 전부 완료되지 않았거나, 하는경우 연동에 다소 시간이 소요될수 있으며 
+아래처럼 연동이 되지 않는다는 메세지가 발생할 수 있다는 내용과 스크린샷 추가
+실제 잘못된경로가 아닌경우에도.
+
 
 #### 5-5. 게임 바이너리 상세보기
 
@@ -282,7 +289,7 @@ CDN 연동이 완료된 이후에 게임 바이너리 파일들을 업로드할 
 
 
 ![game_binary_upload_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload1_250717.png)
-TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해서 파일 업로드를 진행합니다.
+TEST 배포존의 업로드 실행의 `[바이너리 업로드]` 버튼을 통해서 파일 업로드를 진행합니다.
 
 ![game_binary_upload_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload2_250717.png)
 
@@ -303,9 +310,9 @@ TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해�
 
 
 파일 업로드 전송이 완료되었지만, 실제 CDN까지의 반영까지 다소 시간이 소요됩니다.
-빨간색 영역의 업로드 상태가 [업로드 완료]가 될 때까지 대기해주세요.
+빨간색 영역의 업로드 상태가 `[업로드 완료]`가 될 때까지 대기해주세요.
 
-업로드가 완료되면 [업로드 완료]로 상태가 변경됩니다.
+업로드가 완료되면 `[업로드 완료]`로 상태가 변경됩니다.
 이제부터 게임 배포를 통해서 게임 바이너리를 배포할 수 있습니다.
 
 지금까지 게임 바이너리 업로드까지의 과정을 설명했습니다.
@@ -322,16 +329,16 @@ TEST 배포존의 업로드 실행의 [바이너리 업로드] 버튼을 통해�
 주황색 영역은 배포존의 게임 설정을 새롭게 배포하거나 배포된 정보를 확인할 수 있습니다.
 초록색 영역은 배포존의 게임 바이너리를 새롭게 배포하거나 배포된 정보를 확인할 수 있습니다.
 
-만약에 등록된 게임 설정이 없거나 게임 바이너리가 업로드 완료가 되지 않았다면 [배포] 버튼은 비활성화됩니다.
+만약에 등록된 게임 설정이 없거나 게임 바이너리가 업로드 완료가 되지 않았다면 `[배포]` 버튼은 비활성화됩니다.
 
 그러면 배포존에서 등록했던 게임 설정과 게임 바이너리를 배포해보겠습니다.
 
 ##### 5-7-1. 게임 설정 배포
 ![game_deploy_config_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_deploy1_reserve_250717.png)
 
-TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설정 배포 팝업창이 등장합니다.
+TEST 배포존에서 게임 설정의 `[배포]` 버튼을 클릭하면 게임 설정 배포 팝업창이 등장합니다.
 
-게임 설정 배포에는 [예약 배포]와 [즉시 배포] 2가지 방법으로 진행할 수 있습니다.
+게임 설정 배포에는 `[예약 배포]`와 `[즉시 배포]` 2가지 방법으로 진행할 수 있습니다.
 
 ###### 1) 게임 설정 선택
 등록된 게임 설정들이 표시됩니다.
@@ -340,22 +347,22 @@ TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설
 ###### 2) 예약 배포
 ![game_deploy_config_01-reserve](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_deploy1_reserve2_250717.png)
 
-예약하려는 기준 시간과 배포 시간을 설정한 후에 [확인] 버튼을 클릭하면 마지막 단계인 [배포 비교] 단계로 이동합니다.
+예약하려는 기준 시간과 배포 시간을 설정한 후에 `[확인]` 버튼을 클릭하면 마지막 단계인 `[배포 비교]` 단계로 이동합니다.
 
 ###### 3) 즉시 배포
 
 즉시 배포에는 별도로 설정해야 내용이 없습니다.
-바로 마지막 단계인 [배포 비교] 단계로 이동합니다.
+바로 마지막 단계인 `[배포 비교]` 단계로 이동합니다.
 
 ###### 4) 배포 비교
 ![game_deploy_config_deploy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_deploy_250717.png)
 
 최근에 배포한 게임 설정과 비교하는 팝업창이 등장합니다.
 
-새롭게 배포하려는 게임 설정이 맞는지 모두 확인되면 [배포] 버튼을 통해서 즉시 배포나 예약 배포를 실행할 수 있습니다.
-틀리지 않게 설정한 부분이 확인 한 후 [배포] 버튼을 클릭하면 배포가 됩니다.
+새롭게 배포하려는 게임 설정이 맞는지 모두 확인되면 `[배포]` 버튼을 통해서 즉시 배포나 예약 배포를 실행할 수 있습니다.
+틀리지 않게 설정한 부분이 확인 한 후 `[배포]` 버튼을 클릭하면 배포가 됩니다.
 
-[배포] 버튼을 클릭하면 배포 팝업창이 닫히면서 해당 배포존에 게임 설정 배포 상태에 변경된 것을 확인할 수 있습니다.
+`[배포]` 버튼을 클릭하면 배포 팝업창이 닫히면서 해당 배포존에 게임 설정 배포 상태에 변경된 것을 확인할 수 있습니다.
 ![game_deploy_config_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_deploy_complete_250717.png)
 
 
@@ -363,19 +370,19 @@ TEST 배포존에서 게임 설정의 [배포] 버튼을 클릭하면 게임 설
 게임 바이너리 배포는 게임 바이너리 업로드가 완료된 게임 바이너리를 적용하는 단계입니다.
 
 ![game_deploy_binary_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_250717.png)
-TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배포창이 등장합니다.
-게임 바이너리 배포도 [예약 배포]와 [즉시 배포] 2가지 방법으로 진행할 수 있습니다.
+TEST 배포존에서 게임 바이너리의 `[배포]` 버튼을 클릭하면 배포창이 등장합니다.
+게임 바이너리 배포도 `[예약 배포]`와 `[즉시 배포]` 2가지 방법으로 진행할 수 있습니다.
 
 ###### 1) 예약 배포
 ![game_deploy_binary_02-reserve](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_reserve_250717.png)
 
-예약하려는 기준 시간과 배포 시간을 설정한 후에 [확인] 버튼을 클릭하면 게임 바이너리 배포가 예약됩니다.
+예약하려는 기준 시간과 배포 시간을 설정한 후에 `[확인]` 버튼을 클릭하면 게임 바이너리 배포가 예약됩니다.
 
 ###### 2) 즉시 배포
-[즉시 배포]를 실행하면 업로드된 게임 바이너리로 즉시 배포가 진행됩니다.
+`[즉시 배포]`를 실행하면 업로드된 게임 바이너리로 즉시 배포가 진행됩니다.
 
 
-[예약 배포]나 [즉시 배포] 버튼을 클릭하면 팝업창이 닫히면서 해당 배포존에 게임 바이너리 배포 상태가 변경된 것을 확인할 수 있습니다.
+`[예약 배포]`나 `[즉시 배포]` 버튼을 클릭하면 팝업창이 닫히면서 해당 배포존에 게임 바이너리 배포 상태가 변경된 것을 확인할 수 있습니다.
 ![game_deploy_binary_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_comp_250717.png)
 배포가 완료된 경우 위의 그림처럼 영역이 초록색으로 변경되며, 배포 버튼이 비활성화 됩니다.
 게임 바이너리텝의 파란색 박스 영역 에서 배포정보에 대해 확인 할 수 있습니다.
@@ -383,6 +390,7 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 ![game_deploy_binary_failed](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_failed_250717.png)
 배포 상태에 따라 영역의 색이 변경되며, 바이너리 배포 영역에서 배포 상태에 대한 내용을 확인 할 수 있습니다.
 
+//todo: 영역 조합에따른 색상 변경 설명.
 
 
 #### 5-8 배포 이력
@@ -403,7 +411,7 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 특정 배포 상태로 배포 이력을 필터링할 수 있습니다.
 
 배포 이력 조회 결과에는 다음과 같은 필드가 있습니다.
-![game_history_config_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_config_2_250717.png)
+![game_history_config_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_config_3_250717.png)
 
 ###### 1) 게임 설정 이름
 배포된 게임 설정의 이름을 나타냅니다.
@@ -445,7 +453,7 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 특정 배포 상태로 배포 이력을 필터링할 수 있습니다.
 
 배포 이력 조회 결과에는 다음과 같은 필드가 있습니다.
-![game_history_binary_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_binary2_250717.png)
+![game_history_binary_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_binary3_250717.png)
 
 ###### 1) 배포존
 게임 바이너리가 배포된 배포존을 나타냅니다.
@@ -461,7 +469,10 @@ TEST 배포존에서 게임 바이너리의 [배포] 버튼을 클릭하면 배�
 게임 바이너리를 배포한 사용자의 마스킹 된 이메일 주소가 나타냅니다.
 
 ###### 5) 배포 상태
+
+![game_history_binary_04](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_config_4_250717.png)
 게임 바이너리를 배포된 상태를 나타냅니다.
+배포 상태는 `?` 에 커서를 가져가면 상태 리스트를 확인 할 수 있습니다.
 
 > [참고] 배포 상태
 >
