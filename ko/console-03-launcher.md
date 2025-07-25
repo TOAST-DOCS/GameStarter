@@ -52,8 +52,7 @@
 #### 2-2. 런처 레이아웃 구성
 
 런처가 실행되는 모드를 설정 합니다.
-![launcher_register_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config1_250717.png)
-// todo : 스크린샷에 4번 버튼 추가.
+![launcher_register_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config2_250717.png)
 
 ##### 1) 실행 모드
 런처의 실행 모드를 설정 합니다.

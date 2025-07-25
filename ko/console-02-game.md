@@ -388,9 +388,15 @@ TEST 배포존에서 게임 바이너리의 `[배포]` 버튼을 클릭하면 �
 게임 바이너리텝의 파란색 박스 영역 에서 배포정보에 대해 확인 할 수 있습니다.
 
 ![game_deploy_binary_failed](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_binary_deploy_failed_250717.png)
-배포 상태에 따라 영역의 색이 변경되며, 바이너리 배포 영역에서 배포 상태에 대한 내용을 확인 할 수 있습니다.
+바이너리 배포 영역에서 배포 상태에 대한 내용을 확인 할 수 있습니다.
+또한 배포 상태에 따라 배포존 영역의 색이 변경됩니다.
 
-//todo: 영역 조합에따른 색상 변경 설명.
+> [참고] 배포 상태에 따른 색상 정보
+> 
+> `GRAY` : 미배포 상태. 배포된 이력이 아무것도 없을경우 기본으로 표시되는 색상입니다.
+> `YELLOW` : 게임 설정만 배포된 상태.
+> `GREED` : 게임 설정과 게임 바이너리가 배포 완료된 상태.
+> `RED` : 게임 바이너리 배포에 실패한 상태.
 
 
 #### 5-8 배포 이력
