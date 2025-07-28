@@ -109,7 +109,7 @@
 
 ###### 4) 기본 설치 경로
 게임을 설치할 때 기본으로 설치할 경로를 지정합니다.
-기본 경로는 Windows는 `<SystemDrive>/ProgramData/<GameName>`입니다.
+기본 경로는 Windows의 경우 `<SystemDrive>/ProgramData/<GameName>`입니다.
 다른 경로로 설정하려면 `[사용자 지정 경로]`를 선택하고 원하는 경로를 입력해주시면 됩니다.
 
 ###### 5) 설정된 기본 설치 경로
@@ -247,8 +247,8 @@ CDN 연동의 결과를 확인하려면, 게임 바이너리 상세정보 화면
 CDN 연동이 정상적으로 완료된경우 게임 바이너리 상세 정보 화면에서 CDN 연동 성공 내용을 확인 할 수 있습니다.
 
 ![game_binary_cdn_failed](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_failed_1_250717.png)
-CDN 엣지서버에 배포가 전부 완료되지 않았거나, 하는경우 연동에 다소 시간이 소요될수 있습니다.
-연동에 시간이 소요되거나, 연동에 실패하는 경우 게임 바이너리 상세 정보 화면에서,
+CDN 엣지서버에 배포가 진행중이거나, 혹은 다른 사유에서 연동에 다소 시간이 소요될수 있습니다.
+연동에 시간이 소요되거나, 연동에 실패하는 경우 게임 바이너리 상세 정보 화면에서
 CDN 연동 실패 내용을 확인 할 수 있습니다.
 
 
@@ -484,7 +484,7 @@ TEST 배포존에서 게임 바이너리의 `[배포]` 버튼을 클릭하면 �
 
 ![game_history_binary_04](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_config_4_250717.png)
 게임 바이너리를 배포된 상태를 나타냅니다.
-배포 상태는 `?` 에 커서를 가져가면 상태 리스트를 확인 할 수 있습니다.
+배포 상태는 `?` 에 커서를 가져가면 상태 목록을 확인 할 수 있습니다.
 
 > [참고] 배포 상태
 >
