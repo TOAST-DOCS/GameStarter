@@ -19,14 +19,13 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 6. 지표 데이터는 엑셀 파일로 저장 할 수 있습니다. 제공되는 엑셀데이터 설명은 각 항목의 `엑셀저장` 내용을 확인 해 주세요.
 
 
-실시간 모니터링 항목과 모니터링 지표 항목에 대한 자세한 설명은 아래와 같습니다.
-
-![statistics_main](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
-
 ### 실시간 모니터링
 
 실시간 모니터링 은 당일 자정 부터 조회 시점 시간까지의 지표 데이터의 조회 기능을 제공합니다.
 00:00 부터 조회 시점까지의 데이터를 조회하며, 조건 버튼을 통해 필터링된 데이터의 조회가 가능합니다.
+
+![statistics_main](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
+
 
 #### 1. 실시간 모니터링 > 게임
 
@@ -81,7 +80,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 게임 설치와 관련된 지표 정보를 표시합니다.
 
-![realtime_install_game1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_none_250717.png)<br>
+![realtime_install_game1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_install_game_none_250717.png)
 
 대시보드 에서 `게임 설치수`, `게임 설치 성공 수`, `게임 설치 실패 수`, `게임 다운로드 평균 속도`, `파일 다운로드 용량`, `파일 다운로드 수` 에 대한 정보를 확인 할 수 있습니다.
 대시보드의 FULL, UPDATE 의 설명은 아래와 같습니다.
