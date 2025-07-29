@@ -21,13 +21,13 @@
 #### 3) 등록 일시
 게임을 등록한 날짜를 나타냅니다.
 
-#### 3) 등록자
+#### 4) 등록자
 게임을 등록한 사용자의 마스킹 된 이메일 주소를 나타냅니다.
 
-#### 4) 게임 사용 여부
+#### 5) 게임 사용 여부
 게임의 사용 여부(사용 혹은 사용 안 함)를 나타냅니다.
 
-#### 5) 상세보기
+#### 6) 상세보기
 [상세] 버튼을 통해서 등록된 게임의 상세한 정보를 확인할 수 있습니다.
 
 
@@ -109,7 +109,7 @@
 
 ###### 4) 기본 설치 경로
 게임을 설치할 때 기본으로 설치할 경로를 지정합니다.
-기본 경로는 Windows는 `<SystemDrive>/ProgramData/<GameName>`입니다.
+기본 경로는 Windows의 경우 `<SystemDrive>/ProgramData/<GameName>`입니다.
 다른 경로로 설정하려면 `[사용자 지정 경로]`를 선택하고 원하는 경로를 입력해주시면 됩니다.
 
 ###### 5) 설정된 기본 설치 경로
@@ -132,8 +132,8 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 ![game_config_regist_shortcut](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_regist_shortcut_250717.png)
 
 ###### 1) 바로 가기 생성 방법
-> 바로가기 자동 생성 : 게임 사용자의 선택 없이 바로가기를 항상 생성 합니다.
-> 게임 사용자가 생성 여부 선택 :  런처에서 게임 사용자가 바로가기 생성 여부를 선택합니다.
+> 바로가기 자동 생성 : 게임 사용자의 선택 없이 바로가기를 항상 생성합니다.
+> 게임 사용자가 생성 여부 선택 : 런처에서 바로가기 생성 여부를 설정할 수 있습니다.
 > 바로가기 생성 안함 : 바로가기를 생성하지 않습니다.
 
 ###### 2) 바로 가기 아이콘 이미지
@@ -201,7 +201,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 ![game_config_modify](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_config_modify2_250717.png)
 
-수정하고자 하는 설정을 수정하고 게임 설정 마지막 페이지의 `[저장]` 버튼을 통해서 수정할 수 있습니다.
+게임 설정의 변경 사항을 저장하려면 마지막 페이지에서 `[저장]` 버튼을 클릭하여 수정 할 수 있습니다.
 
 ##### 2) 게임 설정 복사
 
@@ -237,13 +237,19 @@ CDN 연동을 하려면 `[연동]` 버튼을 통해서 진행할 수 있습니�
 
 1. GameStarter 파일 스토리지 주소를 고객사 자체 CDN의 원본 서버 URL로 등록합니다.
 2. 고객사 자체 CDN의 주소를 입력합니다.
+3. 확인 버튼을 눌러 연동을 시작 합니다.
 
-//Todo: 연동이 정상적으로 되었을경우, 스크린샷 설명추가
-CDN 연동을 진행하면 다소 시간이 소요됩니다.
+![game_binary_cdn_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_list_250717.png)
+CDN 연동의 결과를 확인하려면, 게임 바이너리 상세정보 화면에서 확인 할 수 있습니다.
+상세정보 확인은 빨간 박스 영역을 클릭하면 이동 할 수 있습니다.
 
-CDN 엣지서버에 배포가 전부 완료되지 않았거나, 하는경우 연동에 다소 시간이 소요될수 있으며 
-아래처럼 연동이 되지 않는다는 메세지가 발생할 수 있다는 내용과 스크린샷 추가
-실제 잘못된경로가 아닌경우에도.
+![game_binary_cdn_success](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_success_250717.png)
+CDN 연동이 정상적으로 완료된경우 게임 바이너리 상세 정보 화면에서 CDN 연동 성공 내용을 확인 할 수 있습니다.
+
+![game_binary_cdn_failed](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_failed_1_250717.png)
+CDN 엣지서버에 배포가 진행중이거나, 혹은 다른 사유에서 연동에 다소 시간이 소요될수 있습니다.
+연동에 시간이 소요되거나, 연동에 실패하는 경우 게임 바이너리 상세 정보 화면에서
+CDN 연동 실패 내용을 확인 할 수 있습니다.
 
 
 #### 5-5. 게임 바이너리 상세보기
@@ -395,7 +401,7 @@ TEST 배포존에서 게임 바이너리의 `[배포]` 버튼을 클릭하면 �
 > 
 > `GRAY` : 미배포 상태. 배포된 이력이 아무것도 없을경우 기본으로 표시되는 색상입니다.
 > `YELLOW` : 게임 설정만 배포된 상태.
-> `GREED` : 게임 설정과 게임 바이너리가 배포 완료된 상태.
+> `GREEN` : 게임 설정과 게임 바이너리가 배포 완료된 상태.
 > `RED` : 게임 바이너리 배포에 실패한 상태.
 
 
@@ -478,7 +484,7 @@ TEST 배포존에서 게임 바이너리의 `[배포]` 버튼을 클릭하면 �
 
 ![game_history_binary_04](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_history_config_4_250717.png)
 게임 바이너리를 배포된 상태를 나타냅니다.
-배포 상태는 `?` 에 커서를 가져가면 상태 리스트를 확인 할 수 있습니다.
+배포 상태는 `?` 에 커서를 가져가면 상태 목록을 확인 할 수 있습니다.
 
 > [참고] 배포 상태
 >
