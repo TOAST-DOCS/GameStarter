@@ -170,10 +170,12 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 차트 데이터를 통해 시간대별 런처 실행수 와 런처 실행 실패이유, OS 점유율, 런처 버전 점유율을 확인 할 수 있습니다.
 
 ##### 2-3) 런처 실행 엑셀 저장
+
 런처 실행과 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
 파일명은 `Realtime_Launcher_날자_시간.xlsx` 형식으로 제공 됩니다.
 
 런처 실행 지표 데이터는 Dashboard, Execution (OS), Execution (Launcher Version)  탭으로 데이터가 제공됩니다.
+
 1) Dashboard 탭에서는 시간대별 런처 실행 지표 정보를 제공 합니다.
     1-1) `Launcher Execution` : 런처 실행 수
     1-2) `Launcher Execution Success` : 런처 실행 성공 수
@@ -251,19 +253,27 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 
 #### 2. 게임 실행
+
 ![monitoring_execute_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
+
 조회된 기간의 게임 실행 수 와 게임 실행 실패 이유의 차트데이터를 제공 합니다.
 
 #### 3. 게임 설치
+
 ![monitoring_install_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
+
 조회된 기간의 게임 설치 수 와 게임 설치 실패 이유의 차트데이터를 제공 합니다.
 
 #### 4. 런처 실행
+
 ![monitoring_execute_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
+
 조회된 기간의 런처 실행 수와 런처 실행 실패 이유의 차트 데이터를 제공합니다.
 
 #### 5. 모니터링 지표
+
 ![monitoring_grid1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
+
 조회된 기간의 전체 모니터링 지표를 표 형식으로 제공합니다.
 기간(일자) 별 데이터를 제공하며 아래의 데이터 항목들을 확인 할 수 있습니다.
 
@@ -272,7 +282,9 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 >- 게임 업데이트 설치/ 설치 성공/ 설치 실패 /설치 이탈
 >- 런처 실행 / 실행 성공/ 실행 실패
 
+
 #### 6. 모니터링 엑셀 저장
+
 모니터링 지표 데이터를 엑셀로 저장 할 수 있습니다.
 
 모니터링 지표의 엑셀 데이터 저장 항목은 아래와 같습니다.

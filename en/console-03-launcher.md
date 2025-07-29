@@ -44,15 +44,18 @@
 따라서 런처 설정 이름은 중복으로 등록할 수 없습니다.
 또한 한글, 영문 대소문자, 숫자, 띄어쓰기를 포함하여 2 ~ 20자까지 입력 가능합니다.
 
+
 ##### 2) 메모
 메모는 런처 설정의 내용을 참고하기 위해서 입력하는 정보입니다.
 
 모든 설정을 완료하였으면 하단의 `[다음]` 버튼으로 다음 페이지로 이동합니다.
 
+
 #### 2-2. 런처 레이아웃 구성
 
 런처가 실행되는 모드를 설정합니다.
 ![launcher_register_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config2_250717.png)
+
 
 ##### 1) 실행 모드
 런처의 실행 모드를 설정합니다.
@@ -64,14 +67,17 @@
 
 자동 업데이트 : 자동 업데이트는 런처가 실행되면 업데이트할 게임이 있으면 바로 업데이트를 실행할 수 있습니다.
 
+
 ##### 2) 런처 상단
 런처 상단에 아이콘의 노출 여부를 설정할 수 있습니다.
+
 
 ##### 3) 브랜드 아이콘
 게임 이외에 브랜드 아이콘을 설정할 수 있으며,사용할 이미지를 업로드합니다.
 
 브랜드 아이콘 이미지 파일은 `JPG, JPEG, PNG 확장자만 업로드`할 수 있습니다.
 브랜드 아이콘 이미지의 권장 크기는 `256x256`입니다.
+
 
 #### 4) 런처 게임 선택
 런처 하나에서 여러 게임을 실행할 수 있도록 지원하며, 해당 런처에 노출할 게임 리스트를 설정 할 수 있습니다.
@@ -80,12 +86,14 @@
 선택하는 게임 순서대로 런처에 게임이 표시되는 것을 확인할 수 있습니다.
 아래의 예시는 `game1`, `game2`, `game3`을 순서대로 추가하였습니다.
 
+
 #### 2-3. 미리 보기
 하단의 미리보기 버튼을 통하여 설정한 런처 정보를 미리 확인 할 수 있습니다.
 
 ![launcher_config_preview](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_preview_250717.png)
 
 모든 설정을 완료하였으면 `[등록]` 버튼으로 런처 설정을 등록할 수 있습니다.
+
 
 ### 3. 런처 설정 상세보기
 ![launcher_config_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_list_250717.png)
@@ -98,11 +106,13 @@
 왼쪽 위의 `[수정] 버튼을 클릭하여 수정`할 수 있습니다.
 왼쪽 위의 `[복사] 버튼을 클릭하여 복사`할 수 있습니다.
 
+
 #### 1) 런처 설정 수정
 ![launcher_modify_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify2_250717.png)
 
 `[수정]` 버튼을 누르면 런처 설정 수정 페이지로 변경됩니다.
 런처 설정 수정이 완료되었으면 마지막 단계에서 `[저장]`을 통해서 수정사항을 반영할 수 있습니다.
+
 
 ##### 2) 런처 설정 복사
 ![launcher_copy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_copy_250717.png)
@@ -116,6 +126,7 @@
 
 ###### 2-2) 메모
 복사할 런처 설정을 구분할 수 있는 내용을 메모에 작성해주세요.
+
 
 ### 4. 런처 배포
 ![launcher_deploy_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_list_250717.png)
@@ -179,9 +190,12 @@ DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝�
 새롭게 배포하려는 런처 설정이 맞는지 모두 확인되면 `[배포]` 버튼을 통해서 즉시 배포나 예약 배포를 실행할 수 있습니다.
 
 `[배포]` 버튼으로 배포 팝업창이 닫히면서 배포존에 배포 상태에 변경된 것을 확인할 수 있습니다.
+
+
 ![launcher_deploy_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_comp_250717.png)
 
 배포가 완료된 이후 최근 배포 완료된 런처 설정 영역에서 실행 템플릿과, 런처 실행을 할 수 있습니다.
+
 
 #### 1) 실행 템플릿
 실행 템플릿은 웹 브라우저에서 런처를 실행하거나 인스톨러를 다운로드할 수 있는 자바스크립트를 제공합니다. 해당 배포존에 런처가 이미 설치되어 있으면 런처를 실행하게 됩니다.
@@ -196,17 +210,20 @@ DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝�
 `[런처 실행]` 버튼을 통해서 배포존의 런처를 실행할 수 있습니다.
 실행할 대상 게임을 선택한 후 확인 버튼을 누르면, 사용자 PC에 런처 설치 여부에 따라서 2가지로 수행됩니다.
 
+
 ##### 8-1) 런처를 이미 설치한 경우
 ![launcher_execute_urlscheme](https://static.toastoven.net/prod_gamestarter/console/gamestarter_launcher_execute_urlscheme_202311.png)
 
 런처를 설치한 경우 브라우저에서 실행 팝업창이 등장합니다.
 여기서 `[GameStarter 열기]` 버튼을 통해서 런처를 실행할 수 있습니다.
 
+
 ##### 8-2) 런처를 설치하지 않은 경우
 ![launcher_execute_download](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_download_250717.png)
 
 런처를 설치하지 않은 경우 브라우저에서 인스톨러 다운로드 팝업창이 등장합니다.
 `[확인]` 버튼을 통해서 인스톨러를 다운로드 받을 수 있습니다.
+
 
 ##### 8-3) 런처가 실행된 화면
 인스톨러를 통해 런처를 설치한 이후에 런처를 실행하면 아래와 같이 런처가 실행된 모습을 확인할 수 있습니다.
@@ -229,18 +246,18 @@ DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝�
 6. `배포 상태`: 배포 상태로 필터링할 수 있습니다.
 
 
-배포 이력 조회의 결과에서는 다음과 같은 필드가 있습니다. 
+배포 이력 조회의 결과에서는 다음과 같은 필드가 있습니다.
 
 1. `런처 설정 이름`: 배포된 런처의 설정 이름을 나타냅니다.
 2. `배포존`: 배포존 정보를 나타냅니다.
 3. `OS`: 게임의 OS를 나타냅니다.
 4. `게임 목록`: 배포된 런처에 설정되었던 게임을 나타냅니다.
 5. `배포 상태`: 배포된 런처의 배포 상태를 나타냅니다.
-    - 배포 중
-    - 배포 완료
-    - 배포 예약
-    - 배포 예약 취소
-    - 배포 실패
+   - 배포 중
+   - 배포 완료
+   - 배포 예약
+   - 배포 예약 취소
+   - 배포 실패
 6. `배포 일시`: 런처가 배포된 날짜를 나타냅니다.
 7. `배포자`: 런처를 배포한 사용자의 마스킹 된 이메일 주소를 나타냅니다.
 8. `메모`: 배포된 런처의 메모를 나타냅니다.

@@ -7,7 +7,7 @@ GameStarter 런처를 실행하려면 가장 먼저 런처가 사용자 PC에 �
 
 런처 인스톨러를 생성할때 필요한 설정들에 대해서 설명합니다.
 
-### 초기 설정
+### 1. 초기 설정
 
 런처 인스톨러의 `[초기 설정]`에 대해 먼저 설정하겠습니다.
 
@@ -17,7 +17,7 @@ GameStarter 런처를 실행하려면 가장 먼저 런처가 사용자 PC에 �
 초기 설정 이후에는 일부 항목들에 대한 수정만이 가능 합니다.
 수정과 관련된 내용은 아래의 `[설정 수정]` 내용을 참고 해주세요.
 
-### 1. URL scheme 설정
+### 1-1. URL scheme 설정
 ![installer_urlscheme](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_url_scheme_250717.png)
 
 초기 설정시 처음 등록할 내용은 URL scheme  설정 입니다.
@@ -49,7 +49,7 @@ GameStarter는 사용자가 등록한 URL Scheme으로 런처를 실행할 수 �
 > 예) DEVELOP
 > - URL Scheme: example-develop
 
-### 2. 공통 이름 설정
+### 1-2. 공통 이름 설정
 ![installer_names](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_name_250717.png)
 
 #### 1) 공통 이름
@@ -100,16 +100,19 @@ GameStarter 런처가 설치되고 난 이후 바탕화면에 자동으로 런�
 #### 2) 바로 가기 아이콘 이름
 입력한 내용이 올바른지 확인이 끝나면 `[등록]` 버튼을 클릭합니다.
 
-![installer_confirm_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_after_list_click_250717.png)
+#### 3) 등록 설정 확인
 등록된 설정은 인스톨러 설정 리스트를 클릭하면 확인 할 수 있습니다.
+![installer_confirm_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_after_list_click_250717.png)
 
-### 3. 런처 인스톨러 설정 배포
-![installer_deploy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_deploy_250717.png)
-
+### 1-3. 런처 인스톨러 설정 배포
 인스톨러에 필요한 설정을 모두 마치면 인스톨러 설정을 배포 하여야 합니다.
 이 작업은 몇 분에서 수십 분이 소요될 수 있습니다.
 
+![installer_deploy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_deploy_250717.png)
+
 #### 1) 배포 버튼을 통하여 즉시 배포와 예약 배포를 진행 할 수 있습니다.
+
+
 ![installer_deploy_modal](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_deploy_modal_250717.png)
 
 #### 1) 예약 배포는 등록시간기준 보다 10분 이후의 시간부터 설정 가능 합니다.
@@ -136,9 +139,14 @@ GameStarter 런처가 설치되고 난 이후 바탕화면에 자동으로 런�
 배포 이력 텝에서 배포된 인스톨러의 정보와 배포 이력을 조회 할 수 있습니다.
 ![installer_deploy_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_deploy_list_250717.png)
 
-### 설정 수정
+### 2. 설정 수정
 런처 인스톨러의 설정 상제 정보를 조회 하고 수정 할 수 있습니다.
 위의 안내에 따라 인스톨러 설정의 등록과 배포 이후에 인스톨러 설정 화면입니다.
+
+#### 2-1. 등록된 설정 확인
+
+설정 수정을 위해서는 설정리스트의 빨간박스 영역을 클릭하여 등록한 인스톨러 상세정보를 조회/수정 할 수 있는 페이지로 이동해야 합니다.
+
 ![installer_config_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_config_list_250717.png)
 
 1. `OS 별 조회 버튼`: OS 별로 등록된 설정을 나타냅니다.
@@ -148,8 +156,10 @@ GameStarter 런처가 설치되고 난 이후 바탕화면에 자동으로 런�
 5. `등록자`: 런처 인스톨러 설정을 등록한 사용자의 마스킹 된 이메일 주소를 나타냅니다.
 6. `메모`: 런처 인스톨러 설정 등록시 입력한 메모를 나타냅니다.
 
-설정 수정을 위해서는 설정리스트의 빨간박스 영역을 클릭하여 등록한 인스톨러 상세정보를 조회/수정 할 수 있습니다.
+#### 2-2. 등록된 설정 상세 정보 확인
+
 인스톨러의 기본 정보를 확인 할 수 있으며, 하단의 다음 버튼을 클릭하여 런처 바로가기 아이콘 등록정보를 확인 할 수 있습니다.
+설정 수정을 위해서는 `[수정]` 버튼을 통하여 기본정보를 수정 할 수 있습니다.
 
 ![installer_config_enter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_config_enter_250717.png)
 1. `수정 버튼`: OS 별로 등록된 설정을 나타냅니다.
@@ -159,15 +169,17 @@ GameStarter 런처가 설치되고 난 이후 바탕화면에 자동으로 런�
 5. `등록자`: 런처 인스톨러 설정을 등록한 사용자의 마스킹 된 이메일 주소를 나타냅니다.
 6. `메모`: 런처 인스톨러 설정 등록시 입력한 메모를 나타냅니다.
 
-#### 1) 기본 정보 수정
-설정 수정을 위해서는 수정 버튼을 눌러 아래의 페이지로 진입합니다.
+#### 2-3. 기본 정보 수정
+설정 수정을 위해서는 수정 버튼을 누르거나, 2-2 항목(인스톨러 설정 상제 정보)에서 다음 버튼을 통하여 아래의 페이지로 진입 하여 수정 할 수 있습니다.
 
 ![installer_config_modify_default](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_config_modify_default_250717.png)
 1. `인스톨러 버전`: 인스톨러 버전 항목을 수정 할 수 있습니다.
 2. `메모`: 인스톨러 설정 메모 내용을 수정 할 수 있습니다.
 3. 하단의 `[다음]` 버튼을 클릭하여 다음 수정 페이지로 이동 합니다. 
 
-#### 2) 런처 바로 가기 아이콘 수정
+#### 2-4. 런처 바로 가기 아이콘 수정
+
+설정 수정을 위해서는 수정 버튼을 누르거나, 2-3 항목(기본정보 수정)에서 다음 버튼을 통하여 아래의 페이지로 진입 하여 수정 할 수 있습니다.
 
 기존에 등록된 런처 바로가기 아이콘 정보를 확인하고 바로가기 아이콘 이름을 수정 할 수 있습니다.
 ![installer_config_modify_shotcut](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/installer/gamestarter_installer_config_modify_shotcut_250717.png)
