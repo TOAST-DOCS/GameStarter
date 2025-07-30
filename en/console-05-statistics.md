@@ -209,7 +209,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
    1-2) **Launcher Install Success** : 런처 설치 성공 수
    1-3) **Launcher Install Fail** : 런처 설치 실패 수
 
-2) I**nstall (OS) 탭**에서는 시간대에 따른 OS별 지표 정보를 제공 합니다.
+2) **Install (OS) 탭**에서는 시간대에 따른 OS별 지표 정보를 제공 합니다.
    각 OS 명 하위에 아래와 항목 지표를 확인 할 수 있습니다.
    2-1) **Total** : 전체 설치 수
    2-2) **Success** : 전체 설치 성공 수
