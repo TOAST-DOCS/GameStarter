@@ -271,7 +271,7 @@ CDN 연동의 결과를 확인하려면, 게임 바이너리 상세정보 화면
 
 CDN 연동이 정상적으로 완료된경우 게임 바이너리 상세 정보 화면에서 CDN 연동 성공 내용을 확인 할 수 있습니다.
 
-![game_binary_cdn_failed](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_failed_1_250717.png)
+![game_binary_cdn_failed](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_cdn_failed_2_250717.png)
 
 CDN 엣지서버에 배포가 진행중이거나, 혹은 다른 사유에서 연동에 다소 시간이 소요될수 있습니다.
 연동에 시간이 소요되거나, 연동에 실패하는 경우 게임 바이너리 상세 정보 화면에서
@@ -326,13 +326,20 @@ TEST 배포존의 업로드 실행의 `[바이너리 업로드]` 버튼을 통�
 
 ![game_binary_upload_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload2_250717.png)
 
-업로드하고자 하는 게임 바이너리의 폴더를 선택해주세요.
+**Windows** 의 경우 업로드하고자 하는 게임 바이너리의 **폴더를 선택**해주세요.
+**MAC OS** 의 경우 **Apple 에서 인증 하여 제공된 `게임.zip` 파일을 업로드 해주세요.**
+
+> <font color="red">[주의]</font><br/>
+>
+> MAC OS의 게임 바이너리가 **인증되지 않은 파일을 업로드하는경우 게임이 실행되지 않습니다.**
+
 
 ![game_binary_upload_03](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload3_250717.png)
 
 게임 실행 파일 정보를 선택해야 합니다.
-입력창에는 업로드한 바이너리의 파일들이 리스트로 표시됩니다.
-이 중에 게임을 실행하는 파일을 선택해주시면 됩니다.
+입력창에는 업로드된 바이너리의 파일들의 리스트가 표시됩니다.
+이 중에 게임을 실행하는 파일을 선택해주시거나,
+실행 파일 이름 입력창에 파일 이름을 입력해 검색 후 선택할 수 있습니다.
 
 ![game_binary_upload_04](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/game/gamestarter_game_upload4_250717.png)
 
