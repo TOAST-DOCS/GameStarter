@@ -7,7 +7,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 지표 데이터를 조회 하기 위한 메뉴 구성은 아래와 같습니다.
 
-![statistics_title1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_title_1_250717.png)
+![statistics_title1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_title_1_250717.png)
 
 1. **실시간 모니터링**은 당일 자정부터 조회 시점까지의 지표 데이터를 제공합니다.
 2. **모니터링 지표**는 설정한 기간(일간, 주간, 월간)의 집계 데이터를 제공합니다.
@@ -24,7 +24,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 실시간 모니터링 은 당일 자정 부터 조회 시점 시간까지의 지표 데이터의 조회 기능을 제공합니다.
 00:00 부터 조회 시점까지의 데이터를 조회하며, 조건 버튼을 통해 필터링된 데이터의 조회가 가능합니다.
 
-![statistics_main](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
+![statistics_main](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
 
 
 #### 1. 실시간 모니터링 > 게임
@@ -36,7 +36,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 지표 데이터는 필터데이터를 적용하여 조회와 엑셀 파일로 저장 할 수 있습니다.
 
-![realtime_game_filter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_filter_250717.png)
+![realtime_game_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_filter_250717.png)
 
 > 1) 조회 대상
 >   조회 대상은 User ID 기준 과 전체 실행 기준 항목이 있습니다.
@@ -57,7 +57,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 게임 실행과 관련된 지표 정보를 표시합니다.
 
-![statistics_real_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_none_250717.png)
+![statistics_real_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_none_250717.png)
 대시 보드에서 **게임 실행 수**, **게임 실행 성공 수**, **게임 실행 실패 수**를 제공하며, **전일대비 증감치**를 확인 할 수 있습니다.
 차트 데이터를 통해 **시간대별 증감 수치**와, **게임 실행 실패 이유 정보**를 확인 할 수 있습니다.
 
@@ -78,7 +78,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 게임 설치와 관련된 지표 정보를 표시합니다.
 
-![realtime_install_game1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_install_game_none_250717.png)
+![realtime_install_game1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_game_none_250717.png)
 
 대시보드 에서 **게임 설치수**, **게임 설치 성공 수**, **게임 설치 실패 수**, **게임 다운로드 평균 속도**, **파일 다운로드 용량**, **파일 다운로드 수** 에 대한 정보를 확인 할 수 있습니다.
 대시보드의 FULL, UPDATE 의 설명은 아래와 같습니다.
@@ -86,7 +86,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 >- **UPDATE** : 업데이트 설치
 
 
-![realtime_install_game2](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_install_game2_none_250717.png)
+![realtime_install_game2](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_game2_none_250717.png)
 
 차트 데이터를 통해 시간대별 **게임 설치수**, **게임 설치 실패 이유**, **시간대별 게임 전체 업데이트 설치 수**, **시간대 별 게임 전체 업데이트 설치 평균시간**,
 **시간대별 다운도르 속도 및 용량**, **시간대별 게임 다운로드 파일 수** 의 정보를 확인 할 수 있습니다.
@@ -143,7 +143,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ##### 2-1) 런처 필터 정보
 
-![realtime_execute_launcher_filter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_filter_launcher_250717.png)
+![realtime_execute_launcher_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_filter_launcher_250717.png)
 
 > 1) 조회 대상
 >  조회 대상은 User ID 기준 과 전체 실행 기준 항목이 있습니다.
@@ -162,7 +162,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 ##### 2-2) 런처 실행
 
-![realtime_execute_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_execute_launcher_none_250717.png)
+![realtime_execute_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_execute_launcher_none_250717.png)
 
 대시보드에서 런처 실행 수, 성공 수, 실패 수를 제공하며, 전일 대비 증감치를 통해 실행 트렌드를 확인 할 수 있습니다.
 차트 데이터를 통해 시간대별 런처 실행수 와 런처 실행 실패이유, OS 점유율, 런처 버전 점유율을 확인 할 수 있습니다.
@@ -193,7 +193,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 
 ##### 2-4) 런처 설치
-![realtime_install_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_install_launcher_none_250717.png)
+![realtime_install_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_launcher_none_250717.png)
 
 대시보드 에서 **런처 설치 수**, **런처 설치 성공 수**, **런처 설치 실패 수** 를 제공하며, **전일대비 증감치**를 확인 할 수 있습니다.
 차트 데이터를 통해 **시간대별 런처 설치수** 와 **런처 설치 실패이유**를 확인 할 수 있습니다.
@@ -230,7 +230,7 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 #### 1. 모니터링 지표 필터 정보
 
-![monitoring_filter](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
+![monitoring_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
 
 > 1) 조회 대상
 >  조회 대상은 User ID 기준 과 전체 실행 기준 항목이 있습니다.
@@ -252,25 +252,25 @@ GameStarter 에서는 게임의 효율적인 지표 파악을 위해 관련 데�
 
 #### 2. 게임 실행
 
-![monitoring_execute_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
+![monitoring_execute_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
 
 조회된 기간의 게임 실행 수 와 게임 실행 실패 이유의 차트데이터를 제공 합니다.
 
 #### 3. 게임 설치
 
-![monitoring_install_game](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
+![monitoring_install_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
 
 조회된 기간의 게임 설치 수 와 게임 설치 실패 이유의 차트데이터를 제공 합니다.
 
 #### 4. 런처 실행
 
-![monitoring_execute_launcher](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
+![monitoring_execute_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
 
 조회된 기간의 런처 실행 수와 런처 실행 실패 이유의 차트 데이터를 제공합니다.
 
 #### 5. 모니터링 지표
 
-![monitoring_grid1](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
+![monitoring_grid1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
 
 조회된 기간의 전체 모니터링 지표를 표 형식으로 제공합니다.
 기간(일자) 별 데이터를 제공하며 아래의 데이터 항목들을 확인 할 수 있습니다.

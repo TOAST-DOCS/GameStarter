@@ -8,7 +8,7 @@
 런처 설정 방법과 런처를 배포하는 방법에 대해서 설명합니다.
 
 ### 1. 런처 설정 목록
-![launcher_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_list_250717.png)
+![launcher_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_list_250717.png)
 
 런처 목록에서는 등록된 런처 설정들을 조회할 수 있습니다.
 또한 새로운 런처를 등록하거나 삭제할 수 있으며, 기존의 런처 설정을 복사할 수도 있습니다.
@@ -37,7 +37,7 @@
 새로운 런처 설정 등록은 왼쪽 상단의  `[+각 OS별 등록 버튼]으로 등록`할 수 있습니다.
 
 #### 2-1. 기본 정보
-![launcher_register_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_register1_250717.png)
+![launcher_register_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_register1_250717.png)
 
 ##### 1) 런처 설정 이름
 런처 설정 이름은 다른 런처 설정과 구분하기 위해서 사용합니다.
@@ -54,7 +54,7 @@
 #### 2-2. 런처 레이아웃 구성
 
 런처가 실행되는 모드를 설정합니다.
-![launcher_register_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config2_250717.png)
+![launcher_register_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config2_250717.png)
 
 
 ##### 1) 실행 모드
@@ -90,17 +90,17 @@
 #### 2-3. 미리 보기
 하단의 미리보기 버튼을 통하여 설정한 런처 정보를 미리 확인 할 수 있습니다.
 
-![launcher_config_preview](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_preview_250717.png)
+![launcher_config_preview](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_preview_250717.png)
 
 모든 설정을 완료하였으면 `[등록]` 버튼으로 런처 설정을 등록할 수 있습니다.
 
 
 ### 3. 런처 설정 상세보기
-![launcher_config_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_list_250717.png)
+![launcher_config_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_list_250717.png)
 
 런처 설정 상세 정보를 보려면 빨간색 영역의 런처를 클릭하여 상세보기 페이지로 이동합니다.
 
-![launcher_modify_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify_250717.png)
+![launcher_modify_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify_250717.png)
 
 런처 설정 상세보기에서 런처 설정을 수정하거나 복사할 수 있습니다.
 왼쪽 위의 `[수정] 버튼을 클릭하여 수정`할 수 있습니다.
@@ -108,14 +108,14 @@
 
 
 #### 1) 런처 설정 수정
-![launcher_modify_02](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify2_250717.png)
+![launcher_modify_02](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify2_250717.png)
 
 `[수정]` 버튼을 누르면 런처 설정 수정 페이지로 변경됩니다.
 런처 설정 수정이 완료되었으면 마지막 단계에서 `[저장]`을 통해서 수정사항을 반영할 수 있습니다.
 
 
 ##### 2) 런처 설정 복사
-![launcher_copy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_config_copy_250717.png)
+![launcher_copy](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_copy_250717.png)
 
 `[복사]` 버튼을 누르면 복사 팝업창이 등장합니다.
 런처 설정 복사는 런처 설정 이름과 메모를 제외한 설정을 복사합니다.
@@ -129,7 +129,7 @@
 
 
 ### 4. 런처 배포
-![launcher_deploy_list](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_list_250717.png)
+![launcher_deploy_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_list_250717.png)
 런처 배포 페이지에는 배포존별로 배포를 할 수 있도록 구분되어 있습니다.
 기본적으로 제공되는 배포존은 SERVICE, DEVELOP, TEST 배포존이 있습니다.
 배포존별로 각각 런처 설정을 배포할 수 있습니다.
@@ -160,7 +160,7 @@
 예시로 DEVELOP 배포존에 등록된 런처 설정을 배포해보도록 하겠습니다.
 DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝업창이 등장합니다.
 
-![launcher_deploy](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_250717.png)
+![launcher_deploy](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_250717.png)
 
 런처를 배포하는 방식에는 2가지가 있습니다.
 - 예약 배포
@@ -183,7 +183,7 @@ DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝�
 ##### 6-4) 배포 비교
 즉시 배포나 예약 배포의 설정이 완료되면 마지막 단계로 마지막에 배포한 정보와 비교하는 팝업창이 등장합니다.
 
-![launcher_deploy_confirm](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_confirm_250717.png)
+![launcher_deploy_confirm](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_confirm_250717.png)
 
 기본정보와, 레이아웃 구성, 노출될 게임 정보를 확인 할 수 있습니다.
 
@@ -192,7 +192,7 @@ DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝�
 `[배포]` 버튼으로 배포 팝업창이 닫히면서 배포존에 배포 상태에 변경된 것을 확인할 수 있습니다.
 
 
-![launcher_deploy_complete](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_comp_250717.png)
+![launcher_deploy_complete](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_comp_250717.png)
 
 배포가 완료된 이후 최근 배포 완료된 런처 설정 영역에서 실행 템플릿과, 런처 실행을 할 수 있습니다.
 
@@ -205,7 +205,7 @@ DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝�
 #### 2) 런처 실행
 배포존에 런처가 배포가 완료되면 런처를 실행할 수 있게 됩니다.
 
-![launcher_execute](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_execute_250717.png)
+![launcher_execute](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_execute_250717.png)
 
 `[런처 실행]` 버튼을 통해서 배포존의 런처를 실행할 수 있습니다.
 실행할 대상 게임을 선택한 후 확인 버튼을 누르면, 사용자 PC에 런처 설치 여부에 따라서 2가지로 수행됩니다.
@@ -219,7 +219,7 @@ DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝�
 
 
 ##### 8-2) 런처를 설치하지 않은 경우
-![launcher_execute_download](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_download_250717.png)
+![launcher_execute_download](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_download_250717.png)
 
 런처를 설치하지 않은 경우 브라우저에서 인스톨러 다운로드 팝업창이 등장합니다.
 `[확인]` 버튼을 통해서 인스톨러를 다운로드 받을 수 있습니다.
@@ -233,7 +233,7 @@ DEVELOP 배포존의 `[배포]` 버튼을 누르면 아래와 같은 배포 팝�
 
 
 ### 5. 배포 이력
-![launcher_history_01](https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_2acdfabf4efe4efc8a04c00b348110c9/cdn_origin/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_history_250717.png)
+![launcher_history_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_history_250717.png)
 
 런처가 배포된 이력을 배포 이력 페이지에서 조회할 수 있습니다.
 
