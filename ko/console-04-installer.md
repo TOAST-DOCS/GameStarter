@@ -164,7 +164,7 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 **수정**을 클릭해 기본 정보 설정을 수정할 수 있습니다.
 
 ![installer_config_enter](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_config_enter_250717.png)
-➊ **수정 버튼**: 인스톨러 설정을 수정 할 수 있습니다.
+➊ **수정 버튼**: 인스톨러 설정을 수정할 수 있습니다.
 ➋ **URL Scheme**: 등록된 URL Scheme 정보를 나타냅니다.
 ➌ **공통 이름**: 등록된 런처의 Installer 이름, Uninstaller 이름, 설치 폴더 이름 및 설치 경로에 사용되는 공통 이름 정보를 나타냅니다.
 ➍ **인스톨러 버전**: 인스톨러 버전 정보를 나타냅니다.
