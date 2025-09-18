@@ -151,7 +151,7 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 
 ![installer_config_list](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_config_list_250717.png)
 
-➊ **OS별 조회 버튼**: Windows 또는 macOS별로 등록된 설정을 나타냅니다
+➊ **OS별 조회 버튼**: Windows 또는 macOS별로 등록된 설정을 나타냅니다.
 ➋ 배포존: 배포존 정보를 나타냅니다.
 ➌ **인스톨러 설정 버전**: 인스톨러의 설정 버전 정보를 나타냅니다.
 ➍ **등록 일시**: 인스톨러의 설정을 등록한 날짜를 나타냅니다.
