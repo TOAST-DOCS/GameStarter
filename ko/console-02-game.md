@@ -321,7 +321,7 @@ CDN 연동이 완료된 이후에 게임 바이너리 파일들을 업로드할 
 
 ![game_binary_upload_01](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload1_250717.png)
 
-TEST 배포존의 업로드 실행의 **바이너리 업로드** 버튼을 통해서 파일 업로드를 진행합니다.
+게임 바이너리 목록에서 배포할 배포존 라인의 게임 **바이너리 업로드**를 클릭해 파일 업로드를 진행합니다.
 
 ![game_binary_upload_02](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload2_250717.png)
 
