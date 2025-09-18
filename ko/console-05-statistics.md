@@ -176,7 +176,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 
 **Dashboard** 탭에서는 시간대별 런처 실행 지표 정보를 제공합니다.
    - **Launcher Execution**: 런처 실행 수
-   - **Launcher Execution Success** : 런처 실행 성공 수
+   - **Launcher Execution Success**: 런처 실행 성공 수
    - **Launcher Execution Fail** : 런처 실행 실패 수
 
 **Execution (OS)** 탭에서는 시간대에 따른 OS별 지표 정보를 제공 합니다.
