@@ -208,7 +208,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 ![game_config_register_complete](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_ui_complete_250717.png)
 
-게임 설정 목로에서 상단 이미지의 빨간색으로 표시한 영역을 클릭하면 게임 설정 상세보기 페이지로 이동할 수 있습니다.
+게임 설정 목록에서 상단 이미지의 빨간색으로 표시한 영역을 클릭하면 게임 설정 상세보기 페이지로 이동할 수 있습니다.
 
 ![game_config_detail](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_config_modify_250717.png)
 
