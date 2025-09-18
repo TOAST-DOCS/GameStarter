@@ -92,7 +92,7 @@ GameStarter는 사용자가 등록한 URL Scheme으로 런처를 실행할 수 �
 #### 런처 바로가기 아이콘
 ![installer_icons](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_250717.png)
 
-GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 가기를 생성할 수 있으며, 바로 가기를 생성하는 데 필요한 설정을등록합니다.
+GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 가기를 생성할 수 있으며, 바로 가기를 생성하는 데 필요한 설정을 등록합니다.
 
 #### ➊ 바로가기 아이콘 이미지
 바로가기 아이콘 이미지를 등록합니다.
