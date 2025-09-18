@@ -335,7 +335,7 @@ macOS를 사용할 경우 Apple에서 인증하여 제공된 '게임.zip' 파일
 
 ![game_binary_upload_03](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload3_250717.png)
 
-실행 파일 이름 드롭다운 메뉴에서 게임을 실행하는 파일을 선택하거나, 파일 이름을 직접 입력해 검색한 후 선택할 수도 있습니다.
+**실행 파일 이름** 드롭다운 메뉴에서 게임을 실행하는 파일을 선택하거나, 파일 이름을 직접 입력해 검색한 후 선택할 수도 있습니다.
 
 
 ![game_binary_upload_04](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload4_250717.png)
