@@ -303,7 +303,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
    - **GameUpdate (Game)**: 게임별 게임 업데이트 지표(총 숫자, 성공 수, 실패 수)
    - **GameUpdate (OS)**: OS별 게임 업데이트 지표(총 숫자, 성공 수, 실패 수)
 
-**LauncherExecution** 관련 탭에서는 조회 기간의 런처 실행 정보를 제공 합니다.
+**LauncherExecution** 관련 탭에서는 조회 기간의 런처 실행 정보를 제공합니다.
    - **LauncherExecution (Game)** : 게임별 런처 실행 지표 (총 숫자, 성공 수, 실패 수)
    - **LauncherExecution (OS)** : OS별 런처 실행 지표 (총 숫자, 성공 수, 실패 수)
 
