@@ -171,7 +171,7 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 ➎ **메모**: 런처 인스톨러 설정 등록시 입력한 메모를 나타냅니다.
 
 #### 기본 정보 수정
-기본 정보를 수정하려면 **수정**을 클릭하거나, **인스톨러 설정 상세 정보** 화면에서 다음을 클릭해 아래 **인스톨러 설정 수정** 페이지로 진입하세요
+기본 정보를 수정하려면 **수정**을 클릭하거나, **인스톨러 설정 상세 정보** 화면에서 **다음**을 클릭해 아래 **인스톨러 설정 수정** 페이지로 진입하세요.
 
 ![installer_config_modify_default](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_config_modify_default_250717.png)
 ➊ **인스톨러 버전**: 인스톨러 버전을 수정할 수 있습니다.
