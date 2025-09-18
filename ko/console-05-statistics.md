@@ -296,7 +296,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
    - **GameExecution (OS)**: OS별 게임 실행 지표(총 숫자, 성공 수, 실패 수)
 
 **GameDownload** 관련 탭에서는 조회 기간의 게임 다운로드 정보를 제공합니다.
-   - **GameDownload (Game)** : 게임별 게임 다운로드 지표 (총 숫자, 성공 수, 실패 수)
+   - **GameDownload (Game)**: 게임별 게임 다운로드 지표(총 숫자, 성공 수, 실패 수)
    - **GameDownload (OS)** : OS별 게임 다운로드 지표 (총 숫자, 성공 수, 실패 수)
 
 **GameUpdate** 관련 탭에서는 조회 기간의 게임 업데이트 정보를 제공합니다.
