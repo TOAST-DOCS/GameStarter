@@ -16,7 +16,7 @@
 등록된 게임의 고유한 이름을 나타냅니다.
 
 #### ➋ 게임 OS
-게임이 실행가능한 OS를 나타냅니다.
+게임을 실행할 수 있는 OS를 나타냅니다.
 
 #### ➌ 등록 일시
 게임을 등록한 날짜를 나타냅니다.
@@ -48,7 +48,7 @@
 
 ### 게임 상세보기
 
-게임 목록에서 **[상세]** 버튼을 눌러서 게임의 상세보기 페이지로 이동하게 됩니다.
+게임 목록에서 상세한 정보를 확인할 게임의 **상세** 버튼을 클릭해 게임 상세 정보 페이지로 이동합니다.
 
 ![game_detail](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_detail_250717.png)
 
@@ -181,7 +181,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 배경 이미지 영역의 편집 아이콘을 클릭해 새로운 배경 이미지를 등록할 수 있습니다.
 배경 이미지의 권장 크기는 992x584입니다.
 > [주의]
-> 해당 비율에 맞지 않는 이미지인 경우 런처 이미지에 스크롤이 생길 수 있습니다.`
+> 해당 비율에 맞지 않는 이미지인 경우 런처 이미지에 스크롤이 생길 수 있습니다.
 
 
 ###### ➌ Footer
@@ -208,7 +208,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 ![game_config_register_complete](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_ui_complete_250717.png)
 
-게임 설정 목로에서 상단 이미지의 빨간색으로 표시한 영역을 클릭하면 게임 설정 상세보기 페이지로 이동할 수 있습니다.
+게임 설정 목록에서 상단 이미지의 빨간색으로 표시한 영역을 클릭하면 게임 설정 상세보기 페이지로 이동할 수 있습니다.
 
 ![game_config_detail](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_config_modify_250717.png)
 
@@ -227,7 +227,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 ##### ➋ 게임 설정 복사
 
-게임 설정 목록 왼쪽 상단의 **복사**를 클릭해 게임 설정을 복사할 수 있습니다..
+게임 설정 목록 왼쪽 상단의 **복사**를 클릭해 게임 설정을 복사할 수 있습니다.
 
 ![game_config_copy](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_config_copy_250717.png)
 
@@ -260,7 +260,7 @@ CDN을 연동하려면 연동할 배포존의 **연동** 버튼을 클릭하세�
 
 1. GameStarter 파일 스토리지 주소를 고객사 자체 CDN의 원본 서버 URL로 등록합니다.
 2. 고객사 자체 CDN의 주소를 입력합니다.
-3. **확인** 버튼을 눌러 연동을 시작 합니다.
+3. **확인** 버튼을 눌러 연동을 시작합니다.
 
 ![game_binary_cdn_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_cdn_list_250717.png)
 
@@ -321,7 +321,7 @@ CDN 연동이 완료된 이후에 게임 바이너리 파일들을 업로드할 
 
 ![game_binary_upload_01](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload1_250717.png)
 
-TEST 배포존의 업로드 실행의 **바이너리 업로드** 버튼을 통해서 파일 업로드를 진행합니다.
+게임 바이너리 목록에서 배포할 배포존 라인의 게임 **바이너리 업로드**를 클릭해 파일 업로드를 진행합니다.
 
 ![game_binary_upload_02](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload2_250717.png)
 
@@ -335,13 +335,13 @@ macOS를 사용할 경우 Apple에서 인증하여 제공된 '게임.zip' 파일
 
 ![game_binary_upload_03](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload3_250717.png)
 
-실행 파일 이름 드롭다운 메뉴에서 게임을 실행하는 파일을 선택하거나, 파일 이름을 직접 입력해 검색한 후 선택할 수도 있습니다.
+**실행 파일 이름** 드롭다운 메뉴에서 게임을 실행하는 파일을 선택하거나, 파일 이름을 직접 입력해 검색한 후 선택할 수도 있습니다.
 
 
 ![game_binary_upload_04](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload4_250717.png)
 
 파일 업로드가 완료되면 업로드한 파일의 개수와 크기가 표시됩니다.
-확인 버튼을 누르면 파일 업로드가 진행됩니다.
+**확인** 버튼을 누르면 파일 업로드가 진행됩니다.
 
 ![game_binary_upload_05](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload6_250717.png)
 
@@ -390,7 +390,7 @@ TEST 배포존에서 **게임 설정 배포**의 **배포**를 클릭하면 게�
 ###### 즉시 배포
 
 즉시 배포에는 별도로 설정해야 내용이 없습니다.
-바로 마지막 단계인 **배포 비교]** 단계로 이동합니다.
+바로 마지막 단계인 **배포 비교** 단계로 이동합니다.
 
 ###### 배포 비교
 
@@ -436,10 +436,10 @@ TEST 배포존에서 **게임 바이너리 배포**의 **배포**를 클릭하�
 
 > [참고] 배포 상태에 따른 색상 정보
 >
-> **GRAY** :  미배포 상태. 배포된 이력이 아무 것도 없을 경우 기본으로 표시되는 색상입니다.
-> **YELLOW** : 게임 설정만 배포된 상태
-> **GREEN** : 게임 설정과 게임 바이너리가 배포 완료된 상태
-> **RED** : 게임 바이너리 배포에 실패한 상태
+> **GRAY**: 미배포 상태. 배포된 이력이 아무 것도 없을 경우 기본으로 표시되는 색상입니다.
+> **YELLOW**: 게임 설정만 배포된 상태
+> **GREEN**: 게임 설정과 게임 바이너리가 배포 완료된 상태
+> **RED**: 게임 바이너리 배포에 실패한 상태
 
 
 #### 배포 이력
@@ -525,8 +525,8 @@ TEST 배포존에서 **게임 바이너리 배포**의 **배포**를 클릭하�
 
 ![game_history_binary_04](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_history_config_4_250717.png)
 
-게임 바이너리 배포된 상태를 나타냅니다.
-**배포 상태**의 `?`에 마우스 포인터를 올리면 상태 목록을 확인할 수 있습니다..
+게임 바이너리가 배포된 상태를 나타냅니다.
+**배포 상태**의 `?`에 마우스 포인터를 올리면 상태 목록을 확인할 수 있습니다.
 
 > [참고] 배포 상태
 >

@@ -92,7 +92,7 @@ GameStarter는 사용자가 등록한 URL Scheme으로 런처를 실행할 수 �
 #### 런처 바로가기 아이콘
 ![installer_icons](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_250717.png)
 
-GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 가기를 생성할 수 있으며, 바로 가기를 생성하는 데 필요한 설정을등록합니다.
+GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 가기를 생성할 수 있으며, 바로 가기를 생성하는 데 필요한 설정을 등록합니다.
 
 #### ➊ 바로가기 아이콘 이미지
 바로가기 아이콘 이미지를 등록합니다.
@@ -151,7 +151,7 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 
 ![installer_config_list](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_config_list_250717.png)
 
-➊ **OS별 조회 버튼**: Windows 또는 macOS별로 등록된 설정을 나타냅니다
+➊ **OS별 조회 버튼**: Windows 또는 macOS별로 등록된 설정을 나타냅니다.
 ➋ 배포존: 배포존 정보를 나타냅니다.
 ➌ **인스톨러 설정 버전**: 인스톨러의 설정 버전 정보를 나타냅니다.
 ➍ **등록 일시**: 인스톨러의 설정을 등록한 날짜를 나타냅니다.
@@ -164,19 +164,19 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 **수정**을 클릭해 기본 정보 설정을 수정할 수 있습니다.
 
 ![installer_config_enter](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_config_enter_250717.png)
-➊ **수정 버튼**: 인스톨러 설정을 수정 할 수 있습니다.
+➊ **수정 버튼**: 인스톨러 설정을 수정할 수 있습니다.
 ➋ **URL Scheme**: 등록된 URL Scheme 정보를 나타냅니다.
 ➌ **공통 이름**: 등록된 런처의 Installer 이름, Uninstaller 이름, 설치 폴더 이름 및 설치 경로에 사용되는 공통 이름 정보를 나타냅니다.
 ➍ **인스톨러 버전**: 인스톨러 버전 정보를 나타냅니다.
 ➎ **메모**: 런처 인스톨러 설정 등록시 입력한 메모를 나타냅니다.
 
 #### 기본 정보 수정
-기본 정보를 수정하려면 **수정**을 클릭하거나, **인스톨러 설정 상세 정보** 화면에서 다음을 클릭해 아래 **인스톨러 설정 수정** 페이지로 진입하세요
+기본 정보를 수정하려면 **수정**을 클릭하거나, **인스톨러 설정 상세 정보** 화면에서 **다음**을 클릭해 아래 **인스톨러 설정 수정** 페이지로 진입하세요.
 
 ![installer_config_modify_default](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_config_modify_default_250717.png)
 ➊ **인스톨러 버전**: 인스톨러 버전을 수정할 수 있습니다.
 ➋ **메모**: 인스톨러 설정 메모의 내용을 수정할 수 있습니다.
-하단의 ➌ **다음**을 클릭해 다음 수정 페이지로 이동합
+하단의 ➌ **다음**을 클릭해 다음 수정 페이지로 이동합니다.
 
 #### 런처 바로 가기 아이콘 수정
 
