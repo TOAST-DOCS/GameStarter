@@ -39,7 +39,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 ![realtime_game_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_filter_250717.png)
 
 > ➊ 조회 대상
->  조회 대상은 User ID 기준 과 전체 실행 기준 항목이 있습니다.
+>  조회 대상은 User ID 기준과 전체 실행 기준 항목이 있습니다.
 >  조회 대상 종류
 > - **User ID 기준**: 사용자가 여러 번 동일한 동작을 진행하여 발생되는 중복된 데이터를 포함하지 않습니다.
 > - **전체 실행 기준**: 사용자의 모든 동작을 기준으로 조회하여, 동일한 동작을 하는 중복된 데이터를 포함한 데이터를 조회합니다.
