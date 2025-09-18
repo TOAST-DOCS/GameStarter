@@ -260,7 +260,7 @@ CDN을 연동하려면 연동할 배포존의 **연동** 버튼을 클릭하세�
 
 1. GameStarter 파일 스토리지 주소를 고객사 자체 CDN의 원본 서버 URL로 등록합니다.
 2. 고객사 자체 CDN의 주소를 입력합니다.
-3. **확인** 버튼을 눌러 연동을 시작 합니다.
+3. **확인** 버튼을 눌러 연동을 시작합니다.
 
 ![game_binary_cdn_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_cdn_list_250717.png)
 
