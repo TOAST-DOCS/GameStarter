@@ -48,7 +48,7 @@
 
 ### 게임 상세보기
 
-게임 목록에서 **[상세]** 버튼을 눌러서 게임의 상세보기 페이지로 이동하게 됩니다.
+게임 목록에서 상세한 정보를 확인할 게임의 **상세** 버튼을 클릭해 게임 상세 정보 페이지로 이동합니다.
 
 ![game_detail](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_detail_250717.png)
 
