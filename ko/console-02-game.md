@@ -227,7 +227,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 
 ##### ➋ 게임 설정 복사
 
-게임 설정 목록 왼쪽 상단의 **복사**를 클릭해 게임 설정을 복사할 수 있습니다..
+게임 설정 목록 왼쪽 상단의 **복사**를 클릭해 게임 설정을 복사할 수 있습니다.
 
 ![game_config_copy](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_config_copy_250717.png)
 
