@@ -291,7 +291,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 런처 설치 지표는 **GameExecution (Game)**, **GameExecution (OS)**, **GameDownload (Game)**, **GameDownload (OS)**,
 **GameUpdate (Game)**, **GameUpdate (OS)**, **LauncherExecution (OS)**, **LauncherExecution (Version)**, **Bounce** 탭으로 데이터가 제공됩니다.
 
-**GameExecution** 관련 탭에서는 조회 기간의 게임 실행 정보를 제공 합니다.
+**GameExecution** 관련 탭에서는 조회 기간의 게임 실행 정보를 제공합니다.
    - **GameExecution (Game)** : 게임별 게임 실행 지표 (총 숫자, 성공 수, 실패 수)
    - **GameExecution (OS)** : OS별 게임 실행 지표 (총 숫자, 성공 수, 실패 수)
 
