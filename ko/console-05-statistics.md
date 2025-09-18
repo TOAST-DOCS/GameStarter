@@ -21,7 +21,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 
 ### 실시간 모니터링
 
-실시간 모니터링은 당일 자정부터 조회 시점까지의 지표 데이터를 조회할 수 있는 기능입니다
+실시간 모니터링은 당일 자정부터 조회 시점까지의 지표 데이터를 조회할 수 있는 기능입니다.
 자정(00:00)부터 조회 시점까지의 데이터를 조회하며, **조건**을 클릭해 데이터를 필터링하여 조회할 수도 있습니다.
 
 ![statistics_main](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
