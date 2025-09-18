@@ -341,7 +341,7 @@ macOS를 사용할 경우 Apple에서 인증하여 제공된 '게임.zip' 파일
 ![game_binary_upload_04](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload4_250717.png)
 
 파일 업로드가 완료되면 업로드한 파일의 개수와 크기가 표시됩니다.
-확인 버튼을 누르면 파일 업로드가 진행됩니다.
+**확인** 버튼을 누르면 파일 업로드가 진행됩니다.
 
 ![game_binary_upload_05](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_upload6_250717.png)
 
