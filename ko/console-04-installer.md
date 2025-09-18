@@ -176,7 +176,7 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 ![installer_config_modify_default](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_config_modify_default_250717.png)
 ➊ **인스톨러 버전**: 인스톨러 버전을 수정할 수 있습니다.
 ➋ **메모**: 인스톨러 설정 메모의 내용을 수정할 수 있습니다.
-하단의 ➌ **다음**을 클릭해 다음 수정 페이지로 이동합
+하단의 ➌ **다음**을 클릭해 다음 수정 페이지로 이동합니다.
 
 #### 런처 바로 가기 아이콘 수정
 
