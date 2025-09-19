@@ -206,7 +206,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 런처 설치 지표는 **Dashboard**, **Install (OS)**, **Install (Launcher Version)** 탭으로 데이터가 제공됩니다.
 **Dashboard** 탭에서는 시간대별 런처 실행 지표 정보를 제공합니다.
    - **Launcher Install**: 런처 설치 수
-   - **Launcher Install Success** : 런처 설치 성공 수
+   - **Launcher Install Success**: 런처 설치 성공 수
    - **Launcher Install Fail** : 런처 설치 실패 수
 
 **Install (OS)** 탭에서는 시간대에 따른 OS별 지표 정보를 제공합니다.
