@@ -117,7 +117,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
    - **Failure**: 전체 설치 실패 수
 
 **Update** 탭에서는 시간대에 따른 업데이트 설치의 지표 정보를 제공합니다.
-   - **Update** : 업데이트 설치 수
+   - **Update**: 업데이트 설치 수
    - **Update Success** : 업데이트 설치 성공 수
    - **Update Fail** : 업데이트 실패 수
    - **Update Average Time (sec)**: 업데이트 평균 시간 (sec)
