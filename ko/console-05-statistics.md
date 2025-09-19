@@ -141,7 +141,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 
 런처 항목에서는 런처의 실행과 설치 정보를 표시합니다.
 
-##### 2-1) 런처 필터정보
+##### 런처 필터 정보
 
 ![realtime_execute_launcher_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_filter_launcher_250717.png)
 
