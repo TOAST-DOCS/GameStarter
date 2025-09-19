@@ -101,7 +101,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
    - **Download Success**: 전체 설치 성공 수
    - **Download Fail**:  전체 설치 실패 수
    - **Download Average Time (sec)**: 다운로드 평균 시간 (sec)
-   - **Download File Size (MB)** : 다운로드 파일 사이즈 (MB)
+   - **Download File Size (MB)**: 다운로드 파일 사이즈 (MB)
    - **Download Files**:  다운로드 파일 카운트
 
 **Download (Game)** 탭에서는 시간대에 따른 게임별 지표 정보를 제공합니다.
