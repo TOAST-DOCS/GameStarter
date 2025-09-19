@@ -98,7 +98,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 
 **Download** 탭에서는 시간대별 전체 설치 항목들의 정보를 보여주며, 조회 가능한 항목은 다음과 같습니다.
    - **Download**: 전체 설치 수
-   - **Download Success** : 전체 설치 성공 수
+   - **Download Success**: 전체 설치 성공 수
    - **Download Fail** :  전체 설치 실패 수
    - **Download Average Time (sec)** : 다운로드 평균 시간 (sec)
    - **Download File Size (MB)** : 다운로드 파일 사이즈 (MB)
