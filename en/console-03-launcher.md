@@ -1,267 +1,267 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 런처
+## Game > GameStarter > Console User Guide > Launcher
 
-[시작하기](./console-01-getting-started)에서 다룬 바와 같이 런처를 사용하려면 인스톨러와 게임 준비를 완료해야 합니다.
-인스톨러와 게임 설정 및 바이너리 준비를 먼저 진행하세요.
+As discussed in [Get Started](./console-01-getting-started), you must complete the installer and game setup before using the launcher.
+First, complete the installer, game setup, and binary preparation.
 
 ## Launcher
 
-여기에서는 런처 설정 및 배포 방법에 대해 설명합니다.
+It describes how to set up and deploy the launcher.
 
-### 런처 설정 목록
+### Launcher Setting List
+
 ![launcher_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_list_250717.png)
 
-**런처 설정** 목록에서는 등록된 런처 설정들을 조회할 수 있습니다.
-또한 새로운 런처를 등록하거나 삭제할 수 있으며, 기존의 런처 설정을 복사할 수 있습니다.
-런처도 게임 등록과 동일하게 OS별로 등록됩니다.
+You can view the launcher setting registered in the **Launcher Setting** list. Additionally, you can register or delete a new launcher, and copy the existing launcher setting.
+A launcher is also registered by OS the same as with a game.
 
-런처 목록의 조회 결과에는 아래와 같은 필드를 가지고 있습니다.
+The launcher list query results contain the following fields:
 
-#### ➊ 런처 설정 이름
-런처 설정 등록할 때 입력한 이름이 표시됩니다.
+#### ➊ Launcher Setting Name
+It displays the name entered when registering the launcher setting.
 
 #### ➋ OS
-실행 가능한 OS가 표시됩니다.
+It displays the executable OS.
 
-#### ➌ 등록 일시
-런처 설정을 등록하거나 마지막으로 수정한 날짜가 표시됩니다.
+#### ➌ Registration Date
+The date the launcher setting were registered or last modified is displayed.
 
-#### ➍ 등록자
-런처 설정을 최초 등록하거나 마지막으로 수정한 사용자의 마스킹된 이메일 주소가 표시됩니다.
+#### ➍ Registrant
+The masked email address of the user who first registered or last modified the launcher setting is displayed.
 
-#### ➎ 메모
-런처 설정을 등록할 때 사용자가 구분하기 위해서 입력한 메모가 표시됩니다.
+#### ➎ Memo
+The memo is displayed that was entered by the user when registering the launcher setting to distinguish them.
 
-#### ➏ 삭제
-등록된 런처 설정을 삭제할 수 있습니다.
-런처 설정을 삭제하더라도 이미 배포된 런처 설정이 삭제되지 않습니다.
+#### ➏ Delete
+You can delete the registered launcher setting.
+Deleting a launcher setting will not delete any previously deployed launcher setting.
 
 
-### 런처 설정 등록
-런처 설정 목록 상단에서 OS에 따라 **+ Windows** 또는 **+ macOS**를 클릭해 새 런처 설정을 등록할 수 있습니다.
+### Register Launcher Setting
+You can register a new launcher setting by clicking + Windows or + macOS, depending on your OS, at the top left of the launcher setting list.
 
-#### 기본 정보
+#### Basic Info
 ![launcher_register_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_register1_250717.png)
 
-##### ➊ 런처 설정 이름
-런처 설정 이름은 다른 런처 설정과 구분하기 위해서 사용합니다.
-따라서 런처 설정 이름은 중복으로 등록할 수 없습니다.
-또한 한글, 영문 대소문자, 숫자, 띄어쓰기를 포함하여 2~20자까지 입력 가능합니다.
+##### ➊ Launcher Setting Name
+Enter a name for the launcher setting to distinguish them from other launcher setting.
+Therefore, the launcher setting name cannot be duplicated.
+You can also enter 2 to 20 characters, including Korean, English uppercase and lowercase letters, numbers, and spaces.
 
 
-##### ➋ 메모
-메모는 런처 설정의 내용을 참고하기 위해서 입력하는 정보입니다.
+##### ➋ Memo
+Memo is the information entered for reference in launcher setting.
 
-모든 설정을 완료한 뒤 **다음**을 클릭해 다음 페이지로 이동합니다.
+Once all setting are complete, click Next to proceed to the next page.
 
 
-#### 런처 레이아웃 구성
+#### Configure a Launcher Layout
 
-런처가 실행되는 모드를 설정합니다.
+Set the mode in which the launcher runs.
 ![launcher_register_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config2_250717.png)
 
 
-##### ➊ 실행 모드
-런처의 실행 모드를 설정합니다.
-* **사일런트 모드**: 런처 UI를 실행하지 않고 게임을 바로 시작할 수 있습니다.
-* **자동 실행**: 유저가 게임 선택 등의 별도의 행동을 하지 않아도 바로 게임이 실행됩니다.
-> 자동 실행은 런처 UI에 등록한 게임이 1개일 경우에만 사용 가능한 설정입니다.
-> 앞선 예시에서 게임을 3개 선택했기 때문에 선택할 수 없는 상태입니다.
-> 게임을 1개만 선택할 경우 자동 실행 기능을 사용할 수 있습니다.
+##### ➊ Execution Mode
+Sets the launcher's execution mode.
+* **Silent Mode**: You can start a game immediately without launching the launcher UI.
+* **Autorun**: The game will launch immediately without the user having to take any additional action, such as selecting a game.
+> Autorun is only available when there is only one game registered in the launcher UI. 
+> In the previous example, the game is unavailable for selection since three games were selected.
+> The autorun feature is available when only one game is selected.
 
-* **자동 업데이트**: 자동 업데이트는 런처가 실행되었을 때 업데이트할 게임이 있으면 바로 업데이트를 실행할 수 있습니다.
-
-
-##### ➋ 런처 상단
-런처 상단에 아이콘을 출력할지 여부를 선택할 수 있습니다.
+* **Auto Update**: Auto update allows you to update a game immediately when the launcher is launched.
 
 
-##### ➌ 브랜드 아이콘
-게임 이외에 브랜드 아이콘을 설정할 수 있습니다. 사용할 이미지 파일을 직접 업로드합니다.
-
-브랜드 아이콘 이미지 파일은 JPG, JPEG, PNG 형식만 업로드할 수 있습니다.
-브랜드 아이콘 이미지 파일의 권장 크기는 256x256입니다.
+##### ➋ Launcher Top
+You can select whether to display an icon at the top of the launcher.
 
 
-#### ➍ 런처 게임 선택
-런처 하나에서 여러 게임을 실행할 수 있도록 지원하며, 해당 런처에 노출할 게임 리스트를 설정할 수 있습니다.
+##### ➌ Brand Icon
+You can also set a brand icon for other games. Upload the image file you want to use.
 
-게임 등록 팝업에서 등록된 게임의 목록이 표시됩니다.
-선택하는 게임 순서대로 런처에 게임이 표시되는 것을 확인할 수 있습니다.
-아래에서는 **game1**, **game2**, **game3**을 순서대로 추가한 상황을 예시로 들어 설명합니다.
+Only JPG, JPEG, or PNG formats can be used for brand icon image files.
+The recommended brand icon image file’s size is 256x256.
+
+#### ➍ Select a Launcher Game
+
+You can launch multiple games from a single launcher and configure the list of games to display on the launcher.
+
+The game registration pop-up will display a list of registered games.
+You can see the games appear in the launcher in the order you select them.
+The example below illustrates adding **game1**, **game2**, and **game3** in the order.
 
 
-#### 미리 보기
-하단의 미리보기 버튼을 통하여 설정한 런처 정보를 미리 확인할 수 있습니다.
+#### Preview
+You can preview the configured launcher information using the Preview button at the bottom.
 
 ![launcher_config_preview](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_preview_250717.png)
 
-모든 설정을 완료한 뒤 **등록**을 클릭해 런처 설정을 등록할 수 있습니다.
+You can register the game by completing all setting and clicking **Register**.
 
 
-### 런처 설정 상세보기
+### View Launcher Setting Details
 ![launcher_config_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_list_250717.png)
 
-상단 이미지에서 빨간색으로 표시한 영역을 클릭하면 런처 설정 상세 보기 페이지로 이동합니다.
+Click on the red area in the image above to move to the page of the launcher setting details.
 
 ![launcher_modify_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify_250717.png)
 
-상세 보기 페이지에서 런처 설정을 수정하거나 복사할 수 있습니다.
-런처 설정을 수정하거나 복사하려면 왼쪽 상단의 **수정** 또는 **복사**를 클릭하세요.
+You can modify or copy launcher setting from the View Details page.
+To modify or copy launcher setting, click **Modify** or **Copy** in the upper left corner.
 
+#### Modify Launcher Setting
 
-#### 런처 설정 수정
 ![launcher_modify_02](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify2_250717.png)
 
-**수정**을 클릭하면 **런처 설정 수정** 페이지로 이동합니다.
-런처 설정 수정을 완료한 뒤 마지막 단계에서 **저장**을 클릭하면 수정 사항이 반영됩니다.
+Click **Modify** to move to the page of the **Modify Launcher Setting**.
+After modifying the launcher setting, click **Save** in the final step to apply the changes.
 
 
-##### 런처 설정 복사
+##### Copy Launcher Setting
 ![launcher_copy](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_copy_250717.png)
 
-**복사**를 클릭하면 **런처 설정 정보 복사** 팝업 창이 표시됩니다.
-런처 설정 이름과 메모를 제외한 설정을 복사합니다.
+Click **Copy** to display the **Copy Launcher Setting** Information pop-up window.
+Copy the setting, excluding the launcher setting name and memo.
 
-* **런처 설정 이름**
-  복사할 런처 설정의 런처 설정 이름을 입력하세요.
-  런처 설정 등록과 동일하게 중복된 이름을 사용할 수 없습니다.
+* **Launcher Setting Name**
+  Enter the launcher setting name you want to copy.
+  As with registering launcher setting, duplicate names are not allowed.
 
-* **메모**
-  복사할 런처 설정을 구분할 수 있는 내용을 메모에 작성하세요.
+* **Memo**
+  In the Memo, enter information that will help you identify the launcher setting you want to copy.
 
 
-### 런처 배포
+### Deploy Launcher
 ![launcher_deploy_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_list_250717.png)
-런처 배포 페이지에는 배포존별로 배포를 할 수 있도록 구분되어 있습니다.
-기본적으로 제공되는 배포존은 SERVICE, DEVELOP, TEST 배포존이 있습니다.
-배포존별로 각각 런처 설정을 배포할 수 있습니다.
+The Launcher Deployment page allows deployments by deployment zone.
+The default deployment zones are SERVICE, DEVELOP, and TEST.
+You can deploy launcher setting to each deployment zone.
 
-최초에는 런처 설정이 등록되어 있지 않으므로 **배포 실행**의 **배포** 버튼이 비활성화되어 있습니다.
+Initially, no launcher setting are registered, so the **Deploy** button in the **Execute Deployment** section is disabled.
 
-런처 실행 화면은 아래와 같은 구성 요소를 포함합니다.
+The Launcher Execution screen contains the following components:
 
-#### ➊ 런처 설정 이름
-현재 배포된 런처 설정의 이름이 표시됩니다.
+#### ➊ Launcher Setting Name
+It displays the name of the launcher setting currently deployed.
 
-#### ➋ 게임 목록
-헌재 배포된 런처 설정의 게임 목록이 순서대로 표시됩니다.
+#### ➋ Game List
+It displays the game list of the launcher setting currently deployed in order.
 
-#### ➌ 배포 일시
-마지막으로 배포된 배포 날짜가 표시됩니다.
+#### ➌ Deployment Date
+The last deployment date is displayed.
 
-#### ➍ 배포자
-마지막으로 배포된 배포자의 마스킹된 이메일 주소가 표시됩니다.
+#### ➍ Deployed by
+The masked email address of the last deployer to be deployed is displayed.
 
-#### ➎ 실행 템플릿
-실행 템플릿은 웹 브라우저에서 런처를 실행하거나 인스톨러를 다운로드할 수 있는 자바스크립트를 제공합니다.
+#### ➎ Launch Template
+The launch template provides JavaScript that can be used to launch the launcher or download the installer from a web browser.
 
-#### ➏ 런처 실행
-배포존에 런처가 배포 완료되면 런처를 실행할 수 있습니다.
+#### ➏ Execute Launcher
+Once the launcher is deployed to the deployment zone, you can launch it.
 
 
-다음은 DEVELOP 배포존에 등록된 런처 설정을 배포하는 예시입니다.
-DEVELOP 배포존의 **배포**를 클릭하면 아래와 같은 **런처 배포** 팝업 창이 표시됩니다.
+The following is an example of deploying the launcher setting registered in the DEVELOP deployment zone.
+Click **Deploy** in the DEVELOP deployment zone to display the **Launcher Deployment** pop-up window shown below.
 
 ![launcher_deploy](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_250717.png)
 
-런처를 배포하는 방식에는 2가지가 있습니다.
-- 예약 배포
-- 즉시 배포
+There are two ways to deploy the launcher:
+- Scheduled Deployment
+- Immediate Deployment
 
-##### ➊ 런처 설정
-배포하려는 런처 설정을 선택합니다.
-런처 설정을 선택하면 아래의 화면에 등록했던 게임들이 초록색 영역에 순서대로 표시됩니다.
+##### ➊ Launcher Setting
+Select a launcher setting you want to deploy.
+When you select Launcher Setting, the games you've registered will be displayed in order in the green area on the screen below.
 
-##### ➋ 예약 배포
-런처 설정을 특정 시간에 배포하려면 **예약 배포**를 클릭해 예약할 수 있습니다.
+##### ➋ Scheduled Deployment
+To deploy the launcher setting at a specific time, click **Scheduled Deployment**.
 
-기준 시간과 배포 시간을 선택한 뒤 **확인**을 클릭하면 배포 예약 시간을 등록할 수 있습니다.
-마지막 단계인 배포 비교 단계에서 내용을 확인한 뒤 **배포**를 클릭하면 배포 예약이 등록됩니다.
+Select the standard time and deployment time, then click **Confirm** to register the scheduled deployment time.
+In the final step, Deployment Comparison , review the details and click **Deploy** to register the scheduled deployment.
 
-##### ➌ 즉시 배포
-런처를 즉시 배포합니다.
-즉시 배포에는 별도로 설정할 필요가 없으므로 마지막 단계인 **배포 비교** 단계로 이동합니다.
+##### ➌ Immediate Deployment
+Deploy a launcher immediately.
+Since immediate deployment requires no separate setting, we move on to the final step, the deployment comparison step.
 
-##### 배포 비교
-즉시 배포나 예약 배포의 설정이 완료되면 마지막 단계로 최근 배포한 정보와 비교하는 팝업 창이 표시됩니다.
+##### Deployment Comparison
+Once immediate or scheduled deployment setting are complete, a pop-up window will appear in the final step, comparing the latest deployment information.
 
 ![launcher_deploy_confirm](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_confirm_250717.png)
 
-기본 정보와, 레이아웃 구성, 노출될 게임 정보를 확인할 수 있습니다.
+You can check the basic information, layout configuration, and game information to be displayed.
 
-배포할 런처 설정을 모두 확인한 뒤 **배포**를 클릭하세요.
+After confirming all launcher setting to be deployed, click Deploy.
 
-배포존의 배포 상태가 변경된 것을 확인할 수 있습니다.
+You'll see the deployment status in the deployment zone changed.
 
 
 ![launcher_deploy_complete](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_comp_250717.png)
 
-배포가 완료된 후 **최근 배포 완료된 런처 설정** 목록에서 실행 템플릿을 복사하거나 런처를 실행할 수 있습니다.
+After deployment is complete, you can copy the launch template from the list of **recently deployed launcher setting** or run the launcher.
 
 
-#### ➊ 실행 템플릿
-실행 템플릿은 웹 브라우저에서 런처를 실행하거나 인스톨러를 다운로드할 수 있는 자바스크립트를 제공합니다. 해당 배포존에 런처가 이미 설치되어 있으면 런처를 실행하게 됩니다.
-만약 런처가 설치되어 있지 않으면 인스톨러 다운로드를 실행하게 됩니다.
-**복사**를 클릭해 자바스크립트 코드를 복사할 수 있습니다.
+#### ➊ Launch Template
+The launch template provides JavaScript that can be used to launch the launcher or download the installer from a web browser. If the launcher is already installed in the deployment zone, it will launch.
+If the launcher is not installed, the installer will be downloaded.
+Click **Copy** to copy the JavaScript code.
 
-#### ➋ 런처 실행
-배포존에 런처 배포를 완료하면 런처를 실행할 수 있습니다.
+#### ➋ Execute Launcher
+Once the launcher is deployed to the deployment zone, you can launch it.
 
 ![launcher_execute](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_execute_250717.png)
 
-**런처 실행**을 클릭해 배포존의 런처를 실행할 수 있습니다.
-런처를 실행할 대상 게임을 선택한 뒤 **확인**을 클릭하면 사용자 PC에 런처 설치 여부에 따라 아래와 같은 2가지 방향으로 진행됩니다.
+Click **Execute Launcher** to execute the launcher in the deployment zone.
+Select the game you want to launch and click **Confirm**. Depending on whether the launcher is installed on the PC, the following two options will be displayed:
 
 
-- 런처를 이미 설치한 경우
+- If you've already installed the launcher
   ![launcher_execute_urlscheme](https://static.toastoven.net/prod_gamestarter/console/gamestarter_launcher_execute_urlscheme_202311.png)
 
-런처를 설치한 경우 브라우저에서 실행 팝업창이 등장합니다.
-여기서 **GameStarter 열기**를 클릭해 런처를 실행할 수 있습니다.
+If you've installed the launcher, a pop-up window will appear in the browser to execute the launcher.
+Click **Open GameStarter** to launch the launcher.
 
 
-- 런처를 설치하지 않은 경우
+- If you haven't installed the launcher
   ![launcher_execute_download](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_download_250717.png)
 
-런처를 설치하지 않은 경우 브라우저에서 인스톨러 다운로드 팝업창이 등장합니다.
-`[확인]` 버튼을 통해서 인스톨러를 다운로드 받을 수 있습니다.
+If you haven’t installed the launcher, a pop-up window will appear in the browser to download the launcher.
+You can download the installer by clicking `[Confirm]` button.
 
 
-- 런처가 실행된 화면
-  인스톨러로 런처를 설치한 뒤 런처를 실행하면 아래와 같은 화면이 표시됩니다.
+- The screen that the launcher is running
+  After installing the launcher using the launcher installer, the following screen will appear when you run the launcher.
 
 ![launcher_final](https://static.toastoven.net/prod_gamestarter/console/gamestarter_launcher_final_202311.png)
 
 
 
-### 배포 이력
+### Deployment History
 ![launcher_history_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_history_250717.png)
 
-**배포 이력** 탭에서 런처를 배포한 이력을 조회할 수 있습니다.
+You can view the launcher deployment history in the **Deployment History** tab.
 
-배포 이력 조회 순서는 다음과 같습니다.
-➊ 조회하고자 하는 OS를 선택합니다.
-➋ 배포존을 선택합니다.
+The deployment history view order is as follows:
+➊ Select the OS you want to view.
+➋ Select a deployment zone.
 
-검색 조건을 설정하여 필터링합니다. 검색 조건에는 총 3가지가 있습니다.
-➌ **런처 설정 이름**: 런처 설정 이름으로 필터링할 수 있습니다.
-➍ **런처 배포 일시**: 특정 기간으로 필터링할 수 있습니다.
-➎ **배포 상태**: 배포 상태로 필터링할 수 있습니다.
+Filter by setting up the search conditions. There are three search conditions:
+➌ **Launcher Setting Name**: You can filter by launcher setting name.
+➍ **Launcher Deployment Date**: You can filter by a specific period.
+➎ **Deployment Status**: You can filter by deployment status.
 
 
-배포 이력 조회의 결과에서는 다음과 같은 필드가 있습니다.
-- **런처 설정 이름**: 배포된 런처의 설정 이름을 나타냅니다.
-- **배포존**: 배포존 정보를 나타냅니다.
-- **OS**: 게임의 OS를 나타냅니다.
-- **게임 목록**: 배포된 런처에 설정되었던 게임을 나타냅니다.
-- **배포 상태**: 배포된 런처의 배포 상태를 나타냅니다.
+The deployment history query results contain the following fields:
+- **Launcher Setting Name**: A name of the deployed launcher setting.
+- **Deployment Zone**: It indicates the information of the deployment zone.
+- **OS**: An OS of the game.
+- **Game List**: A game that the deployed launcher is configured.
+- **Deployment Status**: A deployment status of the deployed launcher.
+  
+  > - Deploying
+  > - Deployment Completed
+  > - Deployment Scheduled
+  > - Deployment Schedule Canceled
+  > - Deployment Failed
 
-  >   - 배포 중
-  >   - 배포 완료
-  >   - 배포 예약
-  >   - 배포 예약 취소
-  >   - 배포 실패
-
-- **배포 일시**: 런처가 배포된 날짜를 나타냅니다.
-- **배포자**: 런처를 배포한 사용자의 마스킹된 이메일 주소를 나타냅니다.
-- **메모**: 배포된 런처의 메모를 나타냅니다.
+- **Deployed at**: It indicates the date that the launcher is deployed.
+- **Deployed by**: A masked email address of users that deploy the launcher.
+- **Memo**: It indicates the memo of the deployed launcher.
