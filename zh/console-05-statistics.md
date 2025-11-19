@@ -1,319 +1,319 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 지표
+## Game > GameStarter > Console User Guide > Metrics
 
-GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터를 제공합니다.
-게임의 설치, 실행, 런처 설치 및 실행 데이터를 제공하며, 게임 이탈률 등 게임 실행과 진입에 관한 주요 지표를 쉽게 확인할 수 있습니다.
+GameStarter provides relevant data for efficient metric detection of the game.
+It provides installation, execution, launcher installation, and launch data for the game, and makes it easy to see the main metrics for running and entering the game, such as churn rate.
 
-## 지표
+## Metrics
 
-지표 데이터를 조회하기 위한 메뉴 구성은 아래와 같습니다.
+The menus to view metric data is as follows:
 
-![statistics_title1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_title_1_250717.png)
+![statistics\_title1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_title_1_250717.png)
 
-➊ **실시간 모니터링**: 당일 자정부터 조회 시점까지의 지표 데이터를 제공합니다.
-➋ **모니터링 지표**: 설정한 기간(일간, 주간, 월간)의 집계 데이터를 제공합니다.
-➌ 데이터의 조회 기준 시간을 확인할 수 있습니다.
-➍ **새로고침**: 데이터를 요청 시점 데이터로 갱신할 수 있습니다.
-실시간 지표는 서버 부하를 방지하기 위해 자동으로 갱신되지 않습니다. 데이터를 갱신하려면 **새로고침**을 클릭하세요.
-➎ **조건**: 필터를 적용하여 데이터를 조회할 수 있습니다. 제공되는 필터는 각 항목의 필터 정보의 내용을 확인하세요.
-**조회**를 클릭해 데이터를 조회할 수 있습니다.
-➏ **Excel 저장**: 지표 데이터를 엑셀 파일로 저장할 수 있습니다. 제공되는 엑셀 데이터에 대한 설명은 각 항목의 **엑셀 저장**의 내용을 확인하세요.
-
-
-### 실시간 모니터링
-
-실시간 모니터링은 당일 자정부터 조회 시점까지의 지표 데이터를 조회할 수 있는 기능입니다.
-자정(00:00)부터 조회 시점까지의 데이터를 조회하며, **조건**을 클릭해 데이터를 필터링하여 조회할 수도 있습니다.
-
-![statistics_main](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
+➊ **Real-time Monitoring**: Provide metric data from midnight of the day to the view time.
+➋ **Monitoring Metrics**: Provide aggregate data for the set period (day, week, and month).
+➌ You can check the query reference time of the data.
+➍ **Refresh**: Data can be updated to the data at the time of request.
+Real-time metrics are not automatically updated to avoid server load. Click **Modify** to update the data.
+➎ **Conditions**: You can apply filters to view data. For the provided filters, check the contents of the filter information for each item.
+You can view data by clicking **View**.
+➏ **Save in Excel**: You can save the metric data as an Excel file. For a description of the provided Excel data, see the contents of the item in **Save in Excel**.
 
 
-#### 실시간 모니터링 - 게임
+### Real-time Monitoring
 
-게임 실행 및 설치에 대한 지표 데이터를 대시보드와 차트 데이터로 확인할 수 있습니다.
-각각 게임 실행과 설치 지표를 데쉬보드와 차트 데이터를 통해 쉽게 지표 데이터를 얻을 수 있습니다.
+Real-time monitoring is a feature that allows you to view indicator data from midnight of the same day to the time of inquiry.
+It allows you to retrieve data from midnight (00:00) to the view time, and you can also filter and view data by clicking **conditions**.
 
-##### 게임 필터 정보
+![statistics\_main](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
 
-지표 데이터는 필터를 적용하여 조회하고 엑셀 파일로 저장할 수 있습니다.
 
-![realtime_game_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_filter_250717.png)
+#### Real-time Monitoring - Game
 
-> ➊ 조회 대상
->  조회 대상은 User ID 기준과 전체 실행 기준 항목이 있습니다.
->  조회 대상 종류
-> - **User ID 기준**: 사용자가 여러 번 동일한 동작을 진행하여 발생되는 중복된 데이터를 포함하지 않습니다.
-> - **전체 실행 기준**: 사용자의 모든 동작을 기준으로 조회하여, 동일한 동작을 하는 중복된 데이터를 포함한 데이터를 조회합니다.
+You can see the metric data for running and installing the game with the dashboard and chart data.
+You can easily get metric data for each game execution and installation metrics through dashboard and chart data.
+
+##### Game Filter Info
+
+Metric data can be viewed and stored as an Excel file by applying filters.
+
+![realtime\_game\_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_filter_250717.png)
+
+> ➊ View Target
+>View target includes items based on User ID and overall execution criteria.
+>View Target Type
+>- **Based on User ID**: it does not include duplicate data that occurs when a user performs the same action multiple times.
+>- **Based on Total Execution**: it searches all user actions and data that includes duplicate data for the same action.
 >
 > ➋ OS
->  사용자가 사용한 OS 정보 리스트를 필터링해 조회할 수 있습니다.
+>   You can view by filtering the list of OS information used by an OS user.
 >
-> ➌ 게임 이름
->  게임 이름(게임 버전) 정보 리스트를 필터링해 조회할 수 있습니다.
+> ➌ Game Name
+>   You can view game names by filtering the list of game names (game version) information.
 >
-> 원하는 필터 데이터를 선택한 뒤 **적용**을 클릭해 조회 결과를 필터링할 수 있습니다.
+> Select the filter data you want and click **Apply** to filter out your results.
 
 
-##### 게임 실행
+##### Run Game
 
-게임 실행과 관련된 지표 정보를 표시합니다.
+Display metrics related to running the game.
 
-![statistics_real_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_none_250717.png)
-대시보드에서 **게임 실행 수**, **게임 실행 성공 수**, **게임 실행 실패 수**를 제공하며, 전일 대비 증감치를 확인할 수 있습니다.
-또한 차트를 통해 **시간대별 증감 수치**와 **게임 실행 실패 이유** 정보를 확인할 수 있습니다.
-
-
-지표 데이터를 보다 효율적으로 활용할 수 있도록 **엑셀 저장**을 클릭해 지표 데이터를 저장할 수도 있습니다.
-엑셀 저장 데이터는 저장 요청 시점의 데이터를 기준으로 제공됩니다.
-
-##### 게임 실행 엑셀 저장
-게임 실행과 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
-파일명은 `RealTime_GameExecution_날자_시간.xlsx` 형식으로 제공됩니다.
-
-게임 실행 지표 데이터는 시간대별로 Execute (Game) 탭과 Execute (OS) 탭에서 확인할 수 있습니다.
-
-1. Execute(Game) 탭에서는 시간대에 따른 게임별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
-2. Execute(OS) 탭에서는 시간대에 따른 OS별 게임 실행 수, 게임 성공 수, 게임 실패 수 집계 데이터를 제공합니다.
-
-##### 게임 설치
-
-게임 설치와 관련된 지표 정보를 표시합니다.
-
-![realtime_install_game1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_game_none_250717.png)
-
-대시보드에서 **게임 설치 수**, **게임 설치 성공 수**, **게임 설치 실패 수**, **게임 다운로드 평균 속도**, **파일 다운로드 용량**, **파일 다운로드 수**에 대한 정보를 확인할 수 있습니다.
-대시보드의 FULL과 UPDATE의 의미는 각각 다음과 같습니다.
-- **FULL**: 전체 설치
-- **UPDATE**: 업데이트 설치
+![statistics\_real\_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_execute_game_none_250717.png)
+**game executions**, **game execution successfully**, and **game execution failed** are provided in the dashboard, and you can check the increase compared to the previous day.
+Charts also allow you to see **the number of increases** by time zone and the information about the **reason for launch failure**.
 
 
-![realtime_install_game2](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_game2_none_250717.png)
+You can also save metric data by clicking **Save** to make more efficient use of metric data.
+The data saved in Excel is based on the data when the save request is made.
 
-차트 데이터에서 시간대별 **게임 설치 수**, **게임 설치 실패 이유**, **시간대별 게임 전체 업데이트 설치 수**, **시간대별 게임 전체 업데이트 설치 평균 시간**, **시간대별 다운로드 속도 및 용량**, **시간대별 게임 다운로드 파일 수**의 정보를 확인할 수 있습니다.
+##### Save Game Execution in Excel
+The following are the excel data storage items related to launching the game.
+The file name is provided in the `RealTime_GameExecution_dates_times.xlsx` format.
 
-##### 게임 설치 엑셀 저장
-게임 설치와 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
-파일명은 `RealTime_GameDownload_날자_시간.xlsx` 형식으로 제공됩니다.
+Game execution metric data can be found in Execute (Game) and Execute (OS) tabs per time.
 
-게임 실행 지표 데이터는 Download, Download (Game), Download (OS), Update, Update (Game), Update (OS) 탭으로 데이터가 제공됩니다.
+1. The Execute (Game) tab provides aggregate data for the number of games launched by game, number of games successful, and number of games failed by time zone.
+2. The Execute (OS) tab provides aggregate data for the number of games launched by OS, number of games successful, and number of games failed by time zone.
 
-**Download** 탭에서는 시간대별 전체 설치 항목들의 정보를 보여주며, 조회 가능한 항목은 다음과 같습니다.
-- **Download**: 전체 설치 수
-- **Download Success**: 전체 설치 성공 수
-- **Download Fail**:  전체 설치 실패 수
-- **Download Average Time (sec)**: 다운로드 평균 시간 (sec)
-- **Download File Size (MB)**: 다운로드 파일 사이즈 (MB)
-- **Download Files**:  다운로드 파일 카운트
+##### Install Game
 
-**Download (Game)** 탭에서는 시간대에 따른 게임별 지표 정보를 제공합니다.
-각 게임명 하위에 아래와 항목 지표를 확인할 수 있습니다.
-- **Total**: 전체 설치 수
-- **Success**: 전체 설치 성공 수
-- **Failure**: 전체 설치 실패 수
+Display metrics related to the game installation.
 
-**Download (OS)** 탭에서는 시간대에 따른 OS별 지표 정보를 제공합니다.
-각 OS별 하위에 아래와 같은 항목 지표를 확인할 수 있습니다.
-- **Total**: 전체 설치 수
-- **Success**: 전체 설치 성공 수
-- **Failure**: 전체 설치 실패 수
+![realtime\_install\_game1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_game_none_250717.png)
 
-**Update** 탭에서는 시간대에 따른 업데이트 설치의 지표 정보를 제공합니다.
-- **Update**: 업데이트 설치 수
-- **Update Success**: 업데이트 설치 성공 수
-- **Update Fail**: 업데이트 실패 수
-- **Update Average Time (sec)**: 업데이트 평균 시간 (sec)
-- **Update File Size (MB)**:  업데이트 파일 사이즈 (MB)
-- **Update Files**: 업데이트 파일 수
-
-**Update (Game)** 탭에서는 시간대에 따른 업데이트 설치의 게임별 지표 정보를 제공합니다.
-각 OS별 하위에 아래의 항목 지표를 확인할 수 있습니다.
-- **Total**: 전체 설치 수
-- **Success**: 전체 설치 성공 수
-- **Failure**: 전체 설치 실패 수
-
-**Update (OS)** 탭에서는 시간대에 따른 업데이트 설치의 OS별 지표 정보를 제공합니다.
-각 OS 별 하위에 아래와 항목 지표를 확인할 수 있습니다.
-- **Total**: 전체 설치 수
-- **Success**: 전체 설치 성공 수
-- **Failure**: 전체 설치 실패 수
+You can check the **number of games installed**, **number of games installed successfully**, **number of games installed failed**, **average game download speed**, **file download capacity**, and **file download capacity** in the dashboard.
+The meanings of FULL and UPDATE for dashboard are as follows:
+- **FULL**: full Installation
+- **UPDATE**: update installation
 
 
-#### 실시간 모니터링 - 런처
+![realtime\_install\_game2](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_game2_none_250717.png)
 
-런처 항목에서는 런처의 실행과 설치 정보를 표시합니다.
+Chart data lets you see **the number of games installed** by time, **reason for game installation failed**, **total number of games installed by update**, **average of entire game updates installed by time**, **download speed and capacity per time**, and **the number of games download files by time**.
 
-##### 런처 필터 정보
+##### Save Game Installation in Excel
+The following are the excel data storage items related to game installation.
+The file name is provided in the `RealTime_GameDownload_dates_times.xlsx` format.
 
-![realtime_execute_launcher_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_filter_launcher_250717.png)
+Game execution metric data is provided with data in the Download, Download (Game), Download (OS), Update, Update (Game), and Update (OS) tabs.
 
-> ➊ 조회 대상
->  조회 대상은 **User ID 기준**과 **전체 실행 기준** 항목이 있습니다.
->  조회 대상 종류
->    - **UserID 기준**: 사용자가 여러 번 동일한 동작을 진행하여 발생되는 중복된 데이터를 포함하지 않습니다.
->    - **전체 실행 기준**: 사용자의 모든 동작을 기준으로 조회하여, 동일한 동작을 하는 중복된 데이터를 포함한 데이터를 조회합니다.
+The **Download** tab displays the information of all installation items by time. The following items that can be viewed.
+- **Download**: Total number of installations
+- **Download Succecced**: Total number of successful installations
+- **Download Failed**: Total number of installations failed
+- **Download Average Time (sec)**: Average download time (sec)
+- **Download File Size (MB)**: Download file size (MB)
+- **Download Files**: Download File Count
+
+The **Download (Game)** tab provides metrics for each game by time zone.
+You can see the metrics below under each game name.
+- **Total**: Total number of installations
+- **Success**: Total number of successful installations
+- **Failure**: Total number of installation failed
+
+The **Download (OS)** tab provides metrics for each OS by time zone.
+You can see the metrics below for each OS.
+- **Total**: Total number of installations
+- **Success**: Total number of successful installations
+- **Failure**: Total number of installation failed
+
+The **Update** tab provides metrical information for the update installation by time zone.
+- **Update**: Number of update installations
+- **Update Success**: Number of successful update installations
+- **Update Fail**: Number of update failures
+- **Update Average Time (sec)**: Average update time (sec)
+- **Update File Size (MB)**: Update file size (MB)
+- **Update Files**: Number of update files
+
+The **Update (Game)** tab provides metrics for each game for the update installation by time zone.
+You can see the metrics below in the subsection of each OS.
+- **Total**: Total number of installations
+- **Success**: Total number of successful installations
+- **Failure**: Total number of installation failed
+
+The **Update (OS)** tab provides metric information for the update installation by OS by time zone.
+You can check the metrics below for each OS separately.
+- **Total**: Total number of installations
+- **Success**: Total number of successful installations
+- **Failure**: Total number of installation failed
+
+
+#### Real-time Monitoring - Launcher
+
+The launcher item displays the launcher execution and installation information.
+
+##### launcher Filter Information
+
+![realtime\_execute\_launcher\_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_filter_launcher_250717.png)
+
+> ➊ View Target
+>The target for the view has items in **Based on User ID** and **Based on Total Execution**.
+>View Target Type
+>   - **Based on UserID**: it does not include duplicate data that occurs when a user performs the same action multiple times.
+>   - **Based on Total Execution**: it searches all user actions and data that includes duplicate data for the same action.
 >
 > ➋ OS
-> 사용자가 사용한 OS 정보 리스트를 필터링해 조회할 수 있습니다.
+> You can view by filtering the list of OS information used by an OS user.
 >
-> ➌ 런처 버전
-> 런처 버전 정보 리스트를 필터링해 조회할 수 있습니다.
+> ➌ Launcher version
+> You can view the launcher version information list by filtering.
 >
-> 원하는 필터를 선택한 뒤 적용을 클릭해 조회 결과를 필터링할 수 있습니다.
+> Select the filter you want and click Apply to filter out the results.
 
 
-##### 런처 실행
+##### Run launcher
 
-![realtime_execute_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_execute_launcher_none_250717.png)
+![realtime\_execute\_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_execute_launcher_none_250717.png)
 
-대시보드에서 런처 실행 수, 성공 수, 실패 수를 제공하며, 전일 대비 증감치를 통해 실행 트렌드를 확인할 수 있습니다.
-차트에서 시간대별 런처 실행 수, 런처 실행 실패 이유, OS 점유율, 런처 버전 점유율을 확인할 수 있습니다.
+The dashboard provides the number of launcher executions, the number of successes, and the number of failures, and you can check the execution trend through the previous day's decrease.
+You can see the number of launcher executions per time, the cause of launcher failure, OS share, and launcher version share in the chart.
 
-##### 런처 실행 엑셀 저장
+##### Save Launcher Execution in Excel
 
-런처 실행과 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
-파일명은 `Realtime_Launcher_날자_시간.xlsx` 형식으로 제공됩니다.
+The following are the Excel data storage items related to running a launcher.
+The file name is provided in the `Realtime_Launcher_datum_hour.xlsx` format.
 
-런처 실행 지표는 **Dashboard**, **Execution (OS)**, **Execution (Launcher Version)** 탭으로 데이터가 제공됩니다.
+Metrics for running a launcher are provided with data in the **Dashboard**, **Execution (OS)**, and **Execution (Launcher Version)** tabs.
 
-**Dashboard** 탭에서는 시간대별 런처 실행 지표 정보를 제공합니다.
-- **Launcher Execution**: 런처 실행 수
-- **Launcher Execution Success**: 런처 실행 성공 수
-- **Launcher Execution Fail**: 런처 실행 실패 수
+The **Dashboard** tab provides information about the execution metrics for the launcher by time.
+- **Launcher Execution**: Number of launcher executions
+- **Launcher Execution Success**: Number of successful launcher executions
+- **Launcher Execution Fail**: Number of launcher execution failed
 
-**Execution (OS)** 탭에서는 시간대에 따른 OS별 지표 정보를 제공합니다.
-각 OS 명 하위에 아래와 항목 지표를 확인 할 수 있습니다.
-- **Total**: 전체 설치 수
-- **Success**: 전체 설치 성공 수
-- **Failure**: 전체 설치 실패 수
+The **Execution (OS)** tab provides metrics for each OS by time zone.
+You can check the metrics below for each OS name.
+- **Total**: Total number of installations
+- **Success**: Total number of successful installations
+- **Failure**: Total number of installation failed
 
-**Execution (Launcher Version)** 탭에서는 시간대에 따른 런처 버전별 지표 정보를 제공합니다.
-각 런처 버전별 하위에 아래의 항목 지표를 확인할 수 있습니다.
-- **Total**: 전체 설치 수
-- **Success**: 전체 설치 성공 수
-- **Failure**: 전체 설치 실패 수
-
-
-##### 런처 설치
-![realtime_install_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_launcher_none_250717.png)
-
-대시보드에서 **런처 설치 수**, **런처 설치 성공 수**, **런처 설치 실패 수**를 제공하며, 전일 대비 증감치를 확인할 수 있습니다.
-차트에서 시간대별 런처 설치 수와 **런처 설치 실패 이유**를 확인할 수 있습니다
+The **Execution (Launcher Version)** tab provides metrics for each launcher version by time zone.
+You can see the metrics below for each launcher version.
+- **Total**: Total number of installations
+- **Success**: Total number of successful installations
+- **Failure**: Total number of installation failed
 
 
-##### 런처 설치 엑셀 저장
-런처 설치와 관련된 엑셀 데이터 저장 항목은 아래와 같습니다.
-파일명은 `Realtime_LauncherInstall_날자_시간.xlsx` 형식으로 제공됩니다.
+##### Install Launcher
+![realtime\_install\_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_install_launcher_none_250717.png)
 
-런처 설치 지표는 **Dashboard**, **Install (OS)**, **Install (Launcher Version)** 탭으로 데이터가 제공됩니다.
-**Dashboard** 탭에서는 시간대별 런처 실행 지표 정보를 제공합니다.
-- **Launcher Install**: 런처 설치 수
-- **Launcher Install Success**: 런처 설치 성공 수
-- **Launcher Install Fail**: 런처 설치 실패 수
-
-**Install (OS)** 탭에서는 시간대에 따른 OS별 지표 정보를 제공합니다.
-각 OS 이름 하위에 아래의 항목 지표를 확인할 수 있습니다.
-- **Total**: 전체 설치 수
-- **Success**: 전체 설치 성공 수
-- **Failure**: 전체 설치 실패 수
-
-**Install (Launcher Version)** 탭에서는 시간대에 따른 런처 버전별 지표 정보를 제공합니다.
-각 런처 버전별 하위에 아래의 항목 지표를 확인할 수 있습니다.
-- **Total**: 전체 설치 수
-- **Success**: 전체 설치 성공 수
-- **Failure**: 전체 설치 실패 수
+The dashboard provides the **number of launcher installations**, **number of successful launcher installations**, and **number of launcher installations failed**, and you can check the increase compared to the previous day.
+You can check the number of launcher installations per hour and **why the launcher installation failed** in charts.
 
 
-### 모니터링 지표
+##### Save Launcher Installation in Excel
+The following are the excel data storage items related to the installation of the launcher.
+The file name is provided in the `Realtime_LauncherInstall_datum_time.xlsx` format.
+
+The metric for installing the launcher is provided with data in the **Dashboard**, **Install (OS)**, and **Install (Launcher Version)** tabs.
+The **Dashboard** tab provides information about the execution metrics for the launcher by time.
+- **Launcher Install**: Number of launcher installations
+- **Launcher Install Success**: Number of successful launcher installations
+- **Launcher Install Fail**: Number of launcher executions failed
+
+The **Install (OS)** tab provides metrics for each OS by time zone.
+You can check the metrics below under each OS name.
+- **Total**: Total number of installations
+- **Success**: Total number of successful installations
+- **Failure**: Total number of installation failed
+
+The **Install (Launcher Version)** tab provides the metric information for each launcher version by time zone.
+You can see the metrics below for each launcher version.
+- **Total**: Total number of installations
+- **Success**: Total number of successful installations
+- **Failure**: Total number of installation failed
 
 
-모니터링 지표는 일간, 주간, 월간으로 정산된 지표를 제공합니다.
-설정한 기간의 정산 지표 데이터를 조회하며, **조건**을 클릭해 필터링된 데이터를 조회할 수 있습니다.
+### Monitoring Metrics
 
-#### 모니터링 지표 필터 정보
 
-![monitoring_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
+Monitoring metrics provide metrics calculated by day, week, and month.
+You can view the actual metric data for the set period, and click **Condition** to view the filtered data.
 
-> 1. 조회 대상
-     >  조회 대상은 **User ID 기준**과 **전체 실행 기준** 항목이 있습니다.
-     >  조회 대상 종류
-     >    - **User ID 기준**: 사용자가 여러 번 동일한 동작을 진행하여 발생되는 중복된 데이터를 포함하지 않습니다.
->    - **전체 실행 기준**: 사용자의 모든 동작을 기준으로 조회하여, 동일한 동작을 하는 중복된 데이터를 포함한 데이터를 조회합니다.
+#### Monitoring Metrics Filter Info
+
+![monitoring\_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
+
+> 1. View Target
+     > View Target has items in **Based on User ID** and **Based on Total Execution**.
+     > View Target Type
+     >   - **User ID**: Do not include duplicate data that occurs because the user performs the same action multiple times.
+     >   - **Based on total execution**: it searches all user actions and data that includes duplicate data for the same action.
 >
 > 2. OS
-     >  사용자가 사용한 OS 정보 리스트를 필터링해 조회할 수 있습니다.
+     >You can view by filtering OS > OS information list used by users.
 >
-> 3. 런처 버전
+> 3. Launcher Version
 >
->  런처 버전 정보 리스트를 필터링해 조회할 수 있습니다.
+>  You can view the launcher version information list by filtering.
 >
-> 4. 게임 이름
-     >  게임 이름(게임 버전) 정보 리스트를 필터링해 조회할 수 있습니다.
-     >  원하는 필터를 선택한 뒤 **적용**을 클릭해 조회 결과를 필터링할 수 있습니다.
+> 4. Game Name
+     > You can view by filtering the list of the game name (game version) information.
+     > Select the filter you want and click **Apply** to filter the view results.
 
 
-#### 게임 실행
+#### Run Game
 
-![monitoring_execute_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
+![monitoring\_execute\_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
 
-조회한 기간의 게임 실행 수와 게임 실행 실패 이유의 차트 데이터를 제공합니다.
+Provide chart data for the number of games executed for the view period and why the game failed.
 
-#### 게임 설치
+#### Install Game
 
-![monitoring_install_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
+![monitoring\_install\_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
 
-조회한 기간의 게임 설치 수와 게임 설치 실패 이유의 차트 데이터를 제공합니다.
+Provide chart data for the number of game installations for the view period and why the game installation failed.
 
-#### 런처 실행
+#### Run launcher
 
-![monitoring_execute_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
+![monitoring\_execute\_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
 
-조회한 기간의 런처 실행 수와 런처 실행 실패 이유의 차트 데이터를 제공합니다.
+Provide chart data of the number of launcher executions and the reason for the launcher execution failure for the view period.
 
-#### 모니터링 지표
+#### Monitoring Metrics
 
-![monitoring_grid1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
+![monitoring\_grid1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
 
-조회한 기간의 전체 모니터링 지표를 표 형식으로 제공합니다.
-기간(일자)별 데이터를 제공하며 아래의 데이터 항목들을 확인할 수 있습니다.
+Provide a full monitoring metric for the view period in table format.
+Data is provided by period (date), and you can see the data items below.
 
->- 게임 실행/실행 성공/실행 실패
->- 게임 설치/설치 성공/설치 실패/설치 이탈
->- 게임 업데이트 설치/설치 성공/설치 실패/설치 이탈
->- 런처 실행/실행 성공/실행 실패
+>- Game execution/execution succeeded/launch failed
+>- Game installation/installation succeeded/installation failed/installation abandonment
+>- Game update installation/installation succeeded/installation failed/installation abandonment
+>- Launcher execution/execution succeeded/execution failed
 
 
-#### 모니터링 엑셀 저장
+#### Save Monitoring in Excel
 
-모니터링 지표 데이터를 엑셀로 저장할 수 있습니다.
+You can store the monitoring metric data as an excel.
 
-모니터링 지표의 엑셀 데이터 저장 항목은 아래와 같습니다.
-파일명은 `Monitoring_날자_시간.xlsx` 형식으로 제공됩니다.
+The Excel data storage item of the monitoring metric is as follows.
+The file name is provided in the `Monitoring_datum_hour.xlsx` format.
 
-런처 설치 지표는 **GameExecution (Game)**, **GameExecution (OS)**, **GameDownload (Game)**, **GameDownload (OS)**,
-**GameUpdate (Game)**, **GameUpdate (OS)**, **LauncherExecution (OS)**, **LauncherExecution (Version)**, **Bounce** 탭으로 데이터가 제공됩니다.
+The metric for game installation is provided with **GameExecution (Game)**, **GameExecution (OS)**, **GameDownload (Game)**, **GameDownload (OS)**,
+**GameUpdate (Game)**, **GameUpdate (OS)**, **LauncherExecution (OS)**, **LauncherExecution (Version)**, and **Bounce** tabs.
 
-**GameExecution** 관련 탭에서는 조회 기간의 게임 실행 정보를 제공합니다.
-- **GameExecution (Game)**: 게임별 게임 실행 지표(총 숫자, 성공 수, 실패 수)
-- **GameExecution (OS)**: OS별 게임 실행 지표(총 숫자, 성공 수, 실패 수)
+The **GameExecution** related tab provides the game execution information for the search period.
+- **GameExecution (Game)**: Metrics of game execution by game (total, number of successes, and failures)
+- **GameExecution (OS)**: Metrics of game execution by OS (total number, number of successes, number of failures)
 
-**GameDownload** 관련 탭에서는 조회 기간의 게임 다운로드 정보를 제공합니다.
-- **GameDownload (Game)**: 게임별 게임 다운로드 지표(총 숫자, 성공 수, 실패 수)
-- **GameDownload (OS)**: OS별 게임 다운로드 지표(총 숫자, 성공 수, 실패 수)
+The **GameDownload** related tab provides the game download information for the search period.
+- **GameDownload (Game)**: Metrics for game-by-game download (total number, number of successes, and number of failures)
+- **GameDownload (OS)**: Metrics for game download by OS (total number, number of successes, and number of failures)
 
-**GameUpdate** 관련 탭에서는 조회 기간의 게임 업데이트 정보를 제공합니다.
-- **GameUpdate (Game)**: 게임별 게임 업데이트 지표(총 숫자, 성공 수, 실패 수)
-- **GameUpdate (OS)**: OS별 게임 업데이트 지표(총 숫자, 성공 수, 실패 수)
+The **GameUpdate** related tab provides game update information for the search period.
+- **GameUpdate (Game)**: Metrics for game-by-game update (total numbers, number of successes, and number of failures)
+- **GameUpdate (OS)**: Metrics for game update by OS (total number, number of successes, number of failures)
 
-**LauncherExecution** 관련 탭에서는 조회 기간의 런처 실행 정보를 제공합니다.
-- **LauncherExecution (Game)**: 게임별 런처 실행 지표(총 숫자, 성공 수, 실패 수)
-- **LauncherExecution (OS)**: OS별 런처 실행 지표(총 숫자, 성공 수, 실패 수)
+The **LauncherExecution** related tab provides the execution information for the search period.
+- **LauncherExecution (Game)**: Metrics of launcher execution by game (total number, number of successes, and number of failures)
+- **LauncherExecution (OS)**: Metrics for running the launcher per OS (total, number of successes, number of failures)
 
-**Bounce** 탭에서는 조회 기간의 게임별 이탈률 지표 정보를 제공합니다.
-각 게임별로 설치 및 업데이트 과정에서 발생한 이탈률을 확인할 수 있습니다.
+The **Bounce** tab provides information about the abandonment rate for each game for the search period.
+You can check the abandonment rate that occurs during the installation and update process for each game.
 
-이탈한 수는 게임의 설치 중단 및 업데이트 중 이탈한 수를 나타냅니다.
-데이터를 확인한 후, 런처 실행 실패 데이터를 통해 문제를 더 상세히 분석할 수 있습니다.
-- **Game Install**: 게임 설치가 시도된 수
-- **Game Install Bounce**: 게임 설치 중 이탈한 수
-- **Game Update**: 게임 업데이트 시도한 수
-- **Game Update Bounce**: 게임 업데이트 중 이탈한 수
-- **Game Execution**: 게임 업데이트나 설치를 시도한 유저 중 실행까지 시도한 수
+The number of abandonments shows the number of abandonments during the game's installation and updates.
+After reviewing the data, you can further analyze the issue using the launcher launch failure data.
+- **Game Install**: Number of game installation attempts
+- **Game Install Bounce**: Number of abandonments during game installation
+- **Game Update**: Number of game update attempts
+- **Game Update Bounce**: Number of abandonments during game updates
+- **Game Execution**: Number of users trying to update or install the game until they execute
