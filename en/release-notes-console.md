@@ -1,175 +1,175 @@
-## Game > GameStarter > 릴리스 노트
+## Game > GameStarter > Release Notes
 
-### 2025. 09. 23.
-#### 기능 추가
-* 다국어 환경 설정 기능 추가.
+### September 23, 2025
+#### Added Features
+* Added the multilingual environment setting feature.
 
-### 2025. 08. 26.
-#### 기능 개선/변경
-* 런처 실행시 CustomParameter 설정 기능 추가.
+### August 26, 2025
+#### Feature Updates
+* Added the CustomParameter setting feature when the launcher is executed.
 
-### 2025. 07. 29.
-#### 버그 수정
-* 기타 오류 수정.
+### July 29, 2025
+#### Bug Fixes
+* Fixed other errors.
 
-### 2025. 03. 25.
-#### 기능 개선/변경
-* 게임 스타터 런처 및 게임 실행 관련 지표를 조회할 수 있는 페이지 추가.
+### March 25, 2025
+#### Feature Updates
+* Added a page to view metrics related to GameStarter launcher and execution.
 
-### 2024. 12. 24.
-#### 기능 개선/변경
-* 등록된 게임에 대한 삭제가 가능하도록 기능 추가.
+### December 24, 2024
+#### Feature Updates
+* Added the feature to allow you to delete registered games.
 
-### 2024. 11. 26.
-#### 기능 개선/변경
-* 게임 바이너리의 CDN 연동 옵션에서 GameStarter CDN 항목 제거.
-* 게임 바이너리에서 외부 CDN 연동시 연동이 이루어졌는지 확인하는 기능 추가.
-* 게임/런처 배포 UI 수정.
-* 기타 오류 수정.
+### November 26, 2024
+#### Feature Updates
+* Deleted GameStarter CDN items from the game binary's CDN integration options.
+* Added the feature to check if the external CDN integration has been performed on the game binary.
+* Fixed the game/launcher deployment UI.
+* Fixed other errors.
 
-### 2024. 08. 13.
-#### 기능 개선/변경
-* 아이콘, 이미지 등록시 경로를 변환하여 등록하는 것이 불가능하도록 수정.
+### August 13, 2024
+#### Feature Updates
+* Fixed icons to make it impossible to register by converting paths when registering images.
 
-### 2024. 05. 28.
-#### 기능 개선/변경
-* 한게임 프로젝트인 경우 런처 실행시 pString 을 입력하여 테스트 할 수 있도록 기능 제공.
-* 게임 바이너리 업로시 업로드 중인 파일 목록 노출 순서 변경.
+### May 28, 2024
+#### Feature Updates
+* For Korean games, provided the feature for you to enter pString to test when the launcher is executed.
+* Changed the order of appearance of the list of files uploaded when uploading the game binary.
 
-### 2024. 05. 14.
-#### 버그 수정
-* 게임 바이너리에서 CDN 설정시 GameStarter CDN이 사용자 CDN 등록창에서 잘못 입력한 값으로 인해 생성되지 않는 현상 수정.
+### May 14, 2024
+#### Bug Fixes
+* Fixed the event that GameStarter CDN is not created due to an incorrectly entered value in the user CDN registry window when setting up CDN in the game binary.
 
-### 2024. 05. 02.
-#### 기능 개선/변경
-* 런처에 등록 가능한 게임 수 변경.
+### May 2, 2024
+#### Feature Updates
+* Changed the number of games available for registration for the launcher.
 
-### 2024. 04. 29.
-#### 기능 개선/변경
-* macOS 인스톨러 최초 배포시 발생하는 오류 수정.
+### April 29, 2024
+#### Feature Updates
+* Fixed an error that occurs during the initial deployment of the macOS installer.
 
-### 2024. 04. 23.
-#### 기능 개선/변경
-* 게임 설정시 게임 바로가기 아이콘을 지정한 게임으로 생성하도록 설정하는 기능 추가.
+### April 23, 2024
+#### Feature Updates
+* Added the feature to set Go to Game icon to create with the specified game when setting up the game.
 
-#### 버그 수정
-* 기타 오류 수정.
+#### Bug Fixes
+* Fixed other errors.
 
-### 2024. 03. 26.
-#### 기능 개선/변경
-* 런처 배포 페이지에서 런처 실행 및 템플릿 스크립트 복사 선택시 게임을 선택할 수 있도록 기능 추가.
+### March 26, 2024
+#### Feature Updates
+* Added the feature to select a game when selecting Run Launcher and Copy Template Script from the launcher deployment page.
 
-#### 버그 수정
-* 런처 설정시 브랜드 아이콘을 변경하지 못하는 오류 수정.
+#### Bug Fixes
+* Fixed an error that fails to change the brand icon when setting up a launcher.
 
-### 2024. 03. 12.
-#### 기능 개선/변경
-* 게임 바이너리 정렬 기능 수정.
+### March 12, 2024
+#### Feature Updates
+* Modified the game binary sorting feature.
 
-#### 버그 수정
-* 게임 바이너리 가져오기 관련 기능 오류 수정.
+#### Bug Fixes
+* Fixed an error related to game binary import.
 
-### 2024. 02. 27.
-#### 기능 개선/변경
-* 배포존이 노출되는 페이지 내 배포 정렬순서 변경.
+### February 27, 2024
+#### Feature Updates
+* Changed the deployment sorting order on the page where the deployment zone appears.
 
-### 2024. 02. 15.
-#### 기능 개선/변경
-* macOS 용 런처 지원을 위한 기능 추가.
-* 타 게임의 게임 바이너리를 사용할 수 있도록 가져오기 기능 추가. 
+### February 15, 2024
+#### Feature Updates
+* Added the feature for supporting the launcher for macOS.
+* Added the import feature to allow other games to use game binaries. 
 
-### 2023. 12. 19.
-#### 버그 수정
-* 게임 바이너리 업로드 중, 파일용량이 큰 경우 네트워크가 업로드 중간에 끊기는 현상 오류 수정.
+### December 19, 2023
+#### Bug Fixes
+* Fixed an error that disconnect the network in the middle of a game binary upload when the file is large.
 
-### 2023. 11. 28.
-#### 기능 개선/변경
-* 파일 업로드 중, 페이지가 변경되는 경우 파일업로드가 취소되도록 처리. 
-* 파일 업로드 후, 파일명 선택 창에 닫기 버튼을 클릭하는 경우 파일 업로드가 취소되도록 처리. 
-* 파일 업로드 취소시 업로드 취소로 상태를 노출하도록 수정.
+### November 28, 2023
+#### Feature Updates
+* During file upload, if the page is changed, process to cancel the file upload. 
+* If you click the Close button in the File Name Select window after uploading a file, make sure the file upload is canceled. 
+* Modified the status to expose the upload to cancel when the file upload is canceled.
 
-#### 버그 수정
-* 파일 업로드 취소시 업로드 취소로 상태를 노출하도록 수정
-* macOS 에서 업로드한 파일명의 한글 자모가 분리되는 현상 수정.
-* 기타 오류 수정.
+#### Bug Fixes
+* Modified the status to expose the upload to cancel when the file upload is canceled
+* Fixed the phenomenon in which the Korean summary of the file name uploaded from macOS is separated.
+* Fixed other errors.
 
-### 2023. 11. 14.
-#### 기능 개선/변경
-* 런처용 WebUI 성능 개선.
+### November 14, 2023
+#### Feature Updates
+* Enhanced WebUI performance for launcher.
 
-### 2023. 10. 31.
-#### 기능 개선/변경
-* 게임 설치 경로 설정 기능 수정.
-* 게임 바로가기 아이콘 생성 위치 설정 항목 제거.
+### October 31, 2023
+#### Feature Updates
+* Modified the game installation path settings feature.
+* Deleted the creation location setting item of Go to Game icon.
 
-### 2023. 10. 17.
-#### 기능 개선/변경
-* 게임 바이너리 실행 파일 입력 기능 수정.
-* Installer 파일 이름 수정 기능을 공통 이름 설정 기능으로 변경.
-* 게임 설정 페이지 내, 게임 이용 약관 항목 삭제. 
-* 런처 설정, 게임 목록 및 설정 조회 조건 내 날짜 필드 제거. 
-* Console 로딩바 적용.
+### October 17, 2023
+#### Feature Updates
+* Modified the feature to enter file running game binary.
+* Changed the Installer file name modification feature to the common name setting feature.
+* On the Game Settings page, delete the Game Terms and Conditions. 
+* Deleted the date field within the launcher settings, game list and view conditions settings. 
+* Applied the Console load bar.
 
-### 2023. 08. 17.
-#### 기능 개선/변경
-* 게임 바이너리 업로드 UI 수정.
-* 게임 바이너리 업로드시 루트 폴더를 제외하고 업로드하도록 처리.
+### August 17, 2023
+#### Feature Updates
+* Modified the game binary upload UI.
+* When uploading a game binary, process the upload to exclude the root folder.
 
-### 2023. 07. 25.
-#### 기능 개선/변경
-* WebUI 초기화 성능 개선.
+### July 25, 2023
+#### Feature Updates
+* Enhanced WebUI initialization performance.
 
-#### 버그 수정
-* WebUI 내 UI 오류 수정.
+#### Bug Fixes
+* Fixed UI error in WebUI.
 
-### 2023. 07. 11.
-#### 버그 수정
-* 상품 신규 활성화시 발생하는 오류 수정.
+### July 1, 2023
+#### Bug Fixes
+* Fixed an error that occurs when the product is newly enabled.
 
-### 2023. 06. 27.
-#### 기능 개선/변경
-* 파일명 입력시 유효성 체크 기능 수정. 
-* 게임, 런처 설정 중, 미리보기 화면에서 WebUI 미리 보기 제거. 
-* 게임 설정 페이지 내에서 미리보기를 바로 할 수 있도록 기능 추가.
+### June 27, 2023
+#### Feature Updates
+* Modified the validation feature when entering a file name. 
+* Deleted WebUI preview from the preview screen while setting up the game, launcher. 
+* Added the feature to quick preview within the game settings page.
 
-### 2023. 06. 13.
-#### 신규 버전 출시 (2.0)
-* 게임 스타터의 전체 기능을 새롭게 개발한 신규 버전 출시.
-* 게임별 UI 커스터마이징 기능 추가.
-* 게임별 게임 바이너리 관리 기능 추가.
-* 여러개의 게임을 하나의 런처에서 서비스할 수 있도록 기능 추가.
-* 게임별 인스톨러 구성 기능 추가.
+### June 13, 2023
+#### Released new version (2.0)
+* Released a new version with all new features of the game starter.
+* Added the feature for UI customization per game.
+* Added the binary management feature for games by game.
+* Added the feature to allow multiple games to be serviced from one launcher.
+* Added the installer configuration feature for each game.
 
-### 2023. 02. 14.
-#### 버그 수정
-* 내부 오류 개선.
+### February 14, 2023
+#### Bug Fixes
+* Fixed internal errors.
 
-### 2022. 05. 24.
-#### 기능 개선/변경
-* 서비스명 입력시 첫 문자는 알파벳으로만 입력하도록 수정.
+### May 24, 2022
+#### Feature Updates
+* When entering a service name, fixed to enter the first character to be only alphabetical.
 
-### 2022. 04. 14.
-#### 버그 수정
-* 인스톨 경로 설정시 대문자를 사용하도록 수정.
-* 서비스 설정 수정시 수정사항이 반영되지 않는 오류 수정.
+### April 14, 2022
+#### Bug Fixes
+* Modified the installation path to use uppercase letters.
+* Fixed an error where changes are not reflected when modifying service settings.
 
-### 2022. 04. 12.
-#### 기능 개선/변경
-* 로그인 진행중 노출되는 메시지 수정.
+### April 12, 2022
+#### Feature Updates
+* Modified messages that appear during login.
 
-### 2022. 03. 29.
-#### 버그 수정
-* 배포시에 요청자의 정보가 입력되지 않는 버그 수정.
+### March 29, 2022
+#### Bug Fixes
+* Fixed a bug where the request information is not entered during deployment.
 
-### 2022. 03. 15.
-#### 버그 수정
-* WebUI 관련 버그 수정.
-* `한게임 바로가기를 바탕화면에 설치` 버튼이 정상적으로 동작하지 않는 현상 수정.
+### March 15, 2022
+#### Bug Fixes
+* Fixed webUI related bugs.
+* Fixed an error that the button to `install the game quick reply` on the desktop is not working properly.
 
-### 2022. 02. 22.
-#### 기능 개선/변경
-* 배포 화면에서 새로고침 기능 추가.
+### February 22, 2022
+#### Feature Updates
+* Added the refresh feature on the deployment screen.
 
-### 2022. 01. 25.
-#### 신규 상품 출시
-* PC게임을 실행하기 위해 필요한 사전 파일의 다운로드, 업데이트 및 오류를 수정한 패치 등 게임 패키지를 설정하고, 게임에 쉽게 접근할 수 있도록 도와주는 런처 서비스입니다.
+### January 25, 2022
+#### Released a new product
+* This is a launcher service that sets game packages, such as downloading, updating, and fixing errors in dictionary files required to run PC games, and helps you easily access the game.
