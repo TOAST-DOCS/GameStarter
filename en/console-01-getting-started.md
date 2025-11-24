@@ -1,98 +1,94 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 시작하기
+## Game > GameStarter > Console User Guide > Get Started
 
-## 시작하기에 앞서
+## Before Starting
 
-이 문서는 GameStarter를 이용하기 위해서 알아두어야 할 정보를 설명합니다.
+This document describes the information for using GameStarter.
 
-## GameStarter 구성 요소
+## GameStarter Components
 
-GameStarter는 크게 4개의 요소로 구성되어 있습니다.
-- 게임
-- 런처
-- 런처 인스톨러
-- 지표
+GameStarter consists of four main components.
 
+- Game
+- Launcher
+- Launcher Installer
+- Metrics
 
-### 게임
-GameStarter 런처는 게임을 여러 개 설정할 수 있습니다.
-서비스할 게임을 각각 등록한 뒤 게임별로 필요한 설정과 바이너리를 배포해야 합니다.
+### Game
 
-게임에 대한 더 자세한 내용은 [콘솔 사용 가이드 > 게임](./console-02-game)을 참고하세요.
+GameStarter launcher can be configured for multiple games. You must register each game you wish to service and then deploy the required settings and binaries for each game.
 
-### 런처
-GameStarter 런처는 게임을 다운로드와 업데이트, 게임 실행을 도와주는 역할을 합니다.
-런처에는 게임 설치에 필요한 정보와 바이너리가 반드시 준비되어 있어야 합니다.
-이 정보와 바이너리가 없을 경우, 런처를 통해 게임을 설치하거나 실행할 수 없습니다.
+For more information about the game, refer to [Console User Guide > Game](./console-02-game).
 
-따라서 런처를 설정하기 전에 반드시 게임 설정과 바이너리 배포가 완료되었는지 확인해야 합니다.
+### Launcher
 
-보다 자세한 런처 설명은 [콘솔 사용 가이드 > 런처](./console-03-launcher)를 참고하세요.
+GameStarter launcher helps downloading, updating, running a game. The launcher must have the necessary information and binaries for game installation. If this information and binaries are missing, the game cannot be installed or run through the launcher.
 
-### 런처 인스톨러
-GameStarter 런처를 실행하려면 가장 먼저 런처가 사용자 PC에 설치되어 있어야 합니다.
-런처 인스톨러는 런처를 사용자 PC에 설치해 주는 프로그램입니다.
-런처 인스톨러가 준비되어 있지 않으면 런처를 설치할 수 없게 됩니다.
+Therefore, before configuring the launcher, ensure that the game setup and binary deployment are complete.
 
-런처를 설정하기 전에 반드시 런처 인스톨러 생성이 완료되었는지 확인해야 합니다.
+For more information about the launcher, refer to [Console User Guide > Launcher](./console-03-launcher).
 
-런처 인스톨러에 대한 더 자세한 내용은 [콘솔 사용 가이드 > 런처 인스톨러](./console-04-installer)를 참고하세요.
+### Launcher Installer
 
-### 지표
-GameStarter는 지표를 제공합니다.
+To run GameStarter launcher, first of all, the launcher must be installed on your PC. The launcher installer is a program that installs the launcher on your PC. If the launcher installer isn't available, you won't be able to install the launcher.
 
-실시간 모니터링과 모니터링 지표로 구성되어 있습니다.
+Before configuring the launcher, you must ensure that the launcher installer has been created.
 
-실시간 모니터링은 런처 및 게임의 설치와 실행에 관한 실시간 지표를 제공합니다.
-모니터링 지표는 설치 및 실행에 관한 일간, 주간, 월간 지표를 제공합니다.
+For more information about the launcher installer, refer to [Console User Guide > Launcher Installer](./console-04-installer).
 
-지표에 대한 더 자세한 내용은 [콘솔 사용 가이드 > 지표](./console-05-statistics)를 참고하세요.
+### Metrics
 
-## GameStarter 운영 프로세스
+GameStarter provides metrics.
 
-GameStarter의 각 구성 요소들은 서로 의존 관계에 있어 상황에 따라 운영 시 진행 순서가 다릅니다.
-다음은 몇 가지 상황별 권장하는 진행 순서의 예시입니다.
+It consists of real-time monitoring and monitoring metrics.
 
-### 프로젝트 초기 설정
-- 프로젝트를 생성했다면 **[게임], [런처], [런처 인스톨러]**를 모두 설정해야 합니다.
-- 아래와 같은 순서로 진행하는 것을 권장합니다.
-- [게임] → [런처] → [런처 인스톨러] → [테스트]
+Real-time monitoring provides real-time metrics for installing, running launcher and game. Monitoring metrics provides daily, weekly, monthly metrics for installation and run.
 
+For more information about the metric, refer to [Console User Guide > Metric](./console-05-statistics).
 
-### 게임 바이너리 업데이트
-- 이미 런처에 해당 게임 설정과 바이너리를 배포한 상태인 경우
-- 변경하려는 게임 바이너리 업로드를 완료한 후에 게임 배포에서 바이너리 배포를 진행합니다.
-- 아래와 같은 순서로 진행하는 것을 권장합니다.
-- [게임 바이너리: 업로드] → [게임 배포: 바이너리] → [테스트]
+## GameStarter Operational Process
 
+Each component of GameStarter is interdependent, so the order in which it runs may vary depending on the situation. The following are examples of recommended orderings for different situations:
 
-### 게임 설정 업데이트
-- 이미 런처에 해당 게임 설정과 바이너리를 배포한 상태인 경우
-- **게임 설정 수정**을 통해 설정 정보를 업데이트합니다.
-- 이후 **게임 배포**에서 게임 설정 배포를 진행합니다.
-- 아래와 같은 순서로 진행하는 것을 권장합니다.
-- [게임 설정: 수정] → [게임 배포: 설정] → [테스트]
+### Project Initial Settings
 
+- Once you’ve created a project, you need to configure \*\*[Game], [Launcher], [Launcher Installer]\*\*.
+- We recommend that you proceed in the following order:
+- [Game] → [Launcher] → [Launcher Installer] → \[Test]
 
-### 신규 게임 추가
-- 이미 게임 설정과 런처 배포를 완료한 상태인 경우
-- 새로운 게임을 추가하려면 [게임] 추가와 [런처] 업데이트가 필요합니다.
-- 아래와 같은 순서로 진행하는 것을 권장합니다.
-- [게임 등록] → [게임 설정: 등록] → [게임 바이너리: 업로드] → [게임 배포: 설정 & 바이너리] → [런처 설정: 게임 추가] → [런처 배포] → [테스트]
+### Game Binary Update
 
+- If the game settings and binaries have already been deployed to the launcher
+- After uploading the game binaries you wish to modify, proceed with binary deployment in Game Deployment.
+- We recommend that you proceed in the following order:
+- \[Game Binary: Upload] → \[Game Deployment: Binary] → \[Test]
 
-### 기존 게임 제외
-- 기존에 배포된 상태에서 게임을 제외해야 하는 경우에는 [런처] 업데이트가 필요합니다.
-- 아래와 같은 순서로 진행하는 것을 권장합니다.
-- [런처 설정: 게임 제외] → [런처 배포] → [테스트]
+### Game Settings Update
 
+- If the game settings and binaries have already been deployed to the launcher
+- Update the settings information through Modify Game Settings
+- After that, deploy the game settings in the Deploy Game
+- We recommend that you proceed in the following order:
+- \[Game Settings: Modify] → \[Game Deployment: Settings] → \[Test]
 
-## 배포존
+### Add a New Game
 
-일반적으로 서비스를 하기 전에는 개발과 테스트를 하기 위한 별도의 런처가 필요합니다.
-이를 위해서 GameStarter는 **배포존**이라는 개념을 추가하여 독립적인 런처를 사용할 수 있도록 하였습니다.
+- If you have already completed game setup and launcher deployment
+- To add a new game, you need to add a [Game] and update a [Launcher\[.
+- We recommend that you proceed in the following order:
+- [Register Game] → \[Game Settings: Register] → \[Game Binary: Upload] → \[Game Deployment: Settings \& Binary] → \[Launcher Settings: Add Game] → [Launcher Deployment] → \[Test]
 
-기본적으로 제공되는 배포존은 아래와 같습니다.
-1. **SERVICE**: 실제 서비스를 위한 배포존
-2. **DEVELOP**: 개발 및 알파 테스트를 위한 배포존
-3. **TEST**: QA나 베타 테스트를 위한 배포존
+### Excluding Existing Games
 
+- If you need to exclude a game from a previously deployed status, a [Launcher] update is required.
+- We recommend that you proceed in the following order:
+- \[Launcher Settings: Excluding Game] → [Launcher] → [Launcher Installer] → \[Test]
+
+## Deployment Zone
+
+Typically, before launching a service, a separate launcher is needed for development and testing. To address this, GameStarter added the concept of a deployment zone, allowing the use of a standalone launcher.
+
+The following zones are provided by default:
+
+1. **SERVICE**: Deployment zone for real service
+2. **DEVELOP**: Deployment zone for development and alpha test
+3. **TEST**: Deployment zone for QA or beta test
