@@ -1,13 +1,18 @@
-## Game > GameStarter > Console User Guide > Launcher Installer
+<!-- pre-align:aligned sig=a8d20e151ed1 -->
 
-## Launcher Installer
+<a id="game-gamestarter-console-user-guide-launcher-installer"></a>
+## Game > GameStarter > Console User Guide > Launcher Installer { #game-gamestarter-console-user-guide-launcher-installer }
+
+<a id="launcher-installer"></a>
+## Launcher Installer { #launcher-installer }
 
 To run GameStarter launcher, first of all, the launcher must be installed on your PC.
 The launcher installer is a program that installs the launcher on your PC.
 
 This document describes the settings required when creating a launcher installer.
 
-### Initial Settings
+<a id="initial-settings"></a>
+### Initial Settings { #initial-settings }
 
 
 ![installer\_basic](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_basic_250717.png)
@@ -16,11 +21,13 @@ The initial setting of the lancer installer can only be set once when setting up
 You can only modify some items after the initial setting is complete.
 For modifying settings, see **Modify Settings** below.
 
-### URL Scheme Settings
+<a id="url-scheme-settings"></a>
+### URL Scheme Settings { #url-scheme-settings }
 ![installer\_urlscheme](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_url_scheme_250717.png)
 
 The URL scheme setting must be registered first for initial setting.
 
+<a id="url-scheme-settings-url-scheme"></a>
 #### ➊ URL scheme
 
 URL scheme allows the user to communicate with the app using the custom protocols.
@@ -48,9 +55,11 @@ If you set it to the URL scheme used by other programs, GameStarter might not ru
 > e.g.) DEVELOP 
 > - URL Scheme: example-develop
 
-### Common Name Settings
+<a id="common-name-settings"></a>
+### Common Name Settings { #common-name-settings }
 ![installer\_names](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_name_250717.png)
 
+<a id="common-name-settings-common-name"></a>
 #### Common Name
 The common name is used as the name of the launcher installation program and deletion program, and is also used in the installation folder and path.
 
@@ -89,24 +98,29 @@ The following is an example of registering the DEVELOP zone settings:
 
 The following is the setting information that requires registration after the initial setting is complete:
 
+<a id="common-name-settings-go-to-launcher-icon"></a>
 #### Go to Launcher Icon
 ![installer\_icons](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_250717.png)
 
 After installing the GameStarter launcher, you can automatically create a Go to Launcher on the desktop and register the settings required to create a launcher.
 
+<a id="common-name-settings-go-to-icon-image"></a>
 #### ➊ Go to Icon Image
 Register the Go to icon image.
 
+<a id="common-name-settings-go-to-icon-name"></a>
 #### ➋ Go to Icon Name
 Enter the Go to icon name.
 Check that you have entered correctly and click **Register**.
 
+<a id="common-name-settings-confirm-registration-settings"></a>
 #### Confirm Registration Settings
 You can check the registered settings by clicking the installer settings list.
 
 ![installer\_confirm\_list](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_after_list_click_250717.png)
 
-### Deploy Launcher Installer Settings
+<a id="deploy-launcher-installer-settings"></a>
+### Deploy Launcher Installer Settings { #deploy-launcher-installer-settings }
 Once you complete all the settings required for the installer, you must deploy the installer settings.
 This task can take a few to tens of minutes.
 
@@ -137,14 +151,17 @@ You can check the status depending on the deployment status.
 >
 > If the deployment status appears as **Deployment Failed**, contact the Customer Center.
 
+<a id="deploy-launcher-installer-settings-view-deployment-history"></a>
 #### View Deployment History
 You can view the information and deployment history of the deployed installer in the **deploy history** tab.
 ![installer\_deploy\_list](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_deploy_list_250717.png)
 
-### Modify Settings
+<a id="modify-settings"></a>
+### Modify Settings { #modify-settings }
 You can view and modify the setting information of the launcher installer.
 The installer setting screen after registering and deploying the installer settings according to the instructions above.
 
+<a id="modify-settings-check-registered-settings"></a>
 #### Check Registered Settings
 
 You can go to a page where you can view/modify the installer details by clicking the areas displayed in red in the lower image.
@@ -158,6 +175,7 @@ You can go to a page where you can view/modify the installer details by clicking
 ➎ **Registered by**: Indicates the masked email address of the user registering the launcher installer settings.
 ➏ **Memo**: Indicate the memo you entered when registering the launcher installer settings.
 
+<a id="modify-settings-confirm-the-details-of-the-registered-settings"></a>
 #### Confirm the Details of the Registered Settings
 
 You can check the basic information of the installer, and you can check the registration information for the Go to Launcher icon by clicking **Next** at the bottom.
@@ -170,6 +188,7 @@ You can modify the basic information settings by clicking **Modify**.
 ➍ **Installer Version**: Display the installer version information.
 ➎ **Memo**: Indicate the memo entered when registering the launcher installer settings.
 
+<a id="modify-settings-modify-basic-info"></a>
 #### Modify Basic Info
 To modify the basic information, click **Modify** or click **Next** on the **Installer Settings Details** screen to access the **Modify Installer Settings** page below.
 
@@ -178,6 +197,7 @@ To modify the basic information, click **Modify** or click **Next** on the **Ins
 ➋ **Memo**: You can modify the contents of the installer setting memo.
 Click ➌ **Next** to go to the Next Modify page.
 
+<a id="modify-settings-modify-go-to-launcher-icon"></a>
 #### Modify GO to Launcher Icon
 
 To modify the Go to Launcher icon, click **Modify**, or click **Next** on the **Modify Basic Info screen** to go to the page below.

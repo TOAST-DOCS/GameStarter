@@ -1,10 +1,15 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 게임
+<!-- pre-align:aligned sig=42a546870cc6 -->
 
-## Game
+<a id="game-gamestarter-console-user-guide-game"></a>
+## Game > GameStarter > 콘솔 사용 가이드 > 게임 { #game-gamestarter-console-user-guide-game }
+
+<a id="game"></a>
+## Game { #game }
 
 게임을 등록하고 게임의 설정과 바이너리를 배포하는 방법에 대해서 설명합니다.
 
-### 게임 목록
+<a id="game-list"></a>
+### 게임 목록 { #game-list }
 ![game_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_list_250717.png)
 
 게임 목록에서는 새로운 게임을 등록하거나 등록된 게임들을 조회할 수 있습니다.
@@ -12,57 +17,70 @@
 
 게임 목록의 조회 결과에는 아래와 같은 필드를 가지고 있습니다.
 
+<a id="game-list-game-name"></a>
 #### ➊ 게임 이름
 등록된 게임의 고유한 이름을 나타냅니다.
 
+<a id="game-list-game-os"></a>
 #### ➋ 게임 OS
 게임을 실행할 수 있는 OS를 나타냅니다.
 
+<a id="game-list-registration-date"></a>
 #### ➌ 등록 일시
 게임을 등록한 날짜를 나타냅니다.
 
+<a id="game-list-registrant"></a>
 #### ➍ 등록자
 게임을 등록한 사용자의 마스킹된 이메일 주소를 나타냅니다.
 
+<a id="game-list-game-enabled"></a>
 #### ➎ 게임 사용 여부
 게임의 사용 여부(사용 또는 사용 안 함)를 나타냅니다.
 
+<a id="game-list-view-details"></a>
 #### ➏ 상세보기
 **상세** 버튼을 클릭해 등록된 게임의 상세한 정보를 확인할 수 있습니다.
 
 
-### 게임 등록
+<a id="register-a-game"></a>
+### 게임 등록 { #register-a-game }
 
 게임 목록 왼쪽 상단에서 OS에 따라 **+ Windows** 또는 **+ macOS**를 클릭해 새 게임을 등록할 수 있습니다.
 
 ![game_register](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_regist_win_250717.png)
 
+<a id="register-a-game-game-name"></a>
 #### 게임 이름
 게임 이름은 다른 게임과 구분할 수 있도록 중복되지 않는 고유한 명칭을 가져야 합니다.
 게임 이름은 한글, 영문 대소문자, 숫자로 2~15자까지 입력할 수 있습니다.
 
+<a id="register-a-game-os"></a>
 #### OS
 게임을 실행할 수 있는 OS 정보를 보여줍니다.
 
 게임 이름을 입력한 뒤 **등록**을 클릭해 게임을 등록할 수 있습니다
 
-### 게임 상세보기
+<a id="game-details"></a>
+### 게임 상세보기 { #game-details }
 
 게임 목록에서 상세한 정보를 확인할 게임의 **상세** 버튼을 클릭해 게임 상세 정보 페이지로 이동합니다.
 
 ![game_detail](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_detail_250717.png)
 
-### 게임 수정
+<a id="modify-a-game"></a>
+### 게임 수정 { #modify-a-game }
 
 게임 상세 정보 페이지 상단의 **수정**을 클릭해 게임 정보를 수정할 수 있습니다.
 
 ![game_modify](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_modify_250717.png)
 
+<a id="modify-a-game-game-enabled"></a>
 #### ➊ 게임 사용 여부
 사용 중인 게임을 **사용 안 함**으로 변경하거나, 사용하지 않는 게임을 **사용**으로 변경할 수 있습니다.
 
 
-### 게임 진입
+<a id="enter-the-game"></a>
+### 게임 진입 { #enter-the-game }
 
 ![game_enter](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_enter_250717.png)
 
@@ -71,6 +89,7 @@
 
 게임에 진입하면 게임을 설정하거나 바이너리를 배포할 수 있습니다
 
+<a id="enter-the-game-game-settings-list"></a>
 #### 게임 설정 목록
 
 게임에 진입하면 다음과 같이 상단에 게임 이름이 표시되며, 하단에 해당 게임의 메뉴들이 표시됩니다.
@@ -88,6 +107,7 @@
 **➎ 삭제**: 등록된 게임을 삭제합니다.
 
 
+<a id="enter-the-game-register-game-settings"></a>
 #### 게임 설정 등록
 
 새로운 게임 설정은 게임 설정 목록 좌측의 **+ 등록**을 클릭해 등록할 수 있습니다.
@@ -204,6 +224,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 모든 게임 설정을 완료하였으면 하단의 **등록** 버튼으로 게임 설정을 등록할 수 있습니다.
 
 
+<a id="enter-the-game-view-game-settings-details"></a>
 #### 게임 설정 상세보기
 
 ![game_config_register_complete](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_ui_complete_250717.png)
@@ -238,6 +259,7 @@ Windows는 `<SystemDrive>`를 `C 드라이브`를 예시로 기본 설치 경로
 게임 배포에 대한 설명은 게임 바이너리에 대한 설명 이후에 이어집니다.
 
 
+<a id="enter-the-game-game-binary"></a>
 #### 게임 바이너리
 
 ![game_binary_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_binary_list_250717.png)
@@ -278,6 +300,7 @@ CDN 에지 서버에 배포 진행 중이거나 또는 다른 사유에 의해 �
 
 
 
+<a id="enter-the-game-view-game-binary-details"></a>
 #### 게임 바이너리 상세보기
 
 ![game_binary_cdn_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_binary_deploy_list_enter_250717.png)
@@ -313,6 +336,7 @@ CDN 에지 서버에 배포 진행 중이거나 또는 다른 사유에 의해 �
 업로드한 게임 바이너리 파일 중 게임 실행 파일의 이름을 나타냅니다.
 
 
+<a id="enter-the-game-game-binary-upload"></a>
 #### 게임 바이너리 업로드
 
 CDN 연동이 완료된 이후에 게임 바이너리 파일들을 업로드할 수 있습니다.
@@ -357,6 +381,7 @@ macOS를 사용할 경우 Apple에서 인증하여 제공된 '게임.zip' 파일
 다음 섹션에서는 게임 설정과 게임 바이너리 배포에 대해 설명합니다.
 
 
+<a id="enter-the-game-game-deployment"></a>
 #### 게임 배포
 
 ![game_deploy_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_deploy1_250717.png)
@@ -442,6 +467,7 @@ TEST 배포존에서 **게임 바이너리 배포**의 **배포**를 클릭하�
 > **RED**: 게임 바이너리 배포에 실패한 상태
 
 
+<a id="enter-the-game-deployment-history"></a>
 #### 배포 이력
 
 ##### 게임 설정 배포 이력

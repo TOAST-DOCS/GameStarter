@@ -1,9 +1,13 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 지표
+<!-- pre-align:aligned sig=82d7f8dc8239 -->
+
+<a id="game-gamestarter-console-user-guide-metrics"></a>
+## Game > GameStarter > 콘솔 사용 가이드 > 지표 { #game-gamestarter-console-user-guide-metrics }
 
 GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터를 제공합니다.
 게임의 설치, 실행, 런처 설치 및 실행 데이터를 제공하며, 게임 이탈률 등 게임 실행과 진입에 관한 주요 지표를 쉽게 확인할 수 있습니다.
 
-## 지표
+<a id="metrics"></a>
+## 지표 { #metrics }
 
 지표 데이터를 조회하기 위한 메뉴 구성은 아래와 같습니다.
 
@@ -19,7 +23,8 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 ➏ **Excel 저장**: 지표 데이터를 엑셀 파일로 저장할 수 있습니다. 제공되는 엑셀 데이터에 대한 설명은 각 항목의 **엑셀 저장**의 내용을 확인하세요.
 
 
-### 실시간 모니터링
+<a id="real-time-monitoring"></a>
+### 실시간 모니터링 { #real-time-monitoring }
 
 실시간 모니터링은 당일 자정부터 조회 시점까지의 지표 데이터를 조회할 수 있는 기능입니다.
 자정(00:00)부터 조회 시점까지의 데이터를 조회하며, **조건**을 클릭해 데이터를 필터링하여 조회할 수도 있습니다.
@@ -27,6 +32,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 ![statistics_main](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
 
 
+<a id="real-time-monitoring---game"></a>
 #### 실시간 모니터링 - 게임
 
 게임 실행 및 설치에 대한 지표 데이터를 대시보드와 차트 데이터로 확인할 수 있습니다.
@@ -137,6 +143,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
    - **Failure**: 전체 설치 실패 수
 
 
+<a id="real-time-monitoring---launcher"></a>
 #### 실시간 모니터링 - 런처
 
 런처 항목에서는 런처의 실행과 설치 정보를 표시합니다.
@@ -222,12 +229,14 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
    - **Failure**: 전체 설치 실패 수
 
 
-### 모니터링 지표
+<a id="monitoring-metrics"></a>
+### 모니터링 지표 { #monitoring-metrics }
 
 
 모니터링 지표는 일간, 주간, 월간으로 정산된 지표를 제공합니다.
 설정한 기간의 정산 지표 데이터를 조회하며, **조건**을 클릭해 필터링된 데이터를 조회할 수 있습니다.
 
+<a id="monitoring-metrics-filter-info"></a>
 #### 모니터링 지표 필터 정보
 
 ![monitoring_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
@@ -250,24 +259,28 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 >  원하는 필터를 선택한 뒤 **적용**을 클릭해 조회 결과를 필터링할 수 있습니다.
 
 
+<a id="monitoring-metrics-run-game"></a>
 #### 게임 실행
 
 ![monitoring_execute_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
 
 조회한 기간의 게임 실행 수와 게임 실행 실패 이유의 차트 데이터를 제공합니다.
 
+<a id="monitoring-metrics-install-game"></a>
 #### 게임 설치
 
 ![monitoring_install_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
 
 조회한 기간의 게임 설치 수와 게임 설치 실패 이유의 차트 데이터를 제공합니다.
 
+<a id="monitoring-metrics-run-launcher"></a>
 #### 런처 실행
 
 ![monitoring_execute_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
 
 조회한 기간의 런처 실행 수와 런처 실행 실패 이유의 차트 데이터를 제공합니다.
 
+<a id="monitoring-metrics-2"></a>
 #### 모니터링 지표
 
 ![monitoring_grid1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
@@ -281,6 +294,7 @@ GameStarter는 게임의 효율적인 지표 파악을 위해 관련 데이터�
 >- 런처 실행/실행 성공/실행 실패
 
 
+<a id="monitoring-metrics-save-monitoring-in-excel"></a>
 #### 모니터링 엑셀 저장
 
 모니터링 지표 데이터를 엑셀로 저장할 수 있습니다.

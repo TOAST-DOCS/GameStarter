@@ -1,13 +1,18 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 런처 인스톨러
+<!-- pre-align:aligned sig=a8d20e151ed1 -->
 
-## Launcher Installer
+<a id="game-gamestarter-console-user-guide-launcher-installer"></a>
+## Game > GameStarter > 콘솔 사용 가이드 > 런처 인스톨러 { #game-gamestarter-console-user-guide-launcher-installer }
+
+<a id="launcher-installer"></a>
+## Launcher Installer { #launcher-installer }
 
 GameStarter 런처를 실행하려면 가장 먼저 런처가 사용자 PC에 설치되어 있어야 합니다.
 런처 인스톨러는 런처를 사용자 PC에 설치해주는 프로그램입니다.
 
 여기에서는 런처 인스톨러 생성 시 필요한 설정들에 대해 설명합니다.
 
-### 초기 설정
+<a id="initial-settings"></a>
+### 초기 설정 { #initial-settings }
 
 
 ![installer_basic](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_basic_250717.png)
@@ -16,11 +21,13 @@ GameStarter 런처를 실행하려면 가장 먼저 런처가 사용자 PC에 �
 초기 설정을 완료한 뒤에는 일부 항목들에 대해서만 수정할 수 있습니다.
 설정 수정에 대해서는 아래의 **설정 수정**의 내용을 참고하세요.
 
-### URL scheme 설정
+<a id="url-scheme-settings"></a>
+### URL scheme 설정 { #url-scheme-settings }
 ![installer_urlscheme](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_url_scheme_250717.png)
 
 초기 설정 시 URL scheme 설정을 가장 먼저 등록해야 합니다.
 
+<a id="url-scheme-settings-url-scheme"></a>
 #### ➊ URL scheme
 
 URL scheme은 사용자가 정의한 프로토콜로 앱과 통신할 수 있도록 합니다.
@@ -48,9 +55,11 @@ GameStarter는 사용자가 등록한 URL Scheme으로 런처를 실행할 수 �
 > 예) DEVELOP
 > - URL Scheme: example-develop
 
-### 공통 이름 설정
+<a id="common-name-settings"></a>
+### 공통 이름 설정 { #common-name-settings }
 ![installer_names](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_name_250717.png)
 
+<a id="common-name-settings-common-name"></a>
 #### 공통 이름
 공통 이름은 런처 설치 프로그램과 삭제 프로그램 이름으로 사용되며, 설치 폴더와 경로에도 사용됩니다.
 
@@ -89,24 +98,29 @@ GameStarter는 사용자가 등록한 URL Scheme으로 런처를 실행할 수 �
 
 초기 설정이 완료된 이후 등록이 필요한 설정 정보는 아래와 같습니다.
 
+<a id="common-name-settings-go-to-launcher-icon"></a>
 #### 런처 바로가기 아이콘
 ![installer_icons](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_250717.png)
 
 GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 가기를 생성할 수 있으며, 바로 가기를 생성하는 데 필요한 설정을 등록합니다.
 
+<a id="common-name-settings-go-to-icon-image"></a>
 #### ➊ 바로가기 아이콘 이미지
 바로가기 아이콘 이미지를 등록합니다.
 
+<a id="common-name-settings-go-to-icon-name"></a>
 #### ➋ 바로가기 아이콘 이름
 바로가기 아이콘 이름을 입력합니다.
 입력한 내용이 올바른지 확인한 뒤 **등록**을 클릭합니다.
 
+<a id="common-name-settings-confirm-registration-settings"></a>
 #### 등록 설정 확인
 등록된 설정은 인스톨러 설정 리스트를 클릭하면 확인할 수 있습니다.
 
 ![installer_confirm_list](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_after_list_click_250717.png)
 
-### 런처 인스톨러 설정 배포
+<a id="deploy-launcher-installer-settings"></a>
+### 런처 인스톨러 설정 배포 { #deploy-launcher-installer-settings }
 인스톨러에 필요한 설정을 모두 마치면 인스톨러 설정을 배포해야 합니다.
 이 작업은 몇 분에서 수십 분이 소요될 수 있습니다.
 
@@ -137,14 +151,17 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 >
 > 배포 상태가 **배포 실패**로 표시될 경우 고객 센터로 문의하세요.
 
+<a id="deploy-launcher-installer-settings-view-deployment-history"></a>
 #### 배포 이력 조회
 **배포 이력** 탭에서 배포된 인스톨러의 정보와 배포 이력을 조회할 수 있습니다.
 ![installer_deploy_list](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_deploy_list_250717.png)
 
-### 설정 수정
+<a id="modify-settings"></a>
+### 설정 수정 { #modify-settings }
 런처 인스톨러의 설정 상제 정보를 조회하고 수정할 수 있습니다.
 위의 안내에 따라 인스톨러 설정의 등록과 배포 이후에 인스톨러 설정 화면입니다.
 
+<a id="modify-settings-check-registered-settings"></a>
 #### 등록된 설정 확인
 
 하단 이미지에 빨간색으로 표시한 영역을 클릭해 인스톨러 상세 정보를 조회/수정할 수 있는 페이지로 이동할 수 있습니다.
@@ -158,6 +175,7 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 ➎ **등록자**: 런처 인스톨러 설정을 등록한 사용자의 마스킹된 이메일 주소를 나타냅니다.
 ➏ **메모**: 런처 인스톨러 설정 등록 시 입력한 메모를 나타냅니다.
 
+<a id="modify-settings-confirm-the-details-of-the-registered-settings"></a>
 #### 등록된 설정 상세 정보 확인
 
 인스톨러의 기본 정보를 확인할 수 있으며, 하단의 **다음**을 클릭해 런처 바로가기 아이콘 등록 정보를 확인할 수 있습니다.
@@ -170,6 +188,7 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 ➍ **인스톨러 버전**: 인스톨러 버전 정보를 나타냅니다.
 ➎ **메모**: 런처 인스톨러 설정 등록시 입력한 메모를 나타냅니다.
 
+<a id="modify-settings-modify-basic-info"></a>
 #### 기본 정보 수정
 기본 정보를 수정하려면 **수정**을 클릭하거나, **인스톨러 설정 상세 정보** 화면에서 **다음**을 클릭해 아래 **인스톨러 설정 수정** 페이지로 진입하세요.
 
@@ -178,6 +197,7 @@ GameStarter 런처를 설치한 뒤 바탕 화면에 자동으로 런처 바로 
 ➋ **메모**: 인스톨러 설정 메모의 내용을 수정할 수 있습니다.
 하단의 ➌ **다음**을 클릭해 다음 수정 페이지로 이동합니다.
 
+<a id="modify-settings-modify-go-to-launcher-icon"></a>
 #### 런처 바로 가기 아이콘 수정
 
 런처 바로가기 아이콘을 수정하려면 **수정**을 클릭하거나, **기본 정보 수정 화면**에서 **다음**을 클릭해 아래 페이지로 진입하세요.

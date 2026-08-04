@@ -1,9 +1,13 @@
-## Game > GameStarter > コンソール使用ガイド > 指標
+<!-- pre-align:aligned sig=82d7f8dc8239 -->
+
+<a id="game-gamestarter-console-user-guide-metrics"></a>
+## Game > GameStarter > コンソール使用ガイド > 指標 { #game-gamestarter-console-user-guide-metrics }
 
 GameStarterは、ゲームの効率的な指標を把握するため、関連データを提供します。
 ゲームのインストール、実行、ランチャーのインストール及び実行データを提供し、ゲームの離脱率など、ゲームの実行と接続に関する主要な指標を簡単に確認できます。
 
-## 指標
+<a id="metrics"></a>
+## 指標 { #metrics }
 
 指標データを照会するためのメニュー構成は、次のとおりです。
 
@@ -19,7 +23,8 @@ GameStarterは、ゲームの効率的な指標を把握するため、関連デ
 ➏ **Excel保存**：指標データをExcelファイルとして保存できます。提供されるExcelデータに関する説明は、各項目の**Excel保存**の内容をご確認ください。
 
 
-### リアルタイムモニタリング
+<a id="real-time-monitoring"></a>
+### リアルタイムモニタリング { #real-time-monitoring }
 
 リアルタイムモニタリングは、当日午前0時から照会時点までの指標データを照会できる機能です。
 午前0時(00:00)から照会時点までのデータを照会し、**条件**をクリックしてデータをフィルタリングして照会することも可能です。
@@ -27,6 +32,7 @@ GameStarterは、ゲームの効率的な指標を把握するため、関連デ
 ![statistics_main](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
 
 
+<a id="real-time-monitoring---game"></a>
 #### リアルタイムモニタリング - ゲーム
 
 ゲームの実行及びインストールに関する指標データを、ダッシュボードとチャートデータで確認できます。
@@ -137,6 +143,7 @@ Excel保存データは、保存リクエスト時点のデータを基準に提
    - **Failure**：フルインストール失敗数
 
 
+<a id="real-time-monitoring---launcher"></a>
 #### リアルタイムモニタリング - ランチャー
 
 ランチャーの項目では、ランチャーの実行とインストールの情報を表示します。
@@ -222,12 +229,14 @@ Excel保存データは、保存リクエスト時点のデータを基準に提
    - **Failure**：フルインストール失敗数
 
 
-### モニタリング指標
+<a id="monitoring-metrics"></a>
+### モニタリング指標 { #monitoring-metrics }
 
 
 モニタリング指標は、日次、週次、月次で集計された指標を提供します。
 設定した期間の集計指標データを照会し、**条件**をクリックしてフィルタリングされたデータを照会できます。
 
+<a id="monitoring-metrics-filter-info"></a>
 #### モニタリング指標のフィルタ情報
 
 ![monitoring_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
@@ -250,24 +259,28 @@ Excel保存データは、保存リクエスト時点のデータを基準に提
 > 目的のフィルタを選択した後、**適用**をクリックして照会結果をフィルタリングできます。
 
 
+<a id="monitoring-metrics-run-game"></a>
 #### ゲームの実行
 
 ![monitoring_execute_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
 
 照会した期間の、ゲーム実行数とゲーム実行の失敗理由に関するチャートデータを提供します。
 
+<a id="monitoring-metrics-install-game"></a>
 #### ゲームのインストール
 
 ![monitoring_install_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
 
 照会した期間の、ゲームインストール数とゲームインストールの失敗理由に関するチャートデータを提供します。
 
+<a id="monitoring-metrics-run-launcher"></a>
 #### ランチャーの実行
 
 ![monitoring_execute_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
 
 照会した期間の、ランチャー実行数とランチャー実行の失敗理由に関するチャートデータを提供します。
 
+<a id="monitoring-metrics-2"></a>
 #### モニタリング指標
 
 ![monitoring_grid1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
@@ -281,6 +294,7 @@ Excel保存データは、保存リクエスト時点のデータを基準に提
 >- ランチャー実行/実行成功/実行失敗
 
 
+<a id="monitoring-metrics-save-monitoring-in-excel"></a>
 #### モニタリングデータのExcel保存
 
 モニタリング指標データをExcelに保存できます。
