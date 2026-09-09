@@ -1,10 +1,15 @@
-## Game > GameStarter > Console User Guide > Game
+<!-- pre-align:aligned sig=42a546870cc6 -->
 
-## Game
+<a id="game-gamestarter-console-user-guide-game"></a>
+## Game > GameStarter > Console User Guide > Game { #game-gamestarter-console-user-guide-game }
+
+<a id="game"></a>
+## Game { #game }
 
 It describes how to register a game and deploy the game settings and binaries.
 
-### Game List
+<a id="game-list"></a>
+### Game List { #game-list }
 ![game_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_list_250717.png)
 
 From the game list, you can register new games or view registered games.
@@ -12,57 +17,70 @@ Also, You can filter by game name or whether the game is available.
 
 The game list query results contain the following fields:
 
+<a id="game-list-game-name"></a>
 #### ➊ Game Name
 A unique name of the registered game.
 
+<a id="game-list-game-os"></a>
 #### ➋ Game OS
 An OS to make a game run.
 
+<a id="game-list-registration-date"></a>
 #### ➌ Registration Date
 A date that the game was registered.
 
+<a id="game-list-registrant"></a>
 #### ➍ Registrant
 A masked email address of users that registered for a game.
 
+<a id="game-list-game-enabled"></a>
 #### ➎ Game Enabled
 It Indicates whether the game is enabled or disabled.
 
+<a id="game-list-view-details"></a>
 #### ➏ View Details
 You can check the details of the registered game by clicking **Details** button.
 
 
-### Register a Game
+<a id="register-a-game"></a>
+### Register a Game { #register-a-game }
 
 You can register a new game by clicking **+ Windows** or **+ macOS** by OS' at the top left of the game list.
 
 ![game_register](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_regist_win_250717.png)
 
+<a id="register-a-game-game-name"></a>
 #### Game Name
 Game name should be unique that does not duplicate with other games.
 Game names can be 2 to 15 characters long, using Korean, English, uppercase and lowercase letters, and numbers.
 
+<a id="register-a-game-os"></a>
 #### OS
 It indicates the OS information that make a game run.
 
 You can register the game by entering the game name and clicking **Register**.
 
-### Game Details
+<a id="game-details"></a>
+### Game Details { #game-details }
 
 Click **Details** button for a game in the game list to go to the game details page for detailed information.
 
 ![game_detail](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_detail_250717.png)
 
-### Modify a Game
+<a id="modify-a-game"></a>
+### Modify a Game { #modify-a-game }
 
 You can modify game information by clicking **Modify** at the top of the game details page.
 
 ![game_modify](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_modify_250717.png)
 
+<a id="modify-a-game-game-enabled"></a>
 #### ➊ Game Enabled
 You can **Disable** a game you're using, or **Enable** a game you're not using.
 
 
-### Enter the Game
+<a id="enter-the-game"></a>
+### Enter the Game { #enter-the-game }
 
 ![game_enter](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_enter_250717.png)
 
@@ -71,6 +89,7 @@ Click on the red area in the image above to access the game.
 
 Once you've entered the game, you can configure it or deploy its binary.
 
+<a id="enter-the-game-game-settings-list"></a>
 #### Game Settings List
 
 When you enter a game, the game name appears at the top, and the game's menus appear below.
@@ -87,6 +106,7 @@ The game settings query results page contains the following fields:
 **➎ Deletion**: Delete the registered game.
 
 
+<a id="enter-the-game-register-game-settings"></a>
 #### Register Game Settings
 
 You can register new game settings by clicking **+Register** on the left side of the game settings list.
@@ -203,6 +223,7 @@ You can check the game UI as it will appear in the actual launcher through the *
 Once you have completed all game settings, you can register the game settings by clicking **Register** button at the bottom.
 
 
+<a id="enter-the-game-view-game-settings-details"></a>
 #### View Game Settings Details
 
 ![game_config_register_complete](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_ui_complete_250717.png)
@@ -238,6 +259,7 @@ Since the game settings were simply registered, they were not reflected in the a
 The description of game deployment follows the description of the game binary.
 
 
+<a id="enter-the-game-game-binary"></a>
 #### Game Binary
 
 ![game_binary_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_binary_list_250717.png)
@@ -278,6 +300,7 @@ If integration takes a while or fails, you can check the contents
 on the game binary details screen.
 
 
+<a id="enter-the-game-view-game-binary-details"></a>
 #### View Game Binary Details
 
 ![game_binary_cdn_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_binary_deploy_list_enter_250717.png)
@@ -313,6 +336,7 @@ Game binary information provides the number and size of binary files, the date f
 It indicates the name of the game executable file among the uploaded game binary files.
 
 
+<a id="enter-the-game-game-binary-upload"></a>
 #### Game Binary Upload
 
 After CDN integration is complete, you can upload game binary files.
@@ -357,6 +381,7 @@ You must then deploy the binary after uploading it.
 The following sections describe game settings and game binary deployment.
 
 
+<a id="enter-the-game-game-deployment"></a>
 #### Game Deployment
 
 ![game_deploy_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_deploy1_250717.png)
@@ -442,6 +467,7 @@ The deployment zone area changes color depending on the deployment status.
 > **RED**: Failed to deploy the game binary
 
 
+<a id="enter-the-game-deployment-history"></a>
 #### Deployment History
 
 ##### Game Settings Deployment History

@@ -1,13 +1,18 @@
-## Game > GameStarter > コンソール使用ガイド > ランチャーインストーラー
+<!-- pre-align:aligned sig=a8d20e151ed1 -->
 
-## Launcher Installer
+<a id="game-gamestarter-console-user-guide-launcher-installer"></a>
+## Game > GameStarter > コンソール使用ガイド > ランチャーインストーラー { #game-gamestarter-console-user-guide-launcher-installer }
+
+<a id="launcher-installer"></a>
+## Launcher Installer { #launcher-installer }
 
 GameStarterランチャーを実行するには、まずランチャーがユーザーのPCにインストールされている必要があります。
 ランチャーインストーラーは、ランチャーをユーザーのPCにインストールするためのプログラムです。
 
 ここでは、ランチャーインストーラーの作成時に必要な設定について説明します。
 
-### 初期設定
+<a id="initial-settings"></a>
+### 初期設定 { #initial-settings }
 
 
 ![installer_basic](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_basic_250717.png)
@@ -16,11 +21,13 @@ GameStarterランチャーを実行するには、まずランチャーがユー
 初期設定を完了した後は、一部の項目についてのみ修正できます。
 設定の修正については、以下の**設定の修正**の内容をご参照ください。
 
-### URLスキーム設定
+<a id="url-scheme-settings"></a>
+### URLスキーム設定 { #url-scheme-settings }
 ![installer_urlscheme](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_url_scheme_250717.png)
 
 初期設定の際、URLスキーム設定を最初に登録する必要があります。
 
+<a id="url-scheme-settings-url-scheme"></a>
 #### ➊ URL scheme
 
 URLスキームは、ユーザーが定義したプロトコルでアプリと通信できるようにします。
@@ -48,9 +55,11 @@ GameStarterは、ユーザーが登録したURLスキームでランチャーを
 > 例) DEVELOP
 > - URL Scheme: example-develop
 
-### 共通名の設定
+<a id="common-name-settings"></a>
+### 共通名の設定 { #common-name-settings }
 ![installer_names](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_name_250717.png)
 
+<a id="common-name-settings-common-name"></a>
 #### 共通名
 共通名は、ランチャーのインストーラーとアンインストーラーの名前として使用され、インストール先のフォルダ名やパスにも使用されます。
 
@@ -89,24 +98,29 @@ GameStarterは、ユーザーが登録したURLスキームでランチャーを
 
 初期設定完了後、登録が必要な設定情報は次のとおりです。
 
+<a id="common-name-settings-go-to-launcher-icon"></a>
 #### ランチャーのショートカットアイコン
 ![installer_icons](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_250717.png)
 
 GameStarterランチャーのインストール後、デスクトップに自動でランチャーのショートカットを作成でき、その作成に必要な設定を登録します。
 
+<a id="common-name-settings-go-to-icon-image"></a>
 #### ➊ ショートカットアイコンの画像
 ショートカットアイコンの画像を登録します。
 
+<a id="common-name-settings-go-to-icon-name"></a>
 #### ➋ ショートカットアイコン名
 ショートカットアイコン名を入力します。
 入力内容が正しいことを確認した後、**登録**をクリックします。
 
+<a id="common-name-settings-confirm-registration-settings"></a>
 #### 登録設定の確認
 登録された設定は、インストーラー設定リストをクリックすると確認できます。
 
 ![installer_confirm_list](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_after_list_click_250717.png)
 
-### ランチャーインストーラー設定の配布
+<a id="deploy-launcher-installer-settings"></a>
+### ランチャーインストーラー設定の配布 { #deploy-launcher-installer-settings }
 インストーラーに必要な設定を全て終えたら、インストーラー設定を配布する必要があります。
 この作業には、数分から数十分かかることがあります。
 
@@ -137,14 +151,17 @@ GameStarterランチャーのインストール後、デスクトップに自動
 >
 > 配布状況が**配布失敗**と表示された場合は、カスタマーセンターへお問い合わせください。
 
+<a id="deploy-launcher-installer-settings-view-deployment-history"></a>
 #### 配布履歴の照会
 **配布履歴**タブで、配布されたインストーラーの情報と配布履歴を照会できます。
 ![installer_deploy_list](https://static.toastoven.net/prod_gamestarter/console/installer/gamestarter_installer_reg_shotcut_deploy_list_250717.png)
 
-### 設定の修正
+<a id="modify-settings"></a>
+### 設定の修正 { #modify-settings }
 ランチャーインストーラーの設定詳細情報を照会・修正できます。
 上記案内に従いインストーラー設定の登録と配布を行った後の、インストーラー設定画面です。
 
+<a id="modify-settings-check-registered-settings"></a>
 #### 登録済み設定の確認
 
 下部画像の赤色で示した領域をクリックすると、インストーラー詳細情報を照会・修正できるページへ移動できます。
@@ -158,6 +175,7 @@ GameStarterランチャーのインストール後、デスクトップに自動
 ➎ **登録者**：ランチャーインストーラー設定を登録したユーザーの、マスキングされたメールアドレスを表します。
 ➏ **メモ**：ランチャーインストーラー設定の登録時に入力したメモを表します。
 
+<a id="modify-settings-confirm-the-details-of-the-registered-settings"></a>
 #### 登録済み設定の詳細情報確認
 
 インストーラーの基本情報を確認でき、下部の**次へ**をクリックしてランチャーのショートカットアイコン登録情報を確認できます。
@@ -170,6 +188,7 @@ GameStarterランチャーのインストール後、デスクトップに自動
 ➍ **インストーラーバージョン**：インストーラーのバージョン情報を表します。
 ➎ **メモ**：ランチャーインストーラー設定の登録時に入力したメモを表します。
 
+<a id="modify-settings-modify-basic-info"></a>
 #### 基本情報の修正
 基本情報を修正するには、**修正**をクリックするか、**インストーラー設定詳細情報**画面で**次へ**をクリックし、以下の**インストーラー設定修正**ページへ進んでください。
 
@@ -178,6 +197,7 @@ GameStarterランチャーのインストール後、デスクトップに自動
 ➋ **メモ**：インストーラー設定のメモ内容を修正できます。
 下部の➌**次へ**をクリックし、次の修正ページへ移動します。
 
+<a id="modify-settings-modify-go-to-launcher-icon"></a>
 #### ランチャーのショートカットアイコン修正
 
 ランチャーのショートカットアイコンを修正するには、**修正**をクリックするか、**基本情報修正画面**で**次へ**をクリックし、以下のページへ進んでください。

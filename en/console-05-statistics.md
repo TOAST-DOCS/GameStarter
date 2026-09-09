@@ -1,9 +1,13 @@
-## Game > GameStarter > Console User Guide > Metrics
+<!-- pre-align:aligned sig=82d7f8dc8239 -->
+
+<a id="game-gamestarter-console-user-guide-metrics"></a>
+## Game > GameStarter > Console User Guide > Metrics { #game-gamestarter-console-user-guide-metrics }
 
 GameStarter provides relevant data for efficient metric detection of the game.
 It provides installation, execution, launcher installation, and launch data for the game, and makes it easy to see the main metrics for running and entering the game, such as churn rate.
 
-## Metrics
+<a id="metrics"></a>
+## Metrics { #metrics }
 
 The menus to view metric data is as follows:
 
@@ -19,7 +23,8 @@ You can view data by clicking **View**.
 ➏ **Save in Excel**: You can save the metric data as an Excel file. For a description of the provided Excel data, see the contents of the item in **Save in Excel**.
 
 
-### Real-time Monitoring
+<a id="real-time-monitoring"></a>
+### Real-time Monitoring { #real-time-monitoring }
 
 Real-time monitoring is a feature that allows you to view indicator data from midnight of the same day to the time of inquiry.
 It allows you to retrieve data from midnight (00:00) to the view time, and you can also filter and view data by clicking **conditions**.
@@ -27,6 +32,7 @@ It allows you to retrieve data from midnight (00:00) to the view time, and you c
 ![statistics\_main](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_main_250717.png)
 
 
+<a id="real-time-monitoring---game"></a>
 #### Real-time Monitoring - Game
 
 You can see the metric data for running and installing the game with the dashboard and chart data.
@@ -137,6 +143,7 @@ You can check the metrics below for each OS separately.
 - **Failure**: Total number of installation failed
 
 
+<a id="real-time-monitoring---launcher"></a>
 #### Real-time Monitoring - Launcher
 
 The launcher item displays the launcher execution and installation information.
@@ -222,12 +229,14 @@ You can see the metrics below for each launcher version.
 - **Failure**: Total number of installation failed
 
 
-### Monitoring Metrics
+<a id="monitoring-metrics"></a>
+### Monitoring Metrics { #monitoring-metrics }
 
 
 Monitoring metrics provide metrics calculated by day, week, and month.
 You can view the actual metric data for the set period, and click **Condition** to view the filtered data.
 
+<a id="monitoring-metrics-filter-info"></a>
 #### Monitoring Metrics Filter Info
 
 ![monitoring\_filter](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_filter_none_250717.png)
@@ -250,24 +259,28 @@ You can view the actual metric data for the set period, and click **Condition** 
 > Select the filter you want and click **Apply** to filter the view results.
 
 
+<a id="monitoring-metrics-run-game"></a>
 #### Run Game
 
 ![monitoring\_execute\_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_game_none_250717.png)
 
 Provide chart data for the number of games executed for the view period and why the game failed.
 
+<a id="monitoring-metrics-install-game"></a>
 #### Install Game
 
 ![monitoring\_install\_game](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_install_game_none_250717.png)
 
 Provide chart data for the number of game installations for the view period and why the game installation failed.
 
+<a id="monitoring-metrics-run-launcher"></a>
 #### Run launcher
 
 ![monitoring\_execute\_launcher](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_execute_launcher_none_250717.png)
 
 Provide chart data of the number of launcher executions and the reason for the launcher execution failure for the view period.
 
+<a id="monitoring-metrics-2"></a>
 #### Monitoring Metrics
 
 ![monitoring\_grid1](https://static.toastoven.net/prod_gamestarter/console/statistics/gamestarter_statistics_monitoring_grid_1_none_250717.png)
@@ -281,6 +294,7 @@ Data is provided by period (date), and you can see the data items below.
 >- Launcher execution/execution succeeded/execution failed
 
 
+<a id="monitoring-metrics-save-monitoring-in-excel"></a>
 #### Save Monitoring in Excel
 
 You can store the monitoring metric data as an excel.

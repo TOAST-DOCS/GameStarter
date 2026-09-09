@@ -1,10 +1,15 @@
-## Game > GameStarter > コンソール使用ガイド > ゲーム
+<!-- pre-align:aligned sig=42a546870cc6 -->
 
-## Game
+<a id="game-gamestarter-console-user-guide-game"></a>
+## Game > GameStarter > コンソール使用ガイド > ゲーム { #game-gamestarter-console-user-guide-game }
+
+<a id="game"></a>
+## Game { #game }
 
 ゲームを登録し、ゲームの設定とバイナリを配布する方法について説明します。
 
-### ゲームリスト
+<a id="game-list"></a>
+### ゲームリスト { #game-list }
 ![game_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_list_250717.png)
 
 ゲームリストでは、新しいゲームを登録したり、登録済みのゲームを照会したりできます。
@@ -12,57 +17,70 @@
 
 ゲームリストの照会結果には、以下のようなフィールドがあります。
 
+<a id="game-list-game-name"></a>
 #### ➊ゲーム名
 登録されたゲームの固有の名前を表します。
 
+<a id="game-list-game-os"></a>
 #### ➋ゲームOS
 ゲームを実行できるOSを表します。
 
+<a id="game-list-registration-date"></a>
 #### ➌登録日時
 ゲームを登録した日時を表します。
 
+<a id="game-list-registrant"></a>
 #### ➍登録者
 ゲームを登録したユーザーの、マスキングされたメールアドレスを表します。
 
+<a id="game-list-game-enabled"></a>
 #### ➎ ゲームの使用有無
 ゲームの使用状態(使用中または未使用)を表します。
 
+<a id="game-list-view-details"></a>
 #### ➏詳細表示
 **詳細**ボタンをクリックすると、登録されたゲームの詳細情報を確認できます。
 
 
-### ゲーム登録
+<a id="register-a-game"></a>
+### ゲーム登録 { #register-a-game }
 
 ゲームリストの左上で、OSに応じて**+ Windows**または**+ macOS**をクリックし、新しいゲームを登録できます。
 
 ![game_register](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_regist_win_250717.png)
 
+<a id="register-a-game-game-name"></a>
 #### ゲーム名
 ゲーム名は、他のゲームと区別できるよう、重複しない固有の名称にする必要があります。
 ゲーム名は、日本語、英大文字・小文字、数字で2～15文字まで入力できます。
 
+<a id="register-a-game-os"></a>
 #### OS
 ゲームを実行できるOSの情報を表示します。
 
 ゲーム名を入力した後、**登録**をクリックしてゲームを登録できます。
 
-### ゲーム詳細表示
+<a id="game-details"></a>
+### ゲーム詳細表示 { #game-details }
 
 ゲームリストで詳細情報を確認したいゲームの**詳細**ボタンをクリックし、ゲーム詳細情報ページへ移動します。
 
 ![game_detail](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_detail_250717.png)
 
-### ゲームの修正
+<a id="modify-a-game"></a>
+### ゲームの修正 { #modify-a-game }
 
 ゲーム詳細情報ページの上部にある**修正**をクリックすると、ゲーム情報を修正できます。
 
 ![game_modify](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_modify_250717.png)
 
+<a id="modify-a-game-game-enabled"></a>
 #### ➊ ゲームの使用有無
 使用中のゲームを**未使用**に変更したり、使用していないゲームを**使用中**に変更したりできます。
 
 
-### ゲーム管理画面への移動
+<a id="enter-the-game"></a>
+### ゲーム管理画面への移動 { #enter-the-game }
 
 ![game_enter](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_enter_250717.png)
 
@@ -71,6 +89,7 @@
 
 ゲーム管理画面へ移動すると、ゲームを設定したり、バイナリを配布したりできます。
 
+<a id="enter-the-game-game-settings-list"></a>
 #### ゲーム設定リスト
 
 ゲーム管理画面へ移動すると、以下のように上部にゲーム名が表示され、下部には該当ゲームのメニューが表示されます。
@@ -88,6 +107,7 @@
 **➎ 削除**: 登録されたゲームを削除します。
 
 
+<a id="enter-the-game-register-game-settings"></a>
 #### ゲーム設定の登録
 
 新しいゲーム設定は、ゲーム設定リストの左側にある**+ 登録**をクリックして登録できます。
@@ -204,6 +224,7 @@ Windowsでは、`<SystemDrive>`を`Cドライブ`として、デフォルトの�
 全てのゲーム設定が完了したら、下部の**登録**ボタンでゲーム設定を登録できます。
 
 
+<a id="enter-the-game-view-game-settings-details"></a>
 #### ゲーム設定詳細表示
 
 ![game_config_register_complete](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_ui_complete_250717.png)
@@ -238,6 +259,7 @@ Windowsでは、`<SystemDrive>`を`Cドライブ`として、デフォルトの�
 ゲームの配布に関する説明は、ゲームバイナリに関する説明の後に行います。
 
 
+<a id="enter-the-game-game-binary"></a>
 #### ゲームバイナリ
 
 ![game_binary_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_binary_list_250717.png)
@@ -278,6 +300,7 @@ CDNエッジサーバーへの配布中、またはその他の事由により�
 
 
 
+<a id="enter-the-game-view-game-binary-details"></a>
 #### ゲームバイナリ詳細表示
 
 ![game_binary_cdn_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_binary_deploy_list_enter_250717.png)
@@ -313,6 +336,7 @@ CDNエッジサーバーへの配布中、またはその他の事由により�
 アップロードしたゲームバイナリファイルの中で、ゲーム実行ファイルの名前を表します。
 
 
+<a id="enter-the-game-game-binary-upload"></a>
 #### ゲームバイナリのアップロード
 
 CDN連携が完了した後、ゲームバイナリファイルをアップロードできます。
@@ -357,6 +381,7 @@ macOSを使用する場合、Appleによって認証・提供された「ゲー�
 次のセクションでは、ゲーム設定とゲームバイナリの配布について説明します。
 
 
+<a id="enter-the-game-game-deployment"></a>
 #### ゲームの配布
 
 ![game_deploy_list](https://static.toastoven.net/prod_gamestarter/console/game/gamestarter_game_deploy1_250717.png)
@@ -442,6 +467,7 @@ TEST配布ゾーンで**ゲームバイナリの配布**の**配布**をクリ�
 > **RED**: ゲームバイナリの配布に失敗した状態
 
 
+<a id="enter-the-game-deployment-history"></a>
 #### 配布履歴
 
 ##### ゲーム設定の配布履歴

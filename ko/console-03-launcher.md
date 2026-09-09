@@ -1,13 +1,18 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 런처
+<!-- pre-align:aligned sig=b3b451135c07 -->
+
+<a id="game-gamestarter-console-user-guide-launcher"></a>
+## Game > GameStarter > 콘솔 사용 가이드 > 런처 { #game-gamestarter-console-user-guide-launcher }
 
 [시작하기](./console-01-getting-started)에서 다룬 바와 같이 런처를 사용하려면 인스톨러와 게임 준비를 완료해야 합니다.
 인스톨러와 게임 설정 및 바이너리 준비를 먼저 진행하세요.
 
-## Launcher
+<a id="launcher"></a>
+## Launcher { #launcher }
 
 여기에서는 런처 설정 및 배포 방법에 대해 설명합니다.
 
-### 런처 설정 목록
+<a id="launcher-setting-list"></a>
+### 런처 설정 목록 { #launcher-setting-list }
 ![launcher_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_list_250717.png)
 
 **런처 설정** 목록에서는 등록된 런처 설정들을 조회할 수 있습니다.
@@ -16,29 +21,37 @@
 
 런처 목록의 조회 결과에는 아래와 같은 필드를 가지고 있습니다.
 
+<a id="launcher-setting-list-launcher-setting-name"></a>
 #### ➊ 런처 설정 이름
 런처 설정 등록할 때 입력한 이름이 표시됩니다.
 
+<a id="launcher-setting-list-os"></a>
 #### ➋ OS
 실행 가능한 OS가 표시됩니다.
 
+<a id="launcher-setting-list-registration-date"></a>
 #### ➌ 등록 일시
 런처 설정을 등록하거나 마지막으로 수정한 날짜가 표시됩니다.
 
+<a id="launcher-setting-list-registrant"></a>
 #### ➍ 등록자
 런처 설정을 최초 등록하거나 마지막으로 수정한 사용자의 마스킹된 이메일 주소가 표시됩니다.
 
+<a id="launcher-setting-list-memo"></a>
 #### ➎ 메모
 런처 설정을 등록할 때 사용자가 구분하기 위해서 입력한 메모가 표시됩니다.
 
+<a id="launcher-setting-list-delete"></a>
 #### ➏ 삭제
 등록된 런처 설정을 삭제할 수 있습니다.
 런처 설정을 삭제하더라도 이미 배포된 런처 설정이 삭제되지 않습니다.
 
 
-### 런처 설정 등록
+<a id="register-launcher-setting"></a>
+### 런처 설정 등록 { #register-launcher-setting }
 런처 설정 목록 상단에서 OS에 따라 **+ Windows** 또는 **+ macOS**를 클릭해 새 런처 설정을 등록할 수 있습니다.
 
+<a id="register-launcher-setting-basic-info"></a>
 #### 기본 정보
 ![launcher_register_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_register1_250717.png)
 
@@ -54,6 +67,7 @@
 모든 설정을 완료한 뒤 **다음**을 클릭해 다음 페이지로 이동합니다.
 
 
+<a id="register-launcher-setting-configure-a-launcher-layout"></a>
 #### 런처 레이아웃 구성
 
 런처가 실행되는 모드를 설정합니다.
@@ -82,6 +96,7 @@
 브랜드 아이콘 이미지 파일의 권장 크기는 256x256입니다.
 
 
+<a id="register-launcher-setting-select-a-launcher-game"></a>
 #### ➍ 런처 게임 선택
 런처 하나에서 여러 게임을 실행할 수 있도록 지원하며, 해당 런처에 노출할 게임 리스트를 설정할 수 있습니다.
 
@@ -90,6 +105,7 @@
 아래에서는 **game1**, **game2**, **game3**을 순서대로 추가한 상황을 예시로 들어 설명합니다.
 
 
+<a id="register-launcher-setting-preview"></a>
 #### 미리 보기
 하단의 미리보기 버튼을 통하여 설정한 런처 정보를 미리 확인할 수 있습니다.
 
@@ -98,7 +114,8 @@
 모든 설정을 완료한 뒤 **등록**을 클릭해 런처 설정을 등록할 수 있습니다.
 
 
-### 런처 설정 상세보기
+<a id="view-launcher-setting-details"></a>
+### 런처 설정 상세보기 { #view-launcher-setting-details }
 ![launcher_config_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_list_250717.png)
 
 상단 이미지에서 빨간색으로 표시한 영역을 클릭하면 런처 설정 상세 보기 페이지로 이동합니다.
@@ -109,6 +126,7 @@
 런처 설정을 수정하거나 복사하려면 왼쪽 상단의 **수정** 또는 **복사**를 클릭하세요.
 
 
+<a id="view-launcher-setting-details-modify-launcher-setting"></a>
 #### 런처 설정 수정
 ![launcher_modify_02](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify2_250717.png)
 
@@ -130,7 +148,8 @@
 복사할 런처 설정을 구분할 수 있는 내용을 메모에 작성하세요.
 
 
-### 런처 배포
+<a id="deploy-launcher"></a>
+### 런처 배포 { #deploy-launcher }
 ![launcher_deploy_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_list_250717.png)
 런처 배포 페이지에는 배포존별로 배포를 할 수 있도록 구분되어 있습니다.
 기본적으로 제공되는 배포존은 SERVICE, DEVELOP, TEST 배포존이 있습니다.
@@ -140,21 +159,27 @@
 
 런처 실행 화면은 아래와 같은 구성 요소를 포함합니다.
 
+<a id="deploy-launcher-launcher-setting-name"></a>
 #### ➊ 런처 설정 이름
 현재 배포된 런처 설정의 이름이 표시됩니다.
 
+<a id="deploy-launcher-game-list"></a>
 #### ➋ 게임 목록
 헌재 배포된 런처 설정의 게임 목록이 순서대로 표시됩니다.
 
+<a id="deploy-launcher-deployment-date"></a>
 #### ➌ 배포 일시
 마지막으로 배포된 배포 날짜가 표시됩니다.
 
+<a id="deploy-launcher-deployed-by"></a>
 #### ➍ 배포자
 마지막으로 배포된 배포자의 마스킹된 이메일 주소가 표시됩니다.
 
+<a id="deploy-launcher-launch-template"></a>
 #### ➎ 실행 템플릿
 실행 템플릿은 웹 브라우저에서 런처를 실행하거나 인스톨러를 다운로드할 수 있는 자바스크립트를 제공합니다.
 
+<a id="deploy-launcher-execute-launcher"></a>
 #### ➏ 런처 실행
 배포존에 런처가 배포 완료되면 런처를 실행할 수 있습니다.
 
@@ -199,11 +224,13 @@ DEVELOP 배포존의 **배포**를 클릭하면 아래와 같은 **런처 배포
 배포가 완료된 후 **최근 배포 완료된 런처 설정** 목록에서 실행 템플릿을 복사하거나 런처를 실행할 수 있습니다.
 
 
+<a id="deploy-launcher-deploy-launcher-launch-template"></a>
 #### ➊ 실행 템플릿
 실행 템플릿은 웹 브라우저에서 런처를 실행하거나 인스톨러를 다운로드할 수 있는 자바스크립트를 제공합니다. 해당 배포존에 런처가 이미 설치되어 있으면 런처를 실행하게 됩니다.
 만약 런처가 설치되어 있지 않으면 인스톨러 다운로드를 실행하게 됩니다.
 **복사**를 클릭해 자바스크립트 코드를 복사할 수 있습니다.
 
+<a id="deploy-launcher-deploy-launcher-execute-launcher"></a>
 #### ➋ 런처 실행
 배포존에 런처 배포를 완료하면 런처를 실행할 수 있습니다.
 
@@ -234,7 +261,8 @@ DEVELOP 배포존의 **배포**를 클릭하면 아래와 같은 **런처 배포
 
 
 
-### 배포 이력
+<a id="deployment-history"></a>
+### 배포 이력 { #deployment-history }
 ![launcher_history_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_history_250717.png)
 
 **배포 이력** 탭에서 런처를 배포한 이력을 조회할 수 있습니다.
