@@ -233,13 +233,9 @@
 
 <a id="july-11-2023"></a>
 ### July 11, 2023 { #july-11-2023 }
-
-<!-- TODO: translate body -->
-
 <a id="july-11-2023-bug-fixes"></a>
 #### Bug Fixes
-
-<!-- TODO: translate body -->
+* Fixed an error that occurs when the product is newly enabled.
 
 <a id="june-27-2023"></a>
 ### June 27, 2023 { #june-27-2023 }
