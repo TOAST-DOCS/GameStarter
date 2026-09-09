@@ -6,57 +6,51 @@
 <a id="june-23-2026"></a>
 ### 2026. 06. 23. { #june-23-2026 }
 
-<!-- TODO: translate body -->
-
 <a id="june-23-2026-feature-updates"></a>
 #### 機能修正
 
-<!-- TODO: translate body -->
+* GameStarter > 指標 > リアルタイムモニタリング項目のゲームインストール指標の変更
+* 「インストール済み」指標が失敗ケースから成功ケースへ変更
+* ゲーム全体 / アップデートインストール数、ゲーム全体 / アップデートインストール平均時間（秒）、ゲームダウンロード速度および容量、ゲームダウンロードファイル数が成功ケースの指標として表示されるように改善。
 
 <a id="february-10-2026"></a>
 ### 2026. 02. 10. { #february-10-2026 }
 
-<!-- TODO: translate body -->
-
 <a id="february-10-2026-bug-fixes"></a>
 #### 不具合の修正
 
-<!-- TODO: translate body -->
+* その他の不具合を修正
 
 <a id="december-9-2025"></a>
 ### 2025. 12. 09. { #december-9-2025 }
 
-<!-- TODO: translate body -->
-
 <a id="december-9-2025-added-features"></a>
 #### 機能追加
 
-<!-- TODO: translate body -->
+* ゲーム実行時にファイルチェックをタイプ別に処理できるよう、内部ロジックを改善しました。
 
 <a id="november-25-2025"></a>
 ### 2025. 11. 25. { #november-25-2025 }
 
-<!-- TODO: translate body -->
-
 <a id="november-25-2025-bug-fixes"></a>
 #### 不具合の修正
 
-<!-- TODO: translate body -->
+* Windows Binary upload API を通じてアップロード時に認証エラーが発生する問題を修正。
+* その他の不具合を修正。
 
 <a id="2025-11-19"></a>
 ### 2025. 11. 19. { #2025-11-19 }
 
-<!-- TODO: translate body -->
-
 <a id="2025-11-19-added-features"></a>
 #### 機能追加
 
-<!-- TODO: translate body -->
+* 固定パラメーター設定機能追加。
 
 <a id="2025-11-19-feature-updates"></a>
 #### 機能改善・変更
 
-<!-- TODO: translate body -->
+* 多言語環境設定時のユーザー利便性を追加。
+* その他の不具合を修正。
 
 <a id="september-23-2025"></a>
 ### 2025. 09. 23. { #september-23-2025 }
