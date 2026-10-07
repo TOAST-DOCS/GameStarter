@@ -6,57 +6,51 @@
 <a id="june-23-2026"></a>
 ### June 23, 2026 { #june-23-2026 }
 
-<!-- TODO: translate body -->
-
 <a id="june-23-2026-feature-updates"></a>
 #### Feature Updates
 
-<!-- TODO: translate body -->
+* GameStarter > Metrics > Changed the game installation metrics under the Real-time Monitoring item
+* Changed the Already Installed metric from a failure case to a success case
+* Improved the following metrics to be displayed as success case metrics: total game/update installation count, average game total/update installation time (seconds), game download speed and size, and number of game download files.
 
 <a id="february-10-2026"></a>
 ### February 10, 2026 { #february-10-2026 }
 
-<!-- TODO: translate body -->
-
 <a id="february-10-2026-bug-fixes"></a>
 #### Bug Fixes
 
-<!-- TODO: translate body -->
+* Fixed other errors
 
 <a id="december-9-2025"></a>
 ### December 9, 2025 { #december-9-2025 }
 
-<!-- TODO: translate body -->
-
 <a id="december-9-2025-added-features"></a>
 #### Added Features
 
-<!-- TODO: translate body -->
+* Improved internal logic to process file checks by type during Game Execution.
 
 <a id="november-25-2025"></a>
 ### November 25, 2025 { #november-25-2025 }
 
-<!-- TODO: translate body -->
-
 <a id="november-25-2025-bug-fixes"></a>
 #### Bug Fixes
 
-<!-- TODO: translate body -->
+* Fixed an issue where an authentication error occurred when uploading via the Windows Binary upload API.
+* Fixed other errors.
 
 <a id="2025-11-19"></a>
 ### 2025. 11. 19. { #2025-11-19 }
 
-<!-- TODO: translate body -->
-
 <a id="2025-11-19-added-features"></a>
 #### Added Features
 
-<!-- TODO: translate body -->
+* Added the Fixed Parameters setting feature.
 
 <a id="2025-11-19-feature-updates"></a>
 #### Feature Updates
 
-<!-- TODO: translate body -->
+* Added Multilingual Environment Settings for improved user convenience.
+* Fixed other errors.
 
 <a id="september-23-2025"></a>
 ### September 23, 2025 { #september-23-2025 }
@@ -234,12 +228,10 @@
 <a id="july-11-2023"></a>
 ### July 11, 2023 { #july-11-2023 }
 
-<!-- TODO: translate body -->
-
 <a id="july-11-2023-bug-fixes"></a>
 #### Bug Fixes
 
-<!-- TODO: translate body -->
+* Fixed an issue where an error occurred when a service was newly activated.
 
 <a id="june-27-2023"></a>
 ### June 27, 2023 { #june-27-2023 }
