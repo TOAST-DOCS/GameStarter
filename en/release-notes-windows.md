@@ -11,16 +11,16 @@
 <a id="0180-2026-9-22-1"></a>
 #### Feature Updates
 
-* Improved the settings for game groups that use a shared binary to apply based on the original game.
+* Improved the settings for game groups that use shared binaries to apply configurations based on the original game.
 * Console metrics
-    * Split the URL Scheme execution failed metric into "parsing failed" and "gameId validation failed."
+    * Separated the URL Scheme execution failed metric into "parsing failed" and "gameId validation failed".
 
 <a id="0180-2026-9-22-2"></a>
 #### Bug Fixes
 
-* Fixed an issue where a game remained in the "Update" status when cleanup failed after canceling installation.
-* Fixed an issue where tasks in progress were not properly terminated when a Download was canceled.
-* Fixed an issue where gameId validation was performed too late when relaunching via URL Scheme while the Launcher was running.
+* Fixed an issue where the game remained in the "Update" state when cleanup failed after canceling installation.
+* Fixed an issue where tasks in progress were not terminated properly when a download was canceled.
+* Fixed an issue where gameId validation was performed too late when the Launcher was relaunched via URL Scheme while running.
 * Fixed a thread access error that occurred intermittently during popup processing.
 
 <a id="0170-2026-5-21"></a>
