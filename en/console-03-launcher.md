@@ -1,13 +1,18 @@
-## Game > GameStarter > Console User Guide > Launcher
+<!-- pre-align:aligned sig=b3b451135c07 -->
+
+<a id="game-gamestarter-console-user-guide-launcher"></a>
+## Game > GameStarter > Console User Guide > Launcher { #game-gamestarter-console-user-guide-launcher }
 
 As discussed in [Get Started](./console-01-getting-started), you must complete the installer and game setup before using the launcher.
 First, complete the installer, game setup, and binary preparation.
 
-## Launcher
+<a id="launcher"></a>
+## Launcher { #launcher }
 
 It describes how to set up and deploy the launcher.
 
-### Launcher Setting List
+<a id="launcher-setting-list"></a>
+### Launcher Setting List { #launcher-setting-list }
 
 ![launcher_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_list_250717.png)
 
@@ -16,29 +21,37 @@ A launcher is also registered by OS the same as with a game.
 
 The launcher list query results contain the following fields:
 
+<a id="launcher-setting-list-launcher-setting-name"></a>
 #### ➊ Launcher Setting Name
 It displays the name entered when registering the launcher setting.
 
+<a id="launcher-setting-list-os"></a>
 #### ➋ OS
 It displays the executable OS.
 
+<a id="launcher-setting-list-registration-date"></a>
 #### ➌ Registration Date
 The date the launcher setting were registered or last modified is displayed.
 
+<a id="launcher-setting-list-registrant"></a>
 #### ➍ Registrant
 The masked email address of the user who first registered or last modified the launcher setting is displayed.
 
+<a id="launcher-setting-list-memo"></a>
 #### ➎ Memo
 The memo is displayed that was entered by the user when registering the launcher setting to distinguish them.
 
+<a id="launcher-setting-list-delete"></a>
 #### ➏ Delete
 You can delete the registered launcher setting.
 Deleting a launcher setting will not delete any previously deployed launcher setting.
 
 
-### Register Launcher Setting
+<a id="register-launcher-setting"></a>
+### Register Launcher Setting { #register-launcher-setting }
 You can register a new launcher setting by clicking + Windows or + macOS, depending on your OS, at the top left of the launcher setting list.
 
+<a id="register-launcher-setting-basic-info"></a>
 #### Basic Info
 ![launcher_register_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_register1_250717.png)
 
@@ -54,6 +67,7 @@ Memo is the information entered for reference in launcher setting.
 Once all setting are complete, click Next to proceed to the next page.
 
 
+<a id="register-launcher-setting-configure-a-launcher-layout"></a>
 #### Configure a Launcher Layout
 
 Set the mode in which the launcher runs.
@@ -81,6 +95,7 @@ You can also set a brand icon for other games. Upload the image file you want to
 Only JPG, JPEG, or PNG formats can be used for brand icon image files.
 The recommended brand icon image file’s size is 256x256.
 
+<a id="register-launcher-setting-select-a-launcher-game"></a>
 #### ➍ Select a Launcher Game
 
 You can launch multiple games from a single launcher and configure the list of games to display on the launcher.
@@ -90,6 +105,7 @@ You can see the games appear in the launcher in the order you select them.
 The example below illustrates adding **game1**, **game2**, and **game3** in the order.
 
 
+<a id="register-launcher-setting-preview"></a>
 #### Preview
 You can preview the configured launcher information using the Preview button at the bottom.
 
@@ -98,7 +114,8 @@ You can preview the configured launcher information using the Preview button at 
 You can register the game by completing all setting and clicking **Register**.
 
 
-### View Launcher Setting Details
+<a id="view-launcher-setting-details"></a>
+### View Launcher Setting Details { #view-launcher-setting-details }
 ![launcher_config_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_list_250717.png)
 
 Click on the red area in the image above to move to the page of the launcher setting details.
@@ -108,6 +125,7 @@ Click on the red area in the image above to move to the page of the launcher set
 You can modify or copy launcher setting from the View Details page.
 To modify or copy launcher setting, click **Modify** or **Copy** in the upper left corner.
 
+<a id="view-launcher-setting-details-modify-launcher-setting"></a>
 #### Modify Launcher Setting
 
 ![launcher_modify_02](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify2_250717.png)
@@ -130,7 +148,8 @@ Copy the setting, excluding the launcher setting name and memo.
   In the Memo, enter information that will help you identify the launcher setting you want to copy.
 
 
-### Deploy Launcher
+<a id="deploy-launcher"></a>
+### Deploy Launcher { #deploy-launcher }
 ![launcher_deploy_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_list_250717.png)
 The Launcher Deployment page allows deployments by deployment zone.
 The default deployment zones are SERVICE, DEVELOP, and TEST.
@@ -140,21 +159,27 @@ Initially, no launcher setting are registered, so the **Deploy** button in the *
 
 The Launcher Execution screen contains the following components:
 
+<a id="deploy-launcher-launcher-setting-name"></a>
 #### ➊ Launcher Setting Name
 It displays the name of the launcher setting currently deployed.
 
+<a id="deploy-launcher-game-list"></a>
 #### ➋ Game List
 It displays the game list of the launcher setting currently deployed in order.
 
+<a id="deploy-launcher-deployment-date"></a>
 #### ➌ Deployment Date
 The last deployment date is displayed.
 
+<a id="deploy-launcher-deployed-by"></a>
 #### ➍ Deployed by
 The masked email address of the last deployer to be deployed is displayed.
 
+<a id="deploy-launcher-launch-template"></a>
 #### ➎ Launch Template
 The launch template provides JavaScript that can be used to launch the launcher or download the installer from a web browser.
 
+<a id="deploy-launcher-execute-launcher"></a>
 #### ➏ Execute Launcher
 Once the launcher is deployed to the deployment zone, you can launch it.
 
@@ -199,11 +224,13 @@ You'll see the deployment status in the deployment zone changed.
 After deployment is complete, you can copy the launch template from the list of **recently deployed launcher setting** or run the launcher.
 
 
+<a id="deploy-launcher-deploy-launcher-launch-template"></a>
 #### ➊ Launch Template
 The launch template provides JavaScript that can be used to launch the launcher or download the installer from a web browser. If the launcher is already installed in the deployment zone, it will launch.
 If the launcher is not installed, the installer will be downloaded.
 Click **Copy** to copy the JavaScript code.
 
+<a id="deploy-launcher-deploy-launcher-execute-launcher"></a>
 #### ➋ Execute Launcher
 Once the launcher is deployed to the deployment zone, you can launch it.
 
@@ -234,7 +261,8 @@ You can download the installer by clicking `[Confirm]` button.
 
 
 
-### Deployment History
+<a id="deployment-history"></a>
+### Deployment History { #deployment-history }
 ![launcher_history_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_history_250717.png)
 
 You can view the launcher deployment history in the **Deployment History** tab.

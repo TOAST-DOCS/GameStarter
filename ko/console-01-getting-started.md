@@ -1,10 +1,15 @@
-## Game > GameStarter > 콘솔 사용 가이드 > 시작하기
+<!-- pre-align:aligned sig=3d4a4a7e798a -->
 
-## 시작하기에 앞서
+<a id="game-gamestarter-console-user-guide-get-started"></a>
+## Game > GameStarter > 콘솔 사용 가이드 > 시작하기 { #game-gamestarter-console-user-guide-get-started }
+
+<a id="before-starting"></a>
+## 시작하기에 앞서 { #before-starting }
 
 이 문서는 GameStarter를 이용하기 위해서 알아두어야 할 정보를 설명합니다.
 
-## GameStarter 구성 요소
+<a id="gamestarter-components"></a>
+## GameStarter 구성 요소 { #gamestarter-components }
 
 GameStarter는 크게 4개의 요소로 구성되어 있습니다.
 - 게임
@@ -13,13 +18,15 @@ GameStarter는 크게 4개의 요소로 구성되어 있습니다.
 - 지표
 
 
-### 게임
+<a id="game"></a>
+### 게임 { #game }
 GameStarter 런처는 게임을 여러 개 설정할 수 있습니다.
 서비스할 게임을 각각 등록한 뒤 게임별로 필요한 설정과 바이너리를 배포해야 합니다.
 
 게임에 대한 더 자세한 내용은 [콘솔 사용 가이드 > 게임](./console-02-game)을 참고하세요.
 
-### 런처
+<a id="launcher"></a>
+### 런처 { #launcher }
 GameStarter 런처는 게임을 다운로드와 업데이트, 게임 실행을 도와주는 역할을 합니다.
 런처에는 게임 설치에 필요한 정보와 바이너리가 반드시 준비되어 있어야 합니다.
 이 정보와 바이너리가 없을 경우, 런처를 통해 게임을 설치하거나 실행할 수 없습니다.
@@ -28,7 +35,8 @@ GameStarter 런처는 게임을 다운로드와 업데이트, 게임 실행을 �
 
 보다 자세한 런처 설명은 [콘솔 사용 가이드 > 런처](./console-03-launcher)를 참고하세요.
 
-### 런처 인스톨러
+<a id="launcher-installer"></a>
+### 런처 인스톨러 { #launcher-installer }
 GameStarter 런처를 실행하려면 가장 먼저 런처가 사용자 PC에 설치되어 있어야 합니다.
 런처 인스톨러는 런처를 사용자 PC에 설치해 주는 프로그램입니다.
 런처 인스톨러가 준비되어 있지 않으면 런처를 설치할 수 없게 됩니다.
@@ -37,7 +45,8 @@ GameStarter 런처를 실행하려면 가장 먼저 런처가 사용자 PC에 �
 
 런처 인스톨러에 대한 더 자세한 내용은 [콘솔 사용 가이드 > 런처 인스톨러](./console-04-installer)를 참고하세요.
 
-### 지표
+<a id="metrics"></a>
+### 지표 { #metrics }
 GameStarter는 지표를 제공합니다.
 
 실시간 모니터링과 모니터링 지표로 구성되어 있습니다.
@@ -47,25 +56,29 @@ GameStarter는 지표를 제공합니다.
 
 지표에 대한 더 자세한 내용은 [콘솔 사용 가이드 > 지표](./console-05-statistics)를 참고하세요.
 
-## GameStarter 운영 프로세스
+<a id="gamestarter-operational-process"></a>
+## GameStarter 운영 프로세스 { #gamestarter-operational-process }
 
 GameStarter의 각 구성 요소들은 서로 의존 관계에 있어 상황에 따라 운영 시 진행 순서가 다릅니다.
 다음은 몇 가지 상황별 권장하는 진행 순서의 예시입니다.
 
-### 프로젝트 초기 설정
+<a id="project-initial-settings"></a>
+### 프로젝트 초기 설정 { #project-initial-settings }
 - 프로젝트를 생성했다면 **[게임], [런처], [런처 인스톨러]**를 모두 설정해야 합니다.
 - 아래와 같은 순서로 진행하는 것을 권장합니다.
 - [게임] → [런처] → [런처 인스톨러] → [테스트]
 
 
-### 게임 바이너리 업데이트
+<a id="game-binary-update"></a>
+### 게임 바이너리 업데이트 { #game-binary-update }
 - 이미 런처에 해당 게임 설정과 바이너리를 배포한 상태인 경우
 - 변경하려는 게임 바이너리 업로드를 완료한 후에 게임 배포에서 바이너리 배포를 진행합니다.
 - 아래와 같은 순서로 진행하는 것을 권장합니다.
 - [게임 바이너리: 업로드] → [게임 배포: 바이너리] → [테스트]
 
 
-### 게임 설정 업데이트
+<a id="game-settings-update"></a>
+### 게임 설정 업데이트 { #game-settings-update }
 - 이미 런처에 해당 게임 설정과 바이너리를 배포한 상태인 경우
 - **게임 설정 수정**을 통해 설정 정보를 업데이트합니다.
 - 이후 **게임 배포**에서 게임 설정 배포를 진행합니다.
@@ -73,20 +86,23 @@ GameStarter의 각 구성 요소들은 서로 의존 관계에 있어 상황에 
 - [게임 설정: 수정] → [게임 배포: 설정] → [테스트]
 
 
-### 신규 게임 추가
+<a id="add-a-new-game"></a>
+### 신규 게임 추가 { #add-a-new-game }
 - 이미 게임 설정과 런처 배포를 완료한 상태인 경우
 - 새로운 게임을 추가하려면 [게임] 추가와 [런처] 업데이트가 필요합니다.
 - 아래와 같은 순서로 진행하는 것을 권장합니다.
 - [게임 등록] → [게임 설정: 등록] → [게임 바이너리: 업로드] → [게임 배포: 설정 & 바이너리] → [런처 설정: 게임 추가] → [런처 배포] → [테스트]
 
 
-### 기존 게임 제외
+<a id="excluding-existing-games"></a>
+### 기존 게임 제외 { #excluding-existing-games }
 - 기존에 배포된 상태에서 게임을 제외해야 하는 경우에는 [런처] 업데이트가 필요합니다.
 - 아래와 같은 순서로 진행하는 것을 권장합니다.
 - [런처 설정: 게임 제외] → [런처 배포] → [테스트]
 
 
-## 배포존
+<a id="deployment-zone"></a>
+## 배포존 { #deployment-zone }
 
 일반적으로 서비스를 하기 전에는 개발과 테스트를 하기 위한 별도의 런처가 필요합니다.
 이를 위해서 GameStarter는 **배포존**이라는 개념을 추가하여 독립적인 런처를 사용할 수 있도록 하였습니다.

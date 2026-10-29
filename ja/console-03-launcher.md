@@ -1,13 +1,18 @@
-## Game > GameStarter > コンソール使用ガイド > ランチャー
+<!-- pre-align:aligned sig=b3b451135c07 -->
+
+<a id="game-gamestarter-console-user-guide-launcher"></a>
+## Game > GameStarter > コンソール使用ガイド > ランチャー { #game-gamestarter-console-user-guide-launcher }
 
 [はじめに](./console-01-getting-started)で説明したように、ランチャーを使用するにはインストーラーとゲームの準備を完了させる必要があります。
 インストーラーと、ゲーム設定及びバイナリの準備を先に行ってください。
 
-## Launcher
+<a id="launcher"></a>
+## Launcher { #launcher }
 
 ここでは、ランチャーの設定及び配布方法について説明します。
 
-### ランチャー設定リスト
+<a id="launcher-setting-list"></a>
+### ランチャー設定リスト { #launcher-setting-list }
 ![launcher_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_list_250717.png)
 
 **ランチャー設定**リストでは、登録済みのランチャー設定を照会できます。
@@ -16,29 +21,37 @@
 
 ランチャーリストの照会結果には、以下のようなフィールドがあります。
 
+<a id="launcher-setting-list-launcher-setting-name"></a>
 #### ➊ ランチャー設定名
 ランチャー設定の登録時に入力した名前が表示されます。
 
+<a id="launcher-setting-list-os"></a>
 #### ➋ OS
 実行可能なOSが表示されます。
 
+<a id="launcher-setting-list-registration-date"></a>
 #### ➌登録日時
 ランチャー設定を登録した、または最後に修正した日時が表示されます。
 
+<a id="launcher-setting-list-registrant"></a>
 #### ➍登録者
 ランチャー設定を最初に登録した、または最後に修正したユーザーの、マスキングされたメールアドレスが表示されます。
 
+<a id="launcher-setting-list-memo"></a>
 #### ➎ メモ
 ランチャー設定の登録時に、ユーザーが識別のために入力したメモが表示されます。
 
+<a id="launcher-setting-list-delete"></a>
 #### ➏ 削除
 登録されたランチャー設定を削除できます。
 ランチャー設定を削除しても、既に配布されているランチャー設定は削除されません。
 
 
-### ランチャー設定の登録
+<a id="register-launcher-setting"></a>
+### ランチャー設定の登録 { #register-launcher-setting }
 ランチャー設定リストの上部で、OSに応じて**+ Windows**または**+ macOS**をクリックし、新しいランチャー設定を登録できます。
 
+<a id="register-launcher-setting-basic-info"></a>
 #### 基本情報
 ![launcher_register_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_register1_250717.png)
 
@@ -54,6 +67,7 @@
 全ての設定を完了した後、**次へ**をクリックして次のページへ移動します。
 
 
+<a id="register-launcher-setting-configure-a-launcher-layout"></a>
 #### ランチャーレイアウト構成
 
 ランチャーが実行されるモードを設定します。
@@ -82,6 +96,7 @@
 ブランドアイコン画像の推奨サイズは256x256です。
 
 
+<a id="register-launcher-setting-select-a-launcher-game"></a>
 #### ➍ ランチャーのゲーム選択
 1つのランチャーで複数のゲームを実行できるようサポートしており、該当ランチャーに表示するゲームリストを設定できます。
 
@@ -90,6 +105,7 @@
 以下では、**game1**、**game2**、**game3**を順に追加した状況を例に説明します。
 
 
+<a id="register-launcher-setting-preview"></a>
 #### プレビュー
 下部のプレビューボタンを通じて、設定したランチャー情報を事前に確認できます。
 
@@ -98,7 +114,8 @@
 全ての設定を完了した後、**登録**をクリックしてランチャー設定を登録できます。
 
 
-### ランチャー設定詳細表示
+<a id="view-launcher-setting-details"></a>
+### ランチャー設定詳細表示 { #view-launcher-setting-details }
 ![launcher_config_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_list_250717.png)
 
 上部画像の赤色で示した領域をクリックすると、ランチャー設定の詳細表示ページへ移動します。
@@ -109,6 +126,7 @@
 ランチャー設定を修正またはコピーするには、左上の**修正**または**コピー**をクリックしてください。
 
 
+<a id="view-launcher-setting-details-modify-launcher-setting"></a>
 #### ランチャー設定の修正
 ![launcher_modify_02](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_config_modify2_250717.png)
 
@@ -130,7 +148,8 @@
 コピーするランチャー設定を識別できる内容をメモに記入してください。
 
 
-### ランチャーの配布
+<a id="deploy-launcher"></a>
+### ランチャーの配布 { #deploy-launcher }
 ![launcher_deploy_list](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_list_250717.png)
 ランチャー配布ページは、配布ゾーンごとに配布ができるよう区分されています。
 標準で提供される配布ゾーンは、SERVICE、DEVELOP、TESTの各ゾーンです。
@@ -140,21 +159,27 @@
 
 ランチャー実行画面は、以下のようなコンポーネントを含みます。
 
+<a id="deploy-launcher-launcher-setting-name"></a>
 #### ➊ ランチャー設定名
 現在配布されているランチャー設定の名前が表示されます。
 
+<a id="deploy-launcher-game-list"></a>
 #### ➋ ゲームリスト
 現在配布されているランチャー設定のゲームリストが、順序通りに表示されます。
 
+<a id="deploy-launcher-deployment-date"></a>
 #### ➌ 配布日時
 最後に配布された日時が表示されます。
 
+<a id="deploy-launcher-deployed-by"></a>
 #### ➍ 配布者
 最後に配布を行った担当者の、マスキングされたメールアドレスが表示されます。
 
+<a id="deploy-launcher-launch-template"></a>
 #### ➎ 実行テンプレート
 実行テンプレートは、Webブラウザでランチャーを実行したり、インストーラーをダウンロードしたりできるJavaScriptを提供します。
 
+<a id="deploy-launcher-execute-launcher"></a>
 #### ➏ ランチャーの実行
 配布ゾーンへのランチャーの配布が完了すると、ランチャーを実行できます。
 
@@ -199,11 +224,13 @@ DEVELOP配布ゾーンの**配布**をクリックすると、以下のような
 配布完了後、**直近に配布が完了したランチャー設定**リストから実行テンプレートをコピーしたり、ランチャーを実行したりできます。
 
 
+<a id="deploy-launcher-deploy-launcher-launch-template"></a>
 #### ➊ 実行テンプレート
 実行テンプレートは、Webブラウザでランチャーを実行したり、インストーラーをダウンロードしたりできるJavaScriptを提供します。該当の配布ゾーンにランチャーが既にインストールされていれば、ランチャーが起動します。
 もしランチャーがインストールされていなければ、インストーラーのダウンロードが実行されます。
 **コピー**をクリックすると、JavaScriptコードをコピーできます。
 
+<a id="deploy-launcher-deploy-launcher-execute-launcher"></a>
 #### ➋ ランチャーの実行
 配布ゾーンへのランチャーの配布が完了すると、ランチャーを実行できます。
 
@@ -234,7 +261,8 @@ DEVELOP配布ゾーンの**配布**をクリックすると、以下のような
 
 
 
-### 配布履歴
+<a id="deployment-history"></a>
+### 配布履歴 { #deployment-history }
 ![launcher_history_01](https://static.toastoven.net/prod_gamestarter/console/launcher/gamestarter_launcher_deploy_history_250717.png)
 
 **配布履歴**タブで、ランチャーを配布した履歴を照会できます。
